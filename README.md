@@ -1,25 +1,34 @@
 # Awesome Microsoft Copilot Prompts 🍳
 
-[![Prompts](https://img.shields.io/badge/prompts-299-blue)](https://nerdychefs.ai)
+[![Prompts](https://img.shields.io/badge/prompts-349-blue)](https://nerdychefs.ai)
 [![Categories](https://img.shields.io/badge/categories-15-green)](https://nerdychefs.ai)
 [![License](https://img.shields.io/badge/license-CC%20BY--SA%204.0-blue)](/LICENSE)
 [![Enterprise](https://img.shields.io/badge/enterprise-tested-purple)](https://kesslernity.com)
 
-> The definitive Microsoft 365 Copilot prompt library for enterprise professionals. **349 prompts total** - from Quick Start basics to battle-tested enterprise workflows—not generic AI fluff.
+> Stop staring at the blank Copilot box. 349 enterprise-tested prompts that actually work—organized by role, not random categories.
+![Awesome Microsoft Copilot Prompts](assets/hero-banner.png)
+
+## Table of Contents
+- [Quick Start](#-quick-start---universal-prompts)
+- [Why ChatGPT Prompts Don't Work](#why-chatgpt-prompts-dont-work-in-copilot)
+- [Browse by Category](#-browse-by-category)
+- [How to Use](#-how-to-use-these-prompts)
+- [Enterprise Deployment](#-enterprise-deployment)
+- [Contributing](#-contributing)
 
 **Why this repo exists:** Most AI prompt libraries are generic ChatGPT recycling. This collection focuses exclusively on **Microsoft Copilot** across Office 365 apps, built from real enterprise deployments and proven in production environments.
 
 **New to Copilot?** Start with our [Quick Start Guide](prompts/QUICK-START.md) - 50 prompts that work in any Copilot (free or M365).  
 **Using M365 Copilot?** Explore our 299 advanced prompts that leverage your organizational data.
 
-## 🎯 What Makes This Different
+## What Makes This Different
 
 - **Copilot-Specific:** Every prompt optimized for Microsoft Copilot
 - **Role-Based:** Organized by job function, not random categories
 - **Enterprise-Ready:** Real prompts from production deployments, not theoretical examples
 - **Zero Fluff:** No "write me a poem about spreadsheets"—these solve actual business problems
 
-## 🤔 Why ChatGPT Prompts Don't Work in Copilot
+## Why ChatGPT Prompts Don't Work in Copilot
 
 **Short answer:** Copilot and ChatGPT are fundamentally different tools. Same AI foundation, completely different capabilities.
 
@@ -94,11 +103,11 @@ These 50 prompts don't require M365 integration - perfect for:
 
 **Ready for advanced workflows?** The 299 prompts below require M365 Copilot (they access your actual emails, files, and organizational data for deeper intelligence).
 
----
+⭐ **Star this repo** to bookmark it and help others discover it.
 
 ## 📊 Quick Stats
 
-- **299 Total Prompts** across 15 specialized collections
+- **349 prompts total** — 50 Quick Start basics + 299 advanced M365 workflows
 - **26 Power User Prompts** for advanced Copilot mastery
 - **70 Outlook Prompts** for email intelligence and automation
 - **203 Role-Specific Prompts** covering 12 business functions
@@ -231,7 +240,7 @@ Using Copilot across your organization? These prompts work even better when depl
 - Enterprise prompt governance
 - Team training and adoption
 
-👉 **[Check out Kesslernity](https://kesslernity.com)** - Enterprise AI deployment platform ($249-$1,999/month + training services)
+ 👉 https://kesslernity.com helps enterprises deploy Copilot at scale with managed prompt libraries and training.
 
 ## 🌐 Full Prompt Library
 
@@ -285,12 +294,8 @@ If the output isn't right:
 - Provide examples: "Like the format we used last quarter"
 - Correct mistakes: "The deadline is March 15, not May 15"
 
-For comprehensive prompt engineering guidance:  
-👉 [Anthropic's Prompt Engineering Guide](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview)
-
 ## 📱 Stay Updated
 
-- ⭐ **Star this repo** to get updates when new prompts are added
 - 🔔 **Watch releases** for curated prompt pack releases
 - 🐦 **Follow on X/Twitter:** [@nerdychefsai](https://x.com/nerdychefsai) for Copilot tips and enterprise AI insights
 
@@ -315,7 +320,7 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 Inter
 
 Built by [Mathieu Kessler](https://linkedin.com/in/mathieukessler) and the team at NerdyChefs.ai.
 
-**Made with ❤️ for people who want to work smarter, not harder.**
+**Made by people for people who want to work smarter, not harder.**
 
 ---
 
