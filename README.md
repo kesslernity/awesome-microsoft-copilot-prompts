@@ -241,7 +241,7 @@ Built by [Mathieu Kessler](https://linkedin.com/in/mathieukessler) and the team 
 ---
 
 **🔗 Links:**
-- [NerdyChefs.ai](https://nerdychefs.ai) - Full prompt library (700+ prompts)
+- [NerdyChefs.ai](https://nerdychefs.ai) - Full prompt library (1300+ prompts)
 - [Kesslernity](https://kesslernity.com) - Enterprise AI deployment
 - [LinkedIn](https://linkedin.com/in/mathieukessler) - Connect with Mathieu
 - [X/Twitter](https://x.com/nerdychefsai) - Daily AI productivity tips
