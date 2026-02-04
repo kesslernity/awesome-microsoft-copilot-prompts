@@ -235,3 +235,244 @@ Prepare briefing notes for my preparation.
 **Prompt:**
 
 ```
+## When NOT to Use Copilot for Finance, HR & Analytics
+
+**FINANCE — NEVER use Copilot for:**
+- Financial calculations
+- Forecasts or projections
+- Budget approvals
+- Payment authorizations
+- Audit evidence (use official systems)
+- Tax calculations
+- Financial sign-offs
+- Investment decisions
+
+**HR — NEVER use Copilot for:**
+- Hiring or termination decisions
+- Performance evaluations
+- Compensation decisions
+- Disciplinary actions
+- Grievance handling
+- Medical/disability accommodations
+- Employee relations issues
+- Processing confidential employee data
+
+**ANALYTICS — NEVER use Copilot for:**
+- Data analysis (use BI tools)
+- Report generation
+- Data validation
+- ETL development
+- Model building
+- SQL writing
+- Data security decisions
+- Production code
+
+**Confidentiality Warnings:**
+- NEVER include employee names in HR prompts
+- NEVER include sensitive financial figures in prompts
+- Remember that prompts may be logged
+- When in doubt, use direct channels
+
+**Golden Rules:**
+- Finance: "Copilot searches context — finance maintains accuracy"
+- HR: "Copilot drafts — HR exercises judgment"
+- Analytics: "Copilot finds context — analysts deliver insights"
+
+**System Integration Note:**
+Copilot does NOT integrate with:
+- HRIS (Workday, SAP SuccessFactors)
+- Financial systems (SAP, Oracle)
+- BI platforms (Power BI, Tableau)
+- Data warehouses
+```
+
+---
+
+### HR Policy
+
+#### 1. [APPROVED] Policy Research
+
+**Use Case:** Quickly find relevant HR policies to answer employee inquiries. Always verify currency of policies.
+
+**Target Personas:** HR Manager, HR Business Partner, HR Generalist
+
+**Tags:** `copilot`, `microsoft-365`, `enterprise`, `hr`, `policy`, `research`
+
+**Prompt:**
+
+```
+You are assisting an HR professional. Search SharePoint for HR policies related to [topic, e.g., "remote work" or "leave of absence"]. List:
+- Policy documents found
+- Effective dates (if mentioned)
+- Key provisions summarized
+
+I need this to answer an employee inquiry. I will verify current policy version.
+```
+
+---
+
+### Internal Communications
+
+#### 1. [APPROVED] Internal Announcement Draft
+
+**Use Case:** Draft internal announcements quickly while ensuring appropriate tone and completeness.
+
+**Target Personas:** HR Manager, Internal Communications, Corporate Affairs
+
+**Tags:** `copilot`, `microsoft-365`, `enterprise`, `hr`, `communications`, `announcement`
+
+**Prompt:**
+
+```
+Draft an internal announcement about [topic, e.g., "office relocation" or "new benefit program"]. Based on similar announcements in my email history:
+- Use an appropriate tone for company-wide communication
+- Include key information points
+- Mark placeholders for specific details I need to add
+
+This is a draft for review before distribution.
+```
+
+---
+
+#### 2. [APPROVED] Internal Comms Feedback Summary
+
+**Use Case:** Gather feedback on internal communications to improve future messaging.
+
+**Target Personas:** Internal Communications, HR Manager, Corporate Affairs
+
+**Tags:** `copilot`, `microsoft-365`, `enterprise`, `hr`, `feedback`, `communications`
+
+**Prompt:**
+
+```
+Search emails for feedback on recent internal communications (newsletters, town halls, announcements). Identify:
+- What employees liked
+- Concerns or confusion raised
+- Suggestions for improvement
+- Topics they want to hear more about
+
+This is research for communications improvement.
+```
+
+---
+
+### Learning & Development
+
+#### 1. [APPROVED] Training Program Summary
+
+**Use Case:** Gather training program context and feedback for program planning and improvement.
+
+**Target Personas:** L&D Manager, Training Coordinator, HR Manager
+
+**Tags:** `copilot`, `microsoft-365`, `enterprise`, `hr`, `training`, `program`
+
+**Prompt:**
+
+```
+Find information about [training program name] in emails and SharePoint. Summarize:
+- Program objectives
+- Content covered
+- Feedback received
+- Scheduling or logistics mentioned
+
+This helps me prepare for training planning discussions.
+```
+
+---
+
+### Month-End Close
+
+#### 1. [APPROVED] Month-End Discussion Summary
+
+**Use Case:** Prepare for month-end close meetings with context on all issues discussed. Close activities use ERP systems.
+
+**Target Personas:** Finance Manager, Accountant, Controller
+
+**Tags:** `copilot`, `microsoft-365`, `enterprise`, `finance`, `month-end`, `close`
+
+**Prompt:**
+
+```
+Summarize discussions from my emails and Teams over the past week related to month-end close for [period]. Include:
+- Issues raised that may affect close
+- Adjustments discussed
+- Timing concerns
+- Outstanding items mentioned
+
+I need this to prepare for the close meeting. Actual close activities use our financial systems.
+```
+
+---
+
+### Onboarding
+
+#### 1. [APPROVED] Onboarding Checklist Research
+
+**Use Case:** Compile existing onboarding materials to create comprehensive new hire packages.
+
+**Target Personas:** HR Coordinator, HR Business Partner, Learning & Development
+
+**Tags:** `copilot`, `microsoft-365`, `enterprise`, `hr`, `onboarding`, `checklist`
+
+**Prompt:**
+
+```
+Search for onboarding materials, checklists, and new hire communications for [department/role type]. Compile:
+- Documents found and their locations
+- Topics covered in onboarding
+- Any feedback about onboarding mentioned in emails
+
+I'm preparing an onboarding package and want to ensure completeness.
+```
+
+---
+
+### Requirements
+
+#### 1. [APPROVED] Requirements Gathering Summary
+
+**Use Case:** Consolidate stakeholder requirements for data products from scattered communications.
+
+**Target Personas:** Data Analyst, BI Developer, Analytics Manager
+
+**Tags:** `copilot`, `microsoft-365`, `enterprise`, `analytics`, `requirements`, `stakeholder`
+
+**Prompt:**
+
+```
+You are assisting a data analyst. Search my emails and Teams for discussions about requirements for [report/dashboard name]. Compile:
+- What metrics stakeholders have requested
+- Questions they want answered
+- Filters or views mentioned
+- Any complaints about current reports
+
+This helps me understand stakeholder needs.
+```
+
+---
+
+### Self-Service Analytics
+
+#### 1. [EXPERIMENTAL] Self-Service Analytics Support Research
+
+**Use Case:** Identify common user struggles with self-service analytics to improve support and training.
+
+**Target Personas:** BI Developer, Data Analyst, Analytics Support
+
+**Tags:** `copilot`, `microsoft-365`, `enterprise`, `analytics`, `self-service`, `experimental`
+
+**Prompt:**
+
+```
+Search for emails where business users asked questions about accessing or using data in [Power BI/analytics platform]. Identify:
+- Common questions asked
+- Issues they faced
+- Topics where training was requested
+
+This is research for self-service analytics support improvement.
+
+⚠️ EXPERIMENTAL: May not capture all user struggles, especially those not communicated via email.
+```
+
+---
+

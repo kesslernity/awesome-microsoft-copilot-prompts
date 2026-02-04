@@ -242,3 +242,248 @@ Prepare briefing notes for my review. This is for my preparation only.
 **Prompt:**
 
 ```
+## When NOT to Use Copilot for Leadership & Management
+
+**EXECUTIVES — NEVER use Copilot for:**
+- Strategic decisions
+- Personnel decisions
+- Financial commitments
+- Legal/compliance sign-offs
+- Crisis management
+- Board governance
+- Confidential negotiations
+- M&A decisions
+
+**PROJECT MANAGERS — NEVER use Copilot for:**
+- Scope change approval
+- Budget authorization
+- Schedule baseline approval
+- Contract decisions
+- Safety decisions
+- Performance reviews
+- Final project sign-off
+- Client commitments
+
+**COST CONTROL — NEVER use Copilot for:**
+- Cost calculations (use Excel/ERP)
+- Earned value metrics
+- Forecast generation
+- Budget approval
+- Change order approval
+- Financial sign-off
+- Invoice approval
+- Cash flow projections
+
+**Golden Rules:**
+- Executives: "Copilot informs — leaders decide"
+- Project Managers: "Copilot aggregates — PMs lead"
+- Cost Control: "Copilot narrates — controllers calculate"
+
+**What Copilot IS good for:**
+- Synthesizing communications
+- Preparing for meetings
+- Drafting initial content
+- Finding historical context
+- Surfacing risks from correspondence
+```
+
+---
+
+### Knowledge Management
+
+#### 1. [EXPERIMENTAL] Lessons Learned Discovery - PM
+
+**Use Case:** Jumpstart lessons learned by identifying patterns from project communications. Requires team validation.
+
+**Target Personas:** Project Manager, Program Manager, PMO Director
+
+**Tags:** `copilot`, `microsoft-365`, `enterprise`, `project-management`, `lessons-learned`, `experimental`
+
+**Prompt:**
+
+```
+Analyze correspondence throughout [Project Name] and identify recurring themes:
+- Successful approaches worth repeating
+- Challenges that recurred
+- Stakeholder feedback patterns
+- Process improvements suggested
+
+Compile as initial input for lessons learned. Requires team workshop to validate.
+
+⚠️ EXPERIMENTAL: May lack context on what was actually implemented vs. just discussed. Always validate with the project team.
+```
+
+---
+
+### Organizational Intelligence
+
+#### 1. [EXPERIMENTAL] Organizational Pulse Check
+
+**Use Case:** Get informal visibility into organizational sentiment. Always supplement with formal feedback mechanisms.
+
+**Target Personas:** Executive, HR Director, CEO, CHRO
+
+**Tags:** `copilot`, `microsoft-365`, `enterprise`, `executive`, `sentiment`, `experimental`
+
+**Prompt:**
+
+```
+Based on communications across my inbox and Teams, identify emerging themes about organizational concerns or opportunities that I should be aware of:
+- What are people talking about most?
+- Any recurring frustrations?
+- Opportunities being suggested?
+- Changes in tone or sentiment?
+
+This is informal intelligence — not a substitute for formal feedback channels.
+
+⚠️ EXPERIMENTAL: Email sentiment analysis may miss important context. Use proper employee engagement surveys for formal insights.
+```
+
+---
+
+### Portfolio Management
+
+#### 1. [APPROVED] Portfolio Overview
+
+**Use Case:** Get a quick pulse on your portfolio without reading dozens of individual project updates.
+
+**Target Personas:** Executive, Portfolio Manager, Director, VP
+
+**Tags:** `copilot`, `microsoft-365`, `enterprise`, `executive`, `portfolio`, `status-overview`
+
+**Prompt:**
+
+```
+Summarize the status of projects in my portfolio based on recent correspondence:
+- Which projects have reported good progress?
+- Where are concerns being raised?
+- What resources or decisions have been requested?
+- Any client or stakeholder escalations?
+
+Format as an executive summary. I will verify against official reports.
+```
+
+---
+
+### Project Reporting
+
+#### 1. [APPROVED] Weekly Status Synthesis
+
+**Use Case:** Synthesize a week of scattered communications into a coherent status report. Use weekly before stakeholder reporting.
+
+**Target Personas:** Project Manager, Program Manager, Delivery Manager
+
+**Tags:** `copilot`, `microsoft-365`, `enterprise`, `project-management`, `status-report`, `synthesis`
+
+**Prompt:**
+
+```
+You are assisting a project manager. Review all my emails, Teams messages, and meeting notes from the past week related to [Project Name]. Provide:
+
+1. Progress highlights — what got done
+2. Key issues raised — with who raised them
+3. Decisions made or pending
+4. Risks or concerns mentioned
+5. Client/stakeholder feedback
+6. Actions assigned and their status
+
+Format as a draft status report. Flag areas where information seems incomplete or conflicting. I will verify and finalize.
+```
+
+---
+
+### Risk Management
+
+#### 1. [APPROVED] Risk and Issue Surfacing
+
+**Use Case:** Proactively surface risks and issues from team communications before they escalate.
+
+**Target Personas:** Project Manager, Risk Manager, Program Manager
+
+**Tags:** `copilot`, `microsoft-365`, `enterprise`, `project-management`, `risk`, `issues`
+
+**Prompt:**
+
+```
+Review project correspondence for [Project Name] from the past 2 weeks. Identify mentions of:
+- Problems, issues, or blockers
+- Schedule or cost concerns
+- Quality or safety worries
+- Resource constraints
+- Stakeholder escalations
+
+Summarize each with context. I will assess severity and add to risk register as appropriate.
+```
+
+---
+
+### Stakeholder Management
+
+#### 1. [APPROVED] Stakeholder Meeting Prep - PM
+
+**Use Case:** Enter stakeholder meetings prepared to address their specific concerns and highlight relevant achievements.
+
+**Target Personas:** Project Manager, Account Manager, Delivery Manager
+
+**Tags:** `copilot`, `microsoft-365`, `enterprise`, `project-management`, `stakeholder`, `meeting-prep`
+
+**Prompt:**
+
+```
+I have a meeting with [Client/Stakeholder Name] about [Project Name] tomorrow. Based on recent correspondence:
+- What topics are they likely to raise?
+- What questions have they asked recently that may need follow-up?
+- Are there any unresolved issues or complaints?
+- What positive developments can I highlight?
+
+Prepare briefing notes. This is for my preparation only.
+```
+
+---
+
+#### 2. [APPROVED] Stakeholder Meeting Preparation
+
+**Use Case:** Prepare for important stakeholder meetings with full context on the relationship history and open items.
+
+**Target Personas:** Executive, Director, Account Manager, VP
+
+**Tags:** `copilot`, `microsoft-365`, `enterprise`, `executive`, `stakeholder`, `relationship`
+
+**Prompt:**
+
+```
+I'm meeting with [Client Executive/Board Member/Partner] tomorrow about [topic]. Based on recent correspondence:
+- What topics have they raised recently?
+- What is the current state of our relationship?
+- Are there any open issues or commitments?
+- What outcomes might they expect from this meeting?
+
+Help me prepare for a productive discussion.
+```
+
+---
+
+### Vendor Management
+
+#### 1. [APPROVED] Invoice Dispute Research
+
+**Use Case:** Gather invoice dispute history before vendor reconciliation meetings.
+
+**Target Personas:** Cost Controller, Accounts Payable, Procurement
+
+**Tags:** `copilot`, `microsoft-365`, `enterprise`, `cost-control`, `invoices`, `disputes`
+
+**Prompt:**
+
+```
+Search for emails related to [Vendor Name] invoices on [Project Name]. Compile:
+- Disputes or queries raised
+- Resolutions discussed
+- Pending items mentioned
+- Any agreed actions
+
+This is research to prepare for vendor reconciliation.
+```
+
+---
+

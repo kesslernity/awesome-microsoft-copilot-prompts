@@ -232,3 +232,237 @@ Compile as expansion opportunity brief.
 **Prompt:**
 
 ```
+## When NOT to Use Copilot for Customer Success & Support
+
+**CSMs — NEVER use Copilot for:**
+- Health score calculations (use CS platform)
+- Renewal forecasting (use CRM)
+- Churn risk scoring (use predictive tools)
+- Contract decisions
+- Pricing approvals
+- SLA commitments
+- NPS/CSAT analysis (use survey tools)
+- Usage analytics (use product analytics)
+
+**SUPPORT LEADS — NEVER use Copilot for:**
+- Ticket resolution (use ticketing system)
+- SLA tracking (use support platform)
+- Performance metrics (use dashboards)
+- Case assignment
+- Knowledge base updates (use KB system)
+- Bug reporting (use issue tracker)
+- Customer data lookup (use CRM)
+
+**ACCOUNT MANAGERS — NEVER use Copilot for:**
+- Contract signing authority
+- Pricing decisions
+- Legal commitments
+- Revenue forecasting
+- Commission calculations
+- Customer data exports
+- Compliance certifications
+
+**Customer Data Warnings:**
+- Never include customer PII in prompts
+- Don't share confidential business information
+- Remember prompts may be logged
+- Follow data handling policies
+- Be careful with competitive information shared by customers
+
+**Golden Rules:**
+- CSMs: "Copilot monitors — CSMs build relationships"
+- Support: "Copilot researches — support solves"
+- AMs: "Copilot tracks — AMs own the relationship"
+
+**System Integration Note:**
+Copilot does NOT integrate with:
+- CS platforms (Gainsight, ChurnZero, Totango)
+- Support ticketing (Zendesk, ServiceNow, Freshdesk)
+- CRM (Salesforce, HubSpot)
+- Product analytics (Pendo, Amplitude)
+- Survey tools (NPS, CSAT platforms)
+```
+
+---
+
+### Knowledge Management
+
+#### 1. [APPROVED] Similar Issue Search
+
+**Use Case:** Find precedents for similar issues to inform troubleshooting.
+
+**Target Personas:** Support Lead, Technical Support Engineer, Support Specialist
+
+**Tags:** `copilot`, `microsoft-365`, `enterprise`, `support`, `troubleshooting`, `knowledge`
+
+**Prompt:**
+
+```
+Search my emails and Teams for previous discussions about [Issue Type/Error]. Find:
+- How we resolved similar issues before
+- Workarounds that worked
+- Root causes identified
+- Team members who handled them
+- Documentation created
+
+This is research to inform current troubleshooting.
+```
+
+---
+
+### Meeting Preparation
+
+#### 1. [APPROVED] Meeting Preparation
+
+**Use Case:** Prepare for customer meetings with full relationship context.
+
+**Target Personas:** Account Manager, Customer Success Manager, Client Partner
+
+**Tags:** `copilot`, `microsoft-365`, `enterprise`, `account-management`, `meeting-prep`, `customer`
+
+**Prompt:**
+
+```
+I have a meeting with [Contact Name] at [Account Name]. Based on recent correspondence:
+- What topics have they been focused on?
+- Any outstanding issues or requests?
+- Recent wins to celebrate?
+- Items I committed to following up on?
+- Potential concerns to address proactively?
+
+Prepare briefing notes for my meeting prep.
+```
+
+---
+
+### Onboarding
+
+#### 1. [APPROVED] Onboarding Progress Summary
+
+**Use Case:** Track onboarding progress from communications.
+
+**Target Personas:** Customer Success Manager, Implementation Manager, Onboarding Specialist
+
+**Tags:** `copilot`, `microsoft-365`, `enterprise`, `customer-success`, `onboarding`, `implementation`
+
+**Prompt:**
+
+```
+Search for communications about [Customer Name]'s onboarding. Summarize:
+- Implementation milestones discussed
+- Training sessions completed/scheduled
+- Blockers or delays mentioned
+- Key contacts and their engagement
+- Go-live timeline discussions
+- Outstanding action items
+
+Format as onboarding status update.
+```
+
+---
+
+### Process Improvement
+
+#### 1. [EXPERIMENTAL] Issue Pattern Analysis
+
+**Use Case:** Identify support themes from discussions. Use ticketing analytics for metrics.
+
+**Target Personas:** Support Lead, Support Manager, Operations Manager
+
+**Tags:** `copilot`, `microsoft-365`, `enterprise`, `support`, `analytics`, `experimental`
+
+**Prompt:**
+
+```
+Review support-related discussions over the past month. Identify recurring themes:
+- Common issue types mentioned
+- Product areas with frequent problems
+- Customer segments affected
+- Process gaps highlighted
+- Training needs emerging
+
+This is qualitative input for support improvement planning.
+
+EXPERIMENTAL: Email analysis may miss issues logged only in ticketing system. Use support analytics for comprehensive trends.
+```
+
+---
+
+### Renewals
+
+#### 1. [APPROVED] Renewal Preparation
+
+**Use Case:** Gather renewal context from communications. Contract details in CRM.
+
+**Target Personas:** Customer Success Manager, Account Manager, Renewals Manager
+
+**Tags:** `copilot`, `microsoft-365`, `enterprise`, `customer-success`, `renewal`, `preparation`
+
+**Prompt:**
+
+```
+Search for all discussions related to [Customer Name]'s upcoming renewal. Compile:
+- Contract terms mentioned
+- Pricing discussions
+- Value realized mentions
+- Concerns or objections raised
+- Competitive mentions
+- Decision makers and their positions
+- Timeline discussions
+
+This is research for renewal planning. Actual contract details in CRM.
+```
+
+---
+
+### Risk Management
+
+#### 1. [APPROVED] At-Risk Account Assessment
+
+**Use Case:** Identify risk signals from communications. Verify with platform data.
+
+**Target Personas:** Account Manager, Customer Success Manager, Retention Specialist
+
+**Tags:** `copilot`, `microsoft-365`, `enterprise`, `account-management`, `risk`, `churn`
+
+**Prompt:**
+
+```
+Search for signals that [Account Name] may be at risk:
+- Complaints or frustrations expressed
+- Competitor mentions
+- Reduced engagement discussed
+- Budget concerns raised
+- Champion departures mentioned
+- Usage decline discussions
+
+Compile as risk assessment input. Verify with usage data from platform.
+```
+
+---
+
+### Team Management
+
+#### 1. [APPROVED] Team Performance Context
+
+**Use Case:** Gather qualitative team feedback for 1:1s and reviews. Metrics from ticketing system.
+
+**Target Personas:** Support Lead, Support Manager, Customer Service Manager
+
+**Tags:** `copilot`, `microsoft-365`, `enterprise`, `support`, `team-management`, `performance`
+
+**Prompt:**
+
+```
+Search for feedback and discussions about my support team over the past month:
+- Customer compliments received
+- Issues or complaints mentioned
+- Training needs identified
+- Process improvement suggestions
+- Workload concerns raised
+
+This is context for team review. Actual metrics from support platform.
+```
+
+---
+

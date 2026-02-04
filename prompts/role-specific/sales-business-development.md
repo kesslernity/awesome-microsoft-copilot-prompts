@@ -196,3 +196,254 @@ This is prep for forecast call. Actual numbers come from CRM.
 **Prompt:**
 
 ```
+## When NOT to Use Copilot for Sales
+
+**ACCOUNT EXECUTIVES — NEVER use Copilot for:**
+- Pricing decisions or approvals
+- Contract terms negotiation
+- Discount authorization
+- Legal commitments to customers
+- Revenue recognition
+- Deal registration in CRM
+- Forecast commits (use CRM)
+- Commission calculations
+
+**BDRs — NEVER use Copilot for:**
+- Adding leads to CRM (do it properly)
+- Qualification scoring (use your process)
+- Territory assignments
+- Lead routing decisions
+- Compliance-sensitive outreach
+- Do-not-contact list checking
+
+**SALES MANAGERS — NEVER use Copilot for:**
+- Performance reviews or ratings
+- Compensation decisions
+- Hiring/firing decisions
+- Quota assignments
+- Territory changes
+- Pipeline commits to leadership
+- Revenue forecasts (use CRM)
+
+**Data Privacy Warnings:**
+- Never include customer financial details in prompts
+- Be careful with competitive intelligence sources
+- Remember that prompts may be logged
+- Don't share customer PII in prompts
+
+**Golden Rules:**
+- AEs: "Copilot researches — AEs close"
+- BDRs: "Copilot discovers — BDRs connect"
+- Managers: "Copilot summarizes — managers coach"
+
+**System Integration Note:**
+Copilot does NOT integrate with:
+- Salesforce / HubSpot / CRM
+- Sales engagement platforms
+- CPQ systems
+- Contract management systems
+
+**CRM is the source of truth for:**
+- Pipeline and forecasts
+- Customer records
+- Activity logging
+- Performance metrics
+```
+
+---
+
+### Lead Qualification
+
+#### 1. [APPROVED] Lead Qualification Notes
+
+**Use Case:** Organize discovery information into structured qualification notes.
+
+**Target Personas:** BDR, SDR, Inside Sales Rep
+
+**Tags:** `copilot`, `microsoft-365`, `enterprise`, `sales`, `qualification`, `discovery`
+
+**Prompt:**
+
+```
+Based on my call/email notes with [Contact Name] at [Company Name], help me organize the qualification information:
+- Budget indicators mentioned
+- Authority/decision process discussed
+- Need/pain points identified
+- Timeline expectations
+- Current solutions they use
+
+Format as structured qualification notes for handoff to AE.
+```
+
+---
+
+### Outreach
+
+#### 1. [APPROVED] Outreach Sequence Draft
+
+**Use Case:** Draft initial outreach emails that can be personalized before sending.
+
+**Target Personas:** BDR, SDR, Inside Sales Rep
+
+**Tags:** `copilot`, `microsoft-365`, `enterprise`, `sales`, `outreach`, `email`
+
+**Prompt:**
+
+```
+Draft a personalized outreach email to [Contact Name], [Title] at [Company Name]. Based on:
+- Their industry: [Industry]
+- Likely pain points for their role
+- Our value proposition for similar companies
+
+Keep it concise (under 150 words), professional, and include a clear call-to-action. I will personalize further before sending.
+```
+
+---
+
+#### 2. [APPROVED] Meeting Request Follow-up
+
+**Use Case:** Create follow-up sequences that add value without being pushy.
+
+**Target Personas:** BDR, SDR, Inside Sales Rep
+
+**Tags:** `copilot`, `microsoft-365`, `enterprise`, `sales`, `follow-up`, `sequence`
+
+**Prompt:**
+
+```
+Draft a follow-up email to [Contact Name] who hasn't responded to my meeting request. Reference:
+- My original outreach topic
+- A new angle or value point
+- Flexible meeting options
+
+Keep it short, respectful of their time, and not pushy. This is attempt [2/3/4] so adjust tone accordingly.
+```
+
+---
+
+### Performance Analysis
+
+#### 1. [EXPERIMENTAL] Outreach Pattern Analysis
+
+**Use Case:** Identify patterns in outreach effectiveness. Supplement with sales analytics tools.
+
+**Target Personas:** BDR, SDR, Sales Manager
+
+**Tags:** `copilot`, `microsoft-365`, `enterprise`, `sales`, `analytics`, `experimental`
+
+**Prompt:**
+
+```
+Review my sent emails and responses over the past month. Identify patterns in:
+- Subject lines that got responses
+- Send times that worked best
+- Message lengths that performed
+- Value propositions that resonated
+
+This is for improving my outreach strategy.
+
+EXPERIMENTAL: Email analysis may not capture all factors affecting response rates. Use proper sales analytics tools for comprehensive metrics.
+```
+
+---
+
+### Pipeline Management
+
+#### 1. [APPROVED] Deal Progress Summary
+
+**Use Case:** Get a complete picture of deal progress from scattered communications before pipeline reviews.
+
+**Target Personas:** Account Executive, Sales Manager, Enterprise AE
+
+**Tags:** `copilot`, `microsoft-365`, `enterprise`, `sales`, `deal-tracking`, `pipeline`
+
+**Prompt:**
+
+```
+Search my emails and Teams for all correspondence related to the [Deal Name/Opportunity] with [Account Name]. Summarize:
+- Current deal stage and next steps discussed
+- Key decision makers involved
+- Objections or concerns raised
+- Pricing discussions (without specific numbers)
+- Timeline expectations mentioned
+- Competitive threats discussed
+
+This is for my pipeline review preparation.
+```
+
+---
+
+### Proposal Management
+
+#### 1. [APPROVED] Proposal Follow-up Draft
+
+**Use Case:** Create personalized proposal follow-ups that reference actual conversation points.
+
+**Target Personas:** Account Executive, Solutions Consultant, Sales Engineer
+
+**Tags:** `copilot`, `microsoft-365`, `enterprise`, `sales`, `proposal`, `follow-up`
+
+**Prompt:**
+
+```
+Draft a follow-up email to [Contact Name] at [Account Name] regarding the proposal we sent for [Solution/Product]. Based on our previous correspondence:
+- Reference specific points they showed interest in
+- Address any concerns they raised
+- Suggest next steps
+- Keep tone professional but warm
+
+Mark areas where I need to add specific details or pricing. I will review before sending.
+```
+
+---
+
+### Prospecting
+
+#### 1. [APPROVED] Prospect Research
+
+**Use Case:** Research prospects using internal knowledge before outreach.
+
+**Target Personas:** BDR, SDR, Inside Sales Rep
+
+**Tags:** `copilot`, `microsoft-365`, `enterprise`, `sales`, `prospecting`, `research`
+
+**Prompt:**
+
+```
+You are assisting a business development rep. Search for any information in my emails, Teams, or SharePoint about [Company Name] or [Contact Name]. Find:
+- Any previous outreach or responses
+- Colleagues who may have connections
+- Industry or company news mentioned
+- Potential pain points discussed
+- Best contact methods that worked
+
+This is for outreach preparation.
+```
+
+---
+
+### Team Management
+
+#### 1. [APPROVED] Team Pipeline Summary
+
+**Use Case:** Consolidate team updates from communications before adding CRM metrics.
+
+**Target Personas:** Sales Manager, Sales Director, VP Sales
+
+**Tags:** `copilot`, `microsoft-365`, `enterprise`, `sales`, `pipeline`, `team-management`
+
+**Prompt:**
+
+```
+You are assisting a sales manager. Search my emails and Teams for updates from my team about their deals this week. Summarize:
+- Deals that progressed or closed
+- Deals at risk or stalled
+- Support requests from reps
+- Blockers mentioned
+- Wins to celebrate
+
+Format as a weekly team summary. I will add CRM data for complete picture.
+```
+
+---
+

@@ -152,3 +152,317 @@ This is for funding application planning.
 **Prompt:**
 
 ```
+## When NOT to Use Copilot for Research & Development
+
+**R&D ENGINEERS — NEVER use Copilot for:**
+- Engineering calculations (use proper tools)
+- Simulation or modeling (use simulation software)
+- CAD or design work
+- Code development (use IDE with proper tools)
+- Patent drafting (requires IP counsel)
+- Safety-critical design decisions
+- Test data analysis (use analysis tools)
+- Quality certifications
+
+**PRODUCT RESEARCHERS — NEVER use Copilot for:**
+- Statistical analysis (use R, SPSS, etc.)
+- Survey creation (use survey tools)
+- Participant recruitment (use proper channels)
+- PII handling (follow privacy protocols)
+- Research ethics decisions
+- Data collection (use research tools)
+- Quantitative analysis (use analytics tools)
+
+**SCIENTISTS — NEVER use Copilot for:**
+- Data analysis (use proper statistical tools)
+- Lab calculations (verify independently)
+- Protocol design (requires peer review)
+- Safety assessments
+- Regulatory submissions
+- Clinical decisions
+- Intellectual property filing
+- Peer review responses (personal judgment)
+
+**IP & Confidentiality Warnings:**
+- Never include proprietary formulas or algorithms
+- Be careful with pre-patent disclosure
+- Remember prompts may be logged
+- Competitive technology discussions need care
+- Export control considerations apply
+- Research data handling follows specific protocols
+
+**Golden Rules:**
+- R&D Engineers: "Copilot retrieves — engineers innovate"
+- Product Researchers: "Copilot synthesizes — researchers discover"
+- Scientists: "Copilot organizes — scientists discover"
+
+**System Integration Note:**
+Copilot does NOT integrate with:
+- Lab information management systems (LIMS)
+- Electronic lab notebooks (ELN)
+- PLM/PDM systems
+- Statistical software (R, SPSS, SAS)
+- CAD/CAE tools
+- Research databases (PubMed, etc.)
+```
+
+---
+
+### Lab Management
+
+#### 1. [APPROVED] Lab/Equipment Discussion Summary
+
+**Use Case:** Track lab and equipment discussions for resource planning.
+
+**Target Personas:** Research Scientist, Lab Manager, Research Engineer
+
+**Tags:** `copilot`, `microsoft-365`, `enterprise`, `r&d`, `lab`, `equipment`
+
+**Prompt:**
+
+```
+Search for discussions about [Equipment/Facility/Resource]. Find:
+- Availability discussions
+- Booking or scheduling mentions
+- Technical issues reported
+- Training requirements
+- Maintenance concerns
+- Alternative resources mentioned
+
+This is for resource planning.
+```
+
+---
+
+### Literature Review
+
+#### 1. [APPROVED] Literature Discussion Summary
+
+**Use Case:** Organize literature review discussions and references.
+
+**Target Personas:** Research Scientist, Data Scientist, Principal Investigator
+
+**Tags:** `copilot`, `microsoft-365`, `enterprise`, `r&d`, `literature`, `review`
+
+**Prompt:**
+
+```
+You are assisting a research scientist. Search for discussions about [Paper/Topic/Author]. Compile:
+- Papers mentioned and their relevance
+- Key findings discussed
+- Methodological critiques raised
+- Application ideas proposed
+- Follow-up reading suggested
+- Experts identified internally
+
+This is for literature review organization.
+```
+
+---
+
+### Publication
+
+#### 1. [APPROVED] Publication Planning Summary
+
+**Use Case:** Track publication planning from research communications.
+
+**Target Personas:** Research Scientist, Principal Investigator, Research Fellow
+
+**Tags:** `copilot`, `microsoft-365`, `enterprise`, `r&d`, `publication`, `planning`
+
+**Prompt:**
+
+```
+Search for discussions about publishing research on [Topic]. Compile:
+- Journals considered
+- Timeline discussions
+- Co-author coordination
+- Reviewer feedback mentioned
+- Revision strategies
+- Submission requirements discussed
+
+This is for publication project management.
+```
+
+---
+
+### Requirements
+
+#### 1. [APPROVED] Technical Specifications Search
+
+**Use Case:** Gather technical requirements from R&D discussions.
+
+**Target Personas:** R&D Engineer, Systems Engineer, Technical Lead
+
+**Tags:** `copilot`, `microsoft-365`, `enterprise`, `r&d`, `specifications`, `requirements`
+
+**Prompt:**
+
+```
+Find technical specifications and requirements discussed for [Component/System]. Compile:
+- Performance requirements mentioned
+- Interface specifications discussed
+- Constraints identified
+- Test criteria discussed
+- Standards references
+- Design trade-offs debated
+
+I need this for specification documentation.
+```
+
+---
+
+### Research Communication
+
+#### 1. [APPROVED] Stakeholder Research Brief
+
+**Use Case:** Create stakeholder research briefs from findings discussions.
+
+**Target Personas:** Product Researcher, UX Researcher, Research Manager
+
+**Tags:** `copilot`, `microsoft-365`, `enterprise`, `r&d`, `research`, `stakeholder`
+
+**Prompt:**
+
+```
+Draft a research findings brief for [Stakeholder/Team] about [Research Topic]. Based on recent research discussions:
+- Key findings to highlight
+- Recommendations mentioned
+- Data points shared
+- Implications for product decisions
+- Next steps proposed
+
+Format as executive summary. I will add visuals and detailed data.
+```
+
+---
+
+### Research Planning
+
+#### 1. [APPROVED] Research Study Planning
+
+**Use Case:** Research study planning using past study learnings.
+
+**Target Personas:** Product Researcher, UX Researcher, Research Lead
+
+**Tags:** `copilot`, `microsoft-365`, `enterprise`, `r&d`, `research`, `planning`
+
+**Prompt:**
+
+```
+I'm planning a research study on [Topic]. Search for:
+- Similar studies we've conducted
+- Methodologies that worked
+- Participant recruitment approaches
+- Tools and platforms used
+- Lessons learned from past studies
+- Stakeholders to involve
+
+Compile as study planning reference.
+```
+
+---
+
+#### 2. [APPROVED] Prior Art Research Summary
+
+**Use Case:** Gather internal knowledge about previous R&D efforts. Formal IP search requires legal.
+
+**Target Personas:** R&D Engineer, Research Scientist, Innovation Engineer
+
+**Tags:** `copilot`, `microsoft-365`, `enterprise`, `r&d`, `research`, `prior-art`
+
+**Prompt:**
+
+```
+You are assisting an R&D engineer. Search my emails, Teams, and SharePoint for discussions about [Technology/Approach]. Compile:
+- Previous attempts or prototypes mentioned
+- Lessons learned documented
+- Technical challenges encountered
+- Solutions that worked
+- Team members with relevant experience
+- Related patents or IP discussions
+
+This is internal research only. Formal prior art search requires legal/IP team.
+```
+
+---
+
+### Research Strategy
+
+#### 1. [EXPERIMENTAL] Research Theme Analysis
+
+**Use Case:** Identify research themes from discussions. Use research tools for formal analysis.
+
+**Target Personas:** Product Researcher, Research Manager, Head of Research
+
+**Tags:** `copilot`, `microsoft-365`, `enterprise`, `r&d`, `themes`, `experimental`
+
+**Prompt:**
+
+```
+Review research-related discussions over the past [timeframe]. Identify emerging themes:
+- Recurring user problems
+- Feature requests patterns
+- Market trends mentioned
+- Technology directions discussed
+- Strategic opportunities noted
+
+This is input for research roadmap planning.
+
+EXPERIMENTAL: May miss insights from formal research reports. Use research repository for comprehensive analysis.
+```
+
+---
+
+### Technical Review
+
+#### 1. [APPROVED] Technical Review Preparation
+
+**Use Case:** Prepare for R&D technical reviews with comprehensive context.
+
+**Target Personas:** R&D Engineer, Technical Lead, Engineering Manager
+
+**Tags:** `copilot`, `microsoft-365`, `enterprise`, `r&d`, `review`, `preparation`
+
+**Prompt:**
+
+```
+I have a technical review meeting for [Project Name]. Search for:
+- Technical progress discussed
+- Challenges raised by the team
+- Design decisions made
+- Open questions or debates
+- Resource needs mentioned
+- Timeline concerns
+
+Compile as technical review prep notes.
+```
+
+---
+
+### User Research
+
+#### 1. [APPROVED] User Research Summary
+
+**Use Case:** Synthesize user research findings from communications.
+
+**Target Personas:** Product Researcher, UX Researcher, Product Manager
+
+**Tags:** `copilot`, `microsoft-365`, `enterprise`, `r&d`, `user-research`, `synthesis`
+
+**Prompt:**
+
+```
+You are assisting a product researcher. Search for user research discussions related to [Feature/Product]. Compile:
+- User feedback captured
+- Pain points identified
+- Feature requests mentioned
+- Usability issues discussed
+- User segments mentioned
+- Research methodologies used
+
+This is for research synthesis.
+```
+
+---
+

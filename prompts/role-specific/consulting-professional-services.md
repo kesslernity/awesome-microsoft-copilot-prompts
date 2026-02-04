@@ -284,3 +284,188 @@ Compile as workshop prep package.
 **Prompt:**
 
 ```
+## When NOT to Use Copilot for Consulting
+
+**CONSULTANTS — NEVER use Copilot for:**
+- Client recommendations (requires judgment)
+- Pricing decisions
+- Contract negotiations
+- Final deliverable content (requires review)
+- Competitive intelligence from external sources
+- Client confidential data analysis
+- Investment advice (requires licensing)
+- Legal or regulatory guidance
+
+**ADVISORS — NEVER use Copilot for:**
+- Strategic recommendations (requires expertise)
+- Board-level advice (personal accountability)
+- M&A guidance (confidentiality critical)
+- Executive coaching (relationship-based)
+- Crisis advisory (real-time judgment)
+- Investment opinions (regulatory requirements)
+- Legal opinions (requires qualification)
+
+**DELIVERY LEADS — NEVER use Copilot for:**
+- Budget approvals (use finance systems)
+- Resource allocation decisions
+- Contract change orders (requires approval)
+- Client commitments
+- Timeline guarantees
+- Risk sign-offs
+- Quality certifications
+- Invoice approvals
+
+**Client Confidentiality Warnings:**
+- CRITICAL: Never mix client information across engagements
+- Never include client proprietary data in prompts
+- Be extremely careful with competitive situations
+- Chinese wall principles apply
+- Remember prompts may be logged
+- Follow your firm's confidentiality policies
+- Client names in prompts create confidentiality risk
+
+**Golden Rules:**
+- Consultants: "Copilot prepares — consultants advise"
+- Advisors: "Copilot informs — advisors guide"
+- Delivery Leads: "Copilot tracks — delivery leads execute"
+
+**Professional Standards:**
+- All client communications require human review
+- Recommendations require professional judgment
+- Independence and objectivity must be maintained
+- Follow professional body ethical requirements
+```
+
+---
+
+### Knowledge Management
+
+#### 1. [APPROVED] Knowledge Asset Search
+
+**Use Case:** Find relevant knowledge assets for consulting engagements.
+
+**Target Personas:** Management Consultant, Senior Consultant, Knowledge Manager
+
+**Tags:** `copilot`, `microsoft-365`, `enterprise`, `consulting`, `knowledge`, `assets`
+
+**Prompt:**
+
+```
+Search for knowledge assets related to [Topic/Industry/Capability]. Find:
+- Frameworks we've developed
+- Methodologies documented
+- Case studies available
+- Subject matter experts
+- Recent project learnings
+- Reusable templates
+
+Compile as knowledge inventory for current engagement.
+```
+
+---
+
+### Practice Development
+
+#### 1. [EXPERIMENTAL] Advisory Practice Insights
+
+**Use Case:** Identify practice insights from advisory work. Respect confidentiality.
+
+**Target Personas:** Senior Advisor, Practice Lead, Partner
+
+**Tags:** `copilot`, `microsoft-365`, `enterprise`, `consulting`, `practice`, `experimental`
+
+**Prompt:**
+
+```
+Review advisory interactions across my client portfolio over the past quarter. Identify:
+- Common challenges clients face
+- Advice that resonated
+- Emerging themes
+- Capability gaps to address
+- Cross-client opportunities
+
+This is for practice development planning.
+
+EXPERIMENTAL: May miss confidential client-specific insights. Respect client confidentiality boundaries.
+```
+
+---
+
+### Scope Management
+
+#### 1. [APPROVED] SOW/Scope Discussion Summary
+
+**Use Case:** Track scope discussions for engagement management.
+
+**Target Personas:** Delivery Lead, Engagement Manager, Partner
+
+**Tags:** `copilot`, `microsoft-365`, `enterprise`, `consulting`, `scope`, `sow`
+
+**Prompt:**
+
+```
+Search for discussions about scope for [Engagement Name]. Compile:
+- Original scope agreed
+- Change requests discussed
+- Scope creep concerns
+- Client expectations vs. contract
+- Out-of-scope items mentioned
+- Approval discussions
+
+This is for scope management and potential change order.
+```
+
+---
+
+### Team Management
+
+#### 1. [APPROVED] Team Coordination Summary
+
+**Use Case:** Coordinate consulting team from communications.
+
+**Target Personas:** Delivery Lead, Engagement Manager, Team Lead
+
+**Tags:** `copilot`, `microsoft-365`, `enterprise`, `consulting`, `team`, `coordination`
+
+**Prompt:**
+
+```
+Summarize team coordination for [Engagement Name]:
+- Team member updates and status
+- Resource constraints mentioned
+- Collaboration issues raised
+- Skill gaps identified
+- Workload concerns
+- Support needs
+
+This is for team standup preparation.
+```
+
+---
+
+### Thought Leadership
+
+#### 1. [APPROVED] Industry Trends Research
+
+**Use Case:** Synthesize industry observations from client interactions.
+
+**Target Personas:** Senior Advisor, Industry Expert, Practice Lead
+
+**Tags:** `copilot`, `microsoft-365`, `enterprise`, `consulting`, `trends`, `industry`
+
+**Prompt:**
+
+```
+Search for discussions about trends in [Industry/Sector]. Compile:
+- Trends we've observed with clients
+- Market changes mentioned
+- Technology impacts discussed
+- Regulatory developments noted
+- Competitive dynamics
+- Client concerns and opportunities
+
+This is for thought leadership development.
+```
+
+---
+

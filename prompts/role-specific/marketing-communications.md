@@ -251,3 +251,203 @@ Include opening hook, main points, and closing. I will refine with the executive
 **Prompt:**
 
 ```
+## When NOT to Use Copilot for Marketing & Communications
+
+**MARKETING MANAGERS — NEVER use Copilot for:**
+- Final campaign performance reporting (use analytics)
+- Budget approvals or allocation
+- Vendor/agency contract decisions
+- Marketing automation workflows (use platform)
+- A/B test statistical analysis
+- Attribution modeling
+- Competitive intelligence from external sources
+
+**CONTENT CREATORS — NEVER use Copilot for:**
+- Final published content (always human review)
+- Legal/compliance copy (requires legal review)
+- Medical/financial claims
+- Customer testimonials (must be verified)
+- Trademark or copyright decisions
+- Final SEO implementation (use SEO tools)
+
+**PR & COMMUNICATIONS — NEVER use Copilot for:**
+- Official company statements (requires approval)
+- Crisis response decisions
+- Media strategy decisions
+- Investor communications (requires legal)
+- Regulatory disclosures
+- Executive quotes (must be approved)
+- Confidential M&A communications
+
+**Brand & Legal Warnings:**
+- All external content requires human review
+- Never use AI-generated content without disclosure where required
+- Verify all facts, quotes, and statistics
+- Ensure brand voice consistency manually
+- Check trademark and copyright compliance
+- Follow your content approval workflow
+
+**Golden Rules:**
+- Marketing: "Copilot drafts — marketers refine"
+- Content: "Copilot ideates — creators craft"
+- PR/Comms: "Copilot researches — comms protects the brand"
+
+**System Integration Note:**
+Copilot does NOT integrate with:
+- Marketing automation (HubSpot, Marketo)
+- Analytics (GA4, Adobe Analytics)
+- Social media management tools
+- Email marketing platforms
+- CMS/DAM systems
+```
+
+---
+
+### Internal Communications
+
+#### 1. [APPROVED] Internal Announcement Draft
+
+**Use Case:** Create internal communications drafts for leadership review.
+
+**Target Personas:** Internal Communications Manager, HR Communications, Corporate Communications
+
+**Tags:** `copilot`, `microsoft-365`, `enterprise`, `marketing`, `internal-comms`, `announcement`
+
+**Prompt:**
+
+```
+Draft an internal announcement about [Topic] for [Audience: all employees/specific team]. Include:
+- Clear headline
+- Key message (what and why)
+- Impact on employees
+- Next steps or actions
+- Who to contact for questions
+
+Keep tone [formal/conversational] appropriate for our culture. I will review with HR/leadership.
+```
+
+---
+
+### Media Relations
+
+#### 1. [APPROVED] Media Inquiry Response
+
+**Use Case:** Research internal positions to inform media response. Always verify with leadership.
+
+**Target Personas:** PR Manager, Communications Director, Spokesperson
+
+**Tags:** `copilot`, `microsoft-365`, `enterprise`, `marketing`, `media`, `inquiry`
+
+**Prompt:**
+
+```
+A journalist from [Outlet] is asking about [Topic]. Search for:
+- Our official positions on this topic
+- Previous statements we've made
+- Relevant facts and figures approved for sharing
+- Spokesperson guidance
+
+Compile as background for drafting response. I will review with legal/leadership as needed.
+```
+
+---
+
+### Planning
+
+#### 1. [APPROVED] Marketing Brief Draft
+
+**Use Case:** Create initial marketing briefs from scattered discussions.
+
+**Target Personas:** Marketing Manager, Brand Manager, Product Marketing Manager
+
+**Tags:** `copilot`, `microsoft-365`, `enterprise`, `marketing`, `brief`, `planning`
+
+**Prompt:**
+
+```
+Draft a marketing brief for [Project/Campaign Name] based on discussions in my emails and Teams. Include:
+- Objectives discussed
+- Target audience mentioned
+- Key messages agreed upon
+- Channels suggested
+- Timeline references
+- Budget considerations mentioned
+
+Mark sections needing confirmation. I will finalize with stakeholders.
+```
+
+---
+
+### Public Relations
+
+#### 1. [APPROVED] Press Release Draft
+
+**Use Case:** Create press release drafts following standard format.
+
+**Target Personas:** PR Manager, Communications Manager, Corporate Communications
+
+**Tags:** `copilot`, `microsoft-365`, `enterprise`, `marketing`, `pr`, `press-release`
+
+**Prompt:**
+
+```
+You are assisting a communications professional. Draft a press release about [Announcement]. Include:
+- Headline
+- Dateline and lead paragraph
+- Supporting details and quotes placeholders
+- Boilerplate
+- Media contact placeholder
+
+Base on our standard format and previous releases. I will add quotes and verify facts.
+```
+
+---
+
+### Social Media
+
+#### 1. [APPROVED] Social Media Copy Draft
+
+**Use Case:** Generate social media copy variations for review and refinement.
+
+**Target Personas:** Social Media Manager, Content Manager, Digital Marketing Specialist
+
+**Tags:** `copilot`, `microsoft-365`, `enterprise`, `marketing`, `social-media`, `copy`
+
+**Prompt:**
+
+```
+Draft social media posts for [Platform] about [Topic/Announcement]. Create:
+- 3 variations with different angles
+- Appropriate length for the platform
+- Hashtag suggestions
+- Call-to-action options
+
+Match our brand voice based on previous posts. I will refine and add visuals.
+```
+
+---
+
+### Stakeholder Communication
+
+#### 1. [APPROVED] Stakeholder Update Draft
+
+**Use Case:** Draft executive marketing updates that can be enhanced with metrics.
+
+**Target Personas:** Marketing Manager, Marketing Director, CMO
+
+**Tags:** `copilot`, `microsoft-365`, `enterprise`, `marketing`, `stakeholder`, `update`
+
+**Prompt:**
+
+```
+Draft a marketing update email to [Stakeholder/Leadership] covering:
+- Recent campaign activities
+- Key wins and milestones
+- Upcoming initiatives
+- Resource needs or decisions required
+
+Base on my recent marketing communications. Keep tone executive-appropriate. I will add specific metrics before sending.
+```
+
+---
+
