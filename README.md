@@ -2,7 +2,7 @@
 
 [![Prompts](https://img.shields.io/badge/prompts-299-blue)](https://nerdychefs.ai)
 [![Categories](https://img.shields.io/badge/categories-15-green)](https://nerdychefs.ai)
-[![License](https://img.shields.io/badge/license-MIT-orange)](/LICENSE)
+[![License](https://img.shields.io/badge/license-CC%20BY--SA%204.0-blue)](/LICENSE)
 [![Enterprise](https://img.shields.io/badge/enterprise-tested-purple)](https://kesslernity.com)
 
 > The definitive Microsoft 365 Copilot prompt library for enterprise professionals. **299 battle-tested prompts** from actual production environments—not generic AI fluff.
@@ -217,9 +217,20 @@ For comprehensive prompt engineering guidance:
 
 ## 📄 License
 
-MIT License - feel free to use these prompts in your organization.
+This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
 
-See [LICENSE](LICENSE) for details.
+**This means:**
+- ✅ You can use these prompts freely (personal or commercial)
+- ✅ You can modify and build upon them
+- ✅ You can share them with others
+- 📌 You must give appropriate credit
+- 📌 Any derivatives must use the same license (stay open-source)
+
+**In practice:**
+- Use these prompts in your company ✅
+- Build internal tools with them ✅
+- Share improvements with the community ✅
+- Create a closed-source product repackaging them ❌
 
 ## 🙏 Acknowledgments
 
