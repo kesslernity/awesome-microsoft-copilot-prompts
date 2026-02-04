@@ -5,9 +5,12 @@
 [![License](https://img.shields.io/badge/license-CC%20BY--SA%204.0-blue)](/LICENSE)
 [![Enterprise](https://img.shields.io/badge/enterprise-tested-purple)](https://kesslernity.com)
 
-> The definitive Microsoft 365 Copilot prompt library for enterprise professionals. **299 battle-tested prompts** from actual production environments—not generic AI fluff.
+> The definitive Microsoft 365 Copilot prompt library for enterprise professionals. **349 prompts total** - from Quick Start basics to battle-tested enterprise workflows—not generic AI fluff.
 
 **Why this repo exists:** Most AI prompt libraries are generic ChatGPT recycling. This collection focuses exclusively on **Microsoft Copilot** across Office 365 apps, built from real enterprise deployments and proven in production environments.
+
+**New to Copilot?** Start with our [Quick Start Guide](prompts/QUICK-START.md) - 50 prompts that work in any Copilot (free or M365).  
+**Using M365 Copilot?** Explore our 299 advanced prompts that leverage your organizational data.
 
 ## 🎯 What Makes This Different
 
@@ -69,6 +72,30 @@ and budget impact. Format for my VP."
 
 Topics: Architecture differences, the 4-question framework, common mistakes, advanced techniques.
 
+## 🚀 Quick Start - Universal Prompts
+
+**New to Copilot?** Start here with prompts that work in **BOTH** free Copilot (web) and M365 Copilot.
+
+### ✨ Works Everywhere
+These 50 prompts don't require M365 integration - perfect for:
+- Testing Copilot before buying M365 license
+- One-off tasks outside your organizational data
+- Learning prompt basics
+- Anyone using free Copilot (copilot.microsoft.com)
+
+### 📚 Categories in Quick Start Guide:
+- **Writing & Communication** (10 prompts) - Professional emails, responses, difficult conversations
+- **Learning & Research** (10 prompts) - Concept explanations, comparisons, decision frameworks
+- **Content Creation** (10 prompts) - Blog outlines, social captions, presentations, video scripts
+- **Planning & Organization** (10 prompts) - Meeting agendas, priority planning, goal breakdowns, delegation
+- **Analysis & Problem-Solving** (10 prompts) - Data analysis, root cause, risk assessment, troubleshooting
+
+👉 **[View Quick Start Guide →](prompts/QUICK-START.md)**
+
+**Ready for advanced workflows?** The 299 prompts below require M365 Copilot (they access your actual emails, files, and organizational data for deeper intelligence).
+
+---
+
 ## 📊 Quick Stats
 
 - **299 Total Prompts** across 15 specialized collections
@@ -77,7 +104,7 @@ Topics: Architecture differences, the 4-question framework, common mistakes, adv
 - **203 Role-Specific Prompts** covering 12 business functions
 - **Tested in Production** by enterprise users
 
-## 🚀 Quick Start
+## 🚀 Advanced Start
 
 ### Example: Turn Your Inbox into a Strategic Intelligence System
 
