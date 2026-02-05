@@ -319,8 +319,6 @@ Copilot learns from context. If the first result isn't perfect, provide feedback
 Using Copilot across your organization? These prompts work even better when deployed enterprise-wide.
 
 **Need help with:**
-- Microsoft 365 Copilot rollout strategy
-- Custom Copilot Studio agents
 - Enterprise prompt governance
 - Team training and adoption
 - Role-based prompt libraries
