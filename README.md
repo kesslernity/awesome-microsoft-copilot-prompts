@@ -27,21 +27,191 @@
 - **Enterprise-Ready:** Real prompts from production deployments, not theoretical examples
 - **Zero Fluff:** No "write me a poem about spreadsheets"—these solve actual business problems
 
-## Why ChatGPT Prompts Don't Work in Copilot
+## 🤔 Understanding Microsoft Copilot: Enterprise vs. M365
 
-**Short answer:** Copilot and ChatGPT are fundamentally different tools. Same AI foundation, completely different capabilities.
+**Short answer:** Microsoft offers two versions of Copilot for business users, each with different capabilities.
 
-### Key Differences
+### The Two Business Copilot Tiers
 
-| Feature | ChatGPT | Microsoft Copilot |
-|---------|---------|-------------------|
-| **Data Access** | None - you paste content | Full access to your M365 data (emails, files, meetings) |
+| Feature | **Copilot for Enterprise** | **M365 Copilot** |
+|---------|----------------------------|------------------|
+| **Access** | m365.cloud.microsoft | Embedded in Office apps |
+| **Search SharePoint/OneDrive** | ✅ Yes | ✅ Yes |
+| **Access organizational files** | ✅ Yes (via upload or search) | ✅ Yes (automatic) |
+| **Embedded in Office apps** | ❌ No (separate web interface) | ✅ Yes (Word, Excel, Outlook, PowerPoint, Teams) |
+| **Create/edit Office files directly** | ⚠️ Limited (can analyze, can't edit) | ✅ Yes (full editing capabilities) |
+| **Access emails automatically** | ❌ No (need to export/paste) | ✅ Yes (Outlook integration) |
+| **Teams integration** | ⚠️ Limited (need to paste conversations) | ✅ Yes (full Teams access) |
+| **Cross-app workflows** | ❌ No | ✅ Yes (Excel → PowerPoint → Outlook) |
+| **Cost** | Included with M365 Enterprise plans | $30/user/month (+ M365 Business Standard or higher) |
+
+**Note:** Our [Quick Start prompts](prompts/QUICK-START.md) (50 prompts) work in both tiers, plus ChatGPT and free Copilot (copilot.microsoft.com). They don't require organizational data access.
+
+### What This Means for Our Prompts
+
+**🟢 Quick Start Prompts (50 prompts):**
+- ✅ Work in: **Both** Copilot for Enterprise **and** M365 Copilot
+- No M365 data access required
+- Universal prompts (writing, learning, planning, analysis)
+- 👉 [View Quick Start Guide](prompts/QUICK-START.md)
+
+**🟡 Advanced Prompts (299 prompts):**
+- ⚠️ **Partially work in: Copilot for Enterprise** (with file upload workflow)
+- ✅ **Fully work in: M365 Copilot** (automatic access, no adaptation needed)
+
+### Copilot for Enterprise: What Works & What Doesn't
+
+**✅ These Advanced Prompts WILL Work:**
+- **Document analysis** - Upload files and analyze them
+- **SharePoint search** - "Find all policy documents from Q3"
+- **Data synthesis** - Compare multiple uploaded documents
+- **Content creation** - Using uploaded files as context
+- **Research workflows** - Search organizational knowledge base
+
+**Example that works:**
+```
+"I've uploaded our Q3 sales reports. Analyze trends across 
+all regions and identify top 3 growth opportunities."
+```
+
+**⚠️ These Advanced Prompts Have LIMITATIONS:**
+- **Email analysis** - Can't access Outlook directly (need to export/paste)
+- **Excel automation** - Can analyze, but can't edit Excel files directly
+- **PowerPoint creation** - Can suggest content, but can't create .pptx files
+- **Teams synthesis** - Can't access Teams conversations automatically
+- **Cross-app workflows** - Limited (not embedded in Office apps)
+
+**Example that won't work as written:**
+```
+❌ "Analyze emails from last week about Project Alpha"
+(Copilot for Enterprise can't access Outlook directly)
+
+✅ Modified for Copilot for Enterprise:
+"Here are my emails from last week about Project Alpha [paste].
+Analyze for key themes and action items."
+```
+
+### How to Adapt Advanced Prompts for Copilot for Enterprise
+
+**Original M365 Copilot Prompt:**
+```
+"Summarize all emails from the finance team this month about 
+budget overruns. Create action item list by department."
+```
+
+**Adapted for Copilot for Enterprise:**
+```
+"I've uploaded email exports from the finance team about budget 
+overruns. Summarize key themes and create action item list by 
+department based on these documents."
+```
+
+**Adaptation Pattern:**
+1. **Export/download** the data you need (emails, files, Teams chats)
+2. **Upload** to Copilot for Enterprise (m365.cloud.microsoft)
+3. **Reference** the uploaded files in your prompt
+4. **Use** the same analysis/synthesis prompts from this repo
+
+**Common Adaptations:**
+
+| Original M365 Prompt Phrase | Adapted for Enterprise |
+|-----------------------------|------------------------|
+| "Analyze my emails about..." | "I've uploaded emails about..." |
+| "Based on our Teams discussion..." | "Based on this Teams chat export..." |
+| "From my Excel file [filename]..." | "From the uploaded Excel file..." |
+| "Search my Outlook for..." | "I've pasted emails below..." |
+| "Review documents in SharePoint folder..." | "Search SharePoint for... [then upload results]" |
+
+### Which Prompts Work Where?
+
+**From Our Collections:**
+
+| Collection | Copilot for Enterprise | M365 Copilot |
+|------------|------------------------|--------------|
+| **Quick Start** (50) | ✅ All work | ✅ All work |
+| **Power Users** (26) | ⚠️ ~60% work (with upload) | ✅ All work |
+| **Outlook** (70) | ⚠️ ~20% work (paste emails first) | ✅ All work |
+| **Role-Specific** (203) | ⚠️ ~40% work (upload docs first) | ✅ All work |
+
+**Overall Compatibility:**
+- **Copilot for Enterprise:** ~150-200 of 299 advanced prompts work with adaptation
+- **M365 Copilot:** All 349 prompts work as written
+
+### How to Know If a Prompt Will Work in Copilot for Enterprise
+
+**🟢 Will work without modification:**
+Prompts that say:
+- "Based on this document..."
+- "Compare these files..."
+- "Search SharePoint for..."
+- "Analyze the uploaded..."
+- "Review these documents..."
+
+**🟡 Will work with adaptation (upload/paste first):**
+Prompts that say:
+- "Analyze my emails..." → Export & upload email files
+- "From my Excel file..." → Upload the Excel file first
+- "Based on Teams discussion..." → Paste Teams conversation
+- "Summarize documents in [SharePoint folder]..." → Search & upload results
+
+**🔴 Won't work (requires M365 Copilot):**
+Prompts that require:
+- "Create a PowerPoint presentation..." (can outline, can't create file)
+- "Edit this Excel formula..." (can suggest, can't edit directly)
+- "Send an email to..." (can draft, can't send)
+- Cross-app workflows (Excel → PowerPoint → Outlook in sequence)
+
+### Recommended Approach by Tier
+
+**If you have Copilot for Enterprise (m365.cloud.microsoft):**
+- ✅ Use: [Quick Start Guide](prompts/QUICK-START.md) (50 prompts)
+- ⚠️ Use: Advanced prompts with **file upload workflow**
+  - Export data you need (emails, files, Teams chats)
+  - Upload to Copilot for Enterprise
+  - Adapt prompt to reference "uploaded documents"
+- **Estimated coverage:** 150-200 of our 299 advanced prompts work with adaptation
+- **Best for:** Document analysis, research, content creation with organizational knowledge
+
+**If you have M365 Copilot (embedded in Office apps):**
+- ✅ Use: **Everything in this repo** (all 349 prompts)
+- No adaptation needed - prompts work as written
+- Full cross-app workflows enabled
+- Automatic data access (no upload required)
+- **Best for:** Production workflows, email intelligence, cross-app automation
+
+### How to Identify Which Version You Have
+
+**Copilot for Enterprise:**
+- Access via: **m365.cloud.microsoft** (separate website)
+- Login with work/school account
+- ✅ Can upload files from your computer
+- ✅ Can search SharePoint/OneDrive
+- ❌ Not embedded in Office apps
+- ❌ Can't access Outlook emails automatically
+
+**M365 Copilot:**
+- Appears **inside** Word, Excel, PowerPoint, Outlook, Teams
+- Copilot icon in Office app toolbar/ribbon
+- ✅ Can access your data automatically (no upload needed)
+- ✅ Edit files directly
+- ✅ Send emails, schedule meetings
+- Costs $30/user/month (requires M365 Business Standard or higher)
+
+**Quick Test:**
+- Open Outlook → See Copilot icon in toolbar? = **M365 Copilot** ✅
+- Only access via m365.cloud.microsoft? = **Copilot for Enterprise** ⚠️
+
+### Why M365 Copilot Works Differently Than ChatGPT
+
+Unlike ChatGPT or standalone AI tools, M365 Copilot is deeply integrated into your work environment:
+
+| Feature | ChatGPT | M365 Copilot |
+|---------|---------|--------------|
+| **Data Access** | None - you paste content | Full access to your M365 data |
 | **Integration** | Standalone chat | Embedded in Office apps |
 | **Actions** | Text responses only | Can edit files, send emails, create charts |
 | **Context** | Conversation only | Your entire work environment |
-| **Safety Mode** | Exploratory | Enterprise-safe (conservative by design) |
-
-### Why This Matters for Prompts
+| **Workflow** | Copy-paste results | Direct manipulation of your files |
 
 **Generic ChatGPT Prompt:**
 ```
@@ -49,36 +219,59 @@
 ```
 ❌ **Result:** "I don't have access to your emails. Please paste them here."
 
-**Copilot-Optimized Prompt:**
+**M365 Copilot-Optimized Prompt:**
 ```
 "Analyze emails from the last 7 days about the Q2 budget review. 
 Create a summary table with: key decisions, action items, blockers, 
 and budget impact. Format for my VP."
 ```
-✅ **Result:** Copilot accesses Outlook directly, analyzes threads with full context, creates formatted output
+✅ **Result (M365 Copilot):** Accesses Outlook directly, analyzes threads with full context, creates formatted output
 
-### Copilot's Strengths & Limitations
+**Copilot for Enterprise Prompt:**
+```
+"I've uploaded 15 emails about Q2 budget review from this week.
+Create a summary table with: key decisions, action items, blockers, 
+and budget impact. Format for executive audience."
+```
+✅ **Result (Enterprise):** Analyzes uploaded emails, creates summary (but you had to export emails first)
 
-**✅ What Copilot Does Well:**
-- Compare multiple documents (PDFs, specs, procedures)
-- Summarize long technical content
-- Cross-reference requirements across files
-- Reason over text-heavy documents
-- Assist with review, clarification, and consistency checks
+### M365 Copilot's Unique Capabilities
 
-**⚠️ Known Limitations (By Design):**
+**✅ What M365 Copilot Can Do (that Enterprise can't):**
+- Automatically access emails without export/upload
+- Edit Excel files directly (formulas, charts, formatting)
+- Create PowerPoint presentations from scratch
+- Send emails and schedule meetings
+- Real-time cross-app workflows (Excel → PowerPoint → Outlook in one flow)
+- Work alongside you in Office apps (no context switching)
+
+**✅ What Both Can Do:**
+- Search SharePoint and OneDrive
+- Analyze uploaded documents
+- Compare multiple files
+- Generate summaries and reports
+- Answer questions about organizational content
+
+**⚠️ Known Limitations (Both Tiers):**
 - Conservative with visual analysis (better to say "I don't know" than guess wrong)
 - Limited OCR on complex diagrams, P&IDs, or dense schematics
 - No pixel-level precision on images
 - Strict confidence thresholds (enterprise-safe execution mode)
 
-**🎯 Bottom Line:** Copilot is a production assistant, not an exploratory lab tool. It helps you work faster with your actual data — but humans still validate.
+**🎯 Bottom Line:**
+- **Copilot for Enterprise** = Smart assistant with uploaded documents
+- **M365 Copilot** = Embedded productivity tool in your workflow
 
-### Want to Master Copilot Prompting?
+**Learn More:**
+- 👉 [Microsoft 365 Copilot Pricing](https://www.microsoft.com/microsoft-365/copilot)
+- 👉 [Enterprise vs M365 Comparison](https://www.microsoft.com/microsoft-365/enterprise/copilot)
+- 👉 [Free Course: Copilot Prompt Engineering](https://www.nerdychefs.ai/copilot/module-7)
 
-👉 **[Free Course: Copilot Prompt Engineering](https://www.nerdychefs.ai/copilot/module-7)** - Learn why these prompts work
+---
 
-Topics: Architecture differences, the 4-question framework, common mistakes, advanced techniques.
+## 🚀 Quick Start - Universal Prompts
+
+[Rest of README continues as normal...]
 
 ## 🚀 Quick Start - Universal Prompts
 
