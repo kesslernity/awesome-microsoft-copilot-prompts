@@ -1,303 +1,40 @@
 # Awesome Microsoft Copilot Prompts 🍳
 
-[![Prompts](https://img.shields.io/badge/prompts-349-blue)](https://nerdychefs.ai)
-[![Categories](https://img.shields.io/badge/categories-15-green)](https://nerdychefs.ai)
+[![Prompts](https://img.shields.io/badge/prompts-365-blue)](https://nerdychefs.ai)
+[![Categories](https://img.shields.io/badge/categories-17-green)](https://nerdychefs.ai)
 [![License](https://img.shields.io/badge/license-CC%20BY--SA%204.0-blue)](/LICENSE)
 [![Enterprise](https://img.shields.io/badge/enterprise-tested-purple)](https://kesslernity.com)
 
-> Stop staring at the blank Copilot box. 349 enterprise-tested prompts that actually work—organized by role, not random categories.
+A curated collection of **365 production-tested Microsoft Copilot prompts** for enterprise professionals. From inbox intelligence to role-specific workflows, these prompts help you get the most out of Microsoft 365 Copilot.
 
-## Table of Contents
-- [Quick Start](#-quick-start---universal-prompts)
-- [Browse by Category](#-browse-by-category)
-- [How to Use](#-how-to-use-these-prompts)
-- [Contributing](#-contributing)
+> Stop staring at the blank Copilot box. 365 enterprise-tested prompts that actually work—organized by role, not random categories.
 
-**Why this repo exists:** Most AI prompt libraries are generic ChatGPT recycling. This collection focuses exclusively on **Microsoft Copilot** across Office 365 apps, built from real enterprise deployments and proven in production environments.
+## 🧭 Contents
 
-**New to Copilot?** Start with our [Quick Start Guide](prompts/QUICK-START.md) - 50 prompts that work in any Copilot (free or M365).  
-**Using M365 Copilot?** Explore our 299 advanced prompts that leverage your organizational data.
+- 📊 [Quick Stats](#-quick-stats)
+- 🚀 [Quick Start](#-quick-start)
+- 🔄 [Copilot vs ChatGPT: Key Differences](#-copilot-vs-chatgpt-key-differences)
+- 📚 [Complete Prompt Collection](#-complete-collection-365-prompts)
+- 👔 [Role-Specific Prompt Packs](#-role-specific-collections-203-prompts)
+- 💡 [How to Use These Prompts](#-how-to-use-these-prompts)
+- 🔥 [Most Popular Prompts](#-most-popular-prompts)
+- 🔐 [Governance & Guardrails](#-governance--guardrails)
+- 🏢 [Enterprise Deployment](#-enterprise-deployment)
+- 🤝 [Contributing](#-contributing)
+- 📖 [Prompt Engineering Tips](#-prompt-engineering-tips)
+- 📄 [License](#-license)
 
-## What Makes This Different
-
-- **Copilot-Specific:** Every prompt optimized for Microsoft Copilot
-- **Role-Based:** Organized by job function, not random categories
-- **Enterprise-Ready:** Real prompts from production deployments, not theoretical examples
-- **Zero Fluff:** No "write me a poem about spreadsheets"—these solve actual business problems
-
-## Understanding Microsoft Copilot: Enterprise vs. M365
-
-**Short answer:** Microsoft offers two versions of Copilot for business users, each with different capabilities.
-
-### The Two Business Copilot Tiers
-
-| Feature | **Copilot for Enterprise** | **M365 Copilot** |
-|---------|----------------------------|------------------|
-| **Access** | m365.cloud.microsoft | Embedded in Office apps |
-| **Search SharePoint/OneDrive** | ✅ Yes | ✅ Yes |
-| **Access organizational files** | ✅ Yes (via upload or search) | ✅ Yes (automatic) |
-| **Embedded in Office apps** | ❌ No (separate web interface) | ✅ Yes (Word, Excel, Outlook, PowerPoint, Teams) |
-| **Create/edit Office files directly** | ⚠️ Limited (can analyze, can't edit) | ✅ Yes (full editing capabilities) |
-| **Access emails automatically** | ❌ No (need to export/paste) | ✅ Yes (Outlook integration) |
-| **Teams integration** | ⚠️ Limited (need to paste conversations) | ✅ Yes (full Teams access) |
-| **Cross-app workflows** | ❌ No | ✅ Yes (Excel → PowerPoint → Outlook) |
-
-**Note:** Our [Quick Start prompts](prompts/QUICK-START.md) (50 prompts) work in both tiers, plus ChatGPT and free Copilot (copilot.microsoft.com). They don't require organizational data access.
-
-### What This Means for Our Prompts
-
-**🟢 Quick Start Prompts (50 prompts):**
-- ✅ Work in: **Both** Copilot for Enterprise **and** M365 Copilot
-- No M365 data access required
-- Universal prompts (writing, learning, planning, analysis)
-- 👉 [View Quick Start Guide](prompts/QUICK-START.md)
-
-**🟡 Advanced Prompts (299 prompts):**
-- ⚠️ **Partially work in: Copilot for Enterprise** (with file upload workflow)
-- ✅ **Fully work in: M365 Copilot** (automatic access, no adaptation needed)
-
-### Copilot for Enterprise: What Works & What Doesn't
-
-**✅ These Advanced Prompts WILL Work:**
-- **Document analysis** - Upload files and analyze them
-- **SharePoint search** - "Find all policy documents from Q3"
-- **Data synthesis** - Compare multiple uploaded documents
-- **Content creation** - Using uploaded files as context
-- **Research workflows** - Search organizational knowledge base
-
-**Example that works:**
-```
-"I've uploaded our Q3 sales reports. Analyze trends across 
-all regions and identify top 3 growth opportunities."
-```
-
-**⚠️ These Advanced Prompts Have LIMITATIONS:**
-- **Email analysis** - Can't access Outlook directly (need to export/paste)
-- **Excel automation** - Can analyze, but can't edit Excel files directly
-- **PowerPoint creation** - Can suggest content, but can't create .pptx files
-- **Teams synthesis** - Can't access Teams conversations automatically
-- **Cross-app workflows** - Limited (not embedded in Office apps)
-
-**Example that won't work as written:**
-```
-❌ "Analyze emails from last week about Project Alpha"
-(Copilot for Enterprise can't access Outlook directly)
-
-✅ Modified for Copilot for Enterprise:
-"Here are my emails from last week about Project Alpha [paste].
-Analyze for key themes and action items."
-```
-
-### How to Adapt Advanced Prompts for Copilot for Enterprise
-
-**Original M365 Copilot Prompt:**
-```
-"Summarize all emails from the finance team this month about 
-budget overruns. Create action item list by department."
-```
-
-**Adapted for Copilot for Enterprise:**
-```
-"I've uploaded email exports from the finance team about budget 
-overruns. Summarize key themes and create action item list by 
-department based on these documents."
-```
-
-**Adaptation Pattern:**
-1. **Export/download** the data you need (emails, files, Teams chats)
-2. **Upload** to Copilot for Enterprise (m365.cloud.microsoft)
-3. **Reference** the uploaded files in your prompt
-4. **Use** the same analysis/synthesis prompts from this repo
-
-**Common Adaptations:**
-
-| Original M365 Prompt Phrase | Adapted for Enterprise |
-|-----------------------------|------------------------|
-| "Analyze my emails about..." | "I've uploaded emails about..." |
-| "Based on our Teams discussion..." | "Based on this Teams chat export..." |
-| "From my Excel file [filename]..." | "From the uploaded Excel file..." |
-| "Search my Outlook for..." | "I've pasted emails below..." |
-| "Review documents in SharePoint folder..." | "Search SharePoint for... [then upload results]" |
-
-### Which Prompts Work Where?
-
-**From Our Collections:**
-
-| Collection | Copilot for Enterprise | M365 Copilot |
-|------------|------------------------|--------------|
-| **Quick Start** (50) | ✅ All work | ✅ All work |
-| **Power Users** (26) | ⚠️ ~60% work (with upload) | ✅ All work |
-| **Outlook** (70) | ⚠️ ~20% work (paste emails first) | ✅ All work |
-| **Role-Specific** (203) | ⚠️ ~40% work (upload docs first) | ✅ All work |
-
-**Overall Compatibility:**
-- **Copilot for Enterprise:** ~150-200 of 299 advanced prompts work with adaptation
-- **M365 Copilot:** All 349 prompts work as written
-
-### How to Know If a Prompt Will Work in Copilot for Enterprise
-
-**🟢 Will work without modification:**
-Prompts that say:
-- "Based on this document..."
-- "Compare these files..."
-- "Search SharePoint for..."
-- "Analyze the uploaded..."
-- "Review these documents..."
-
-**🟡 Will work with adaptation (upload/paste first):**
-Prompts that say:
-- "Analyze my emails..." → Export & upload email files
-- "From my Excel file..." → Upload the Excel file first
-- "Based on Teams discussion..." → Paste Teams conversation
-- "Summarize documents in [SharePoint folder]..." → Search & upload results
-
-**🔴 Won't work (requires M365 Copilot):**
-Prompts that require:
-- "Create a PowerPoint presentation..." (can outline, can't create file)
-- "Edit this Excel formula..." (can suggest, can't edit directly)
-- "Send an email to..." (can draft, can't send)
-- Cross-app workflows (Excel → PowerPoint → Outlook in sequence)
-
-### Recommended Approach by Tier
-
-**If you have Copilot for Enterprise (m365.cloud.microsoft):**
-- ✅ Use: [Quick Start Guide](prompts/QUICK-START.md) (50 prompts)
-- ⚠️ Use: Advanced prompts with **file upload workflow**
-  - Export data you need (emails, files, Teams chats)
-  - Upload to Copilot for Enterprise
-  - Adapt prompt to reference "uploaded documents"
-- **Estimated coverage:** 150-200 of our 299 advanced prompts work with adaptation
-- **Best for:** Document analysis, research, content creation with organizational knowledge
-
-**If you have M365 Copilot (embedded in Office apps):**
-- ✅ Use: **Everything in this repo** (all 349 prompts)
-- No adaptation needed - prompts work as written
-- Full cross-app workflows enabled
-- Automatic data access (no upload required)
-- **Best for:** Production workflows, email intelligence, cross-app automation
-
-### How to Identify Which Version You Have
-
-**Copilot for Enterprise:**
-- Access via: **m365.cloud.microsoft** (separate website)
-- Login with work/school account
-- ✅ Can upload files from your computer
-- ✅ Can search SharePoint/OneDrive
-- ❌ Not embedded in Office apps
-- ❌ Can't access Outlook emails automatically
-
-**M365 Copilot:**
-- Appears **inside** Word, Excel, PowerPoint, Outlook, Teams
-- Copilot icon in Office app toolbar/ribbon
-- ✅ Can access your data automatically (no upload needed)
-- ✅ Edit files directly
-- ✅ Send emails, schedule meetings
-
-**Quick Test:**
-- Open Outlook → See Copilot icon in toolbar? = **M365 Copilot** ✅
-- Only access via m365.cloud.microsoft? = **Copilot for Enterprise** ⚠️
-
-### Why M365 Copilot Works Differently Than ChatGPT
-
-Unlike ChatGPT or standalone AI tools, M365 Copilot is deeply integrated into your work environment:
-
-| Feature | ChatGPT | M365 Copilot |
-|---------|---------|--------------|
-| **Data Access** | None - you paste content | Full access to your M365 data |
-| **Integration** | Standalone chat | Embedded in Office apps |
-| **Actions** | Text responses only | Can edit files, send emails, create charts |
-| **Context** | Conversation only | Your entire work environment |
-| **Workflow** | Copy-paste results | Direct manipulation of your files |
-
-**Generic ChatGPT Prompt:**
-```
-"Summarize my emails from this week"
-```
-❌ **Result:** "I don't have access to your emails. Please paste them here."
-
-**M365 Copilot-Optimized Prompt:**
-```
-"Analyze emails from the last 7 days about the Q2 budget review. 
-Create a summary table with: key decisions, action items, blockers, 
-and budget impact. Format for my VP."
-```
-✅ **Result (M365 Copilot):** Accesses Outlook directly, analyzes threads with full context, creates formatted output
-
-**Copilot for Enterprise Prompt:**
-```
-"I've uploaded 15 emails about Q2 budget review from this week.
-Create a summary table with: key decisions, action items, blockers, 
-and budget impact. Format for executive audience."
-```
-✅ **Result (Enterprise):** Analyzes uploaded emails, creates summary (but you had to export emails first)
-
-### M365 Copilot's Unique Capabilities
-
-**✅ What M365 Copilot Can Do (that Enterprise can't):**
-- Automatically access emails without export/upload
-- Edit Excel files directly (formulas, charts, formatting)
-- Create PowerPoint presentations from scratch
-- Send emails and schedule meetings
-- Real-time cross-app workflows (Excel → PowerPoint → Outlook in one flow)
-- Work alongside you in Office apps (no context switching)
-
-**✅ What Both Can Do:**
-- Search SharePoint and OneDrive
-- Analyze uploaded documents
-- Compare multiple files
-- Generate summaries and reports
-- Answer questions about organizational content
-
-**⚠️ Known Limitations (Both Tiers):**
-- Conservative with visual analysis (better to say "I don't know" than guess wrong)
-- Limited OCR on complex diagrams, P&IDs, or dense schematics
-- No pixel-level precision on images
-- Strict confidence thresholds (enterprise-safe execution mode)
-
-**🎯 Bottom Line:**
-- **Copilot for Enterprise** = Smart assistant with uploaded documents
-- **M365 Copilot** = Embedded productivity tool in your workflow
-
-**Learn More:**
-- 👉 [Microsoft 365 Copilot Pricing](https://www.microsoft.com/microsoft-365/copilot)
-- 👉 [Enterprise vs M365 Comparison](https://www.microsoft.com/microsoft-365/enterprise/copilot)
-- 👉 [Free Course: Copilot Prompt Engineering](https://www.nerdychefs.ai/copilot/module-7)
-
----
-
-## 🚀 Quick Start - Universal Prompts
-
-**New to Copilot?** Start here with prompts that work in **BOTH** free Copilot (web) and M365 Copilot.
-
-### ✨ Works Everywhere
-These 50 prompts don't require M365 integration - perfect for:
-- Testing Copilot before buying M365 license
-- One-off tasks outside your organizational data
-- Learning prompt basics
-- Anyone using free Copilot (copilot.microsoft.com)
-
-### 📚 Categories in Quick Start Guide:
-- **Writing & Communication** (10 prompts) - Professional emails, responses, difficult conversations
-- **Learning & Research** (10 prompts) - Concept explanations, comparisons, decision frameworks
-- **Content Creation** (10 prompts) - Blog outlines, social captions, presentations, video scripts
-- **Planning & Organization** (10 prompts) - Meeting agendas, priority planning, goal breakdowns, delegation
-- **Analysis & Problem-Solving** (10 prompts) - Data analysis, root cause, risk assessment, troubleshooting
-
-👉 **[View Quick Start Guide →](prompts/QUICK-START.md)**
-
-**Ready for advanced workflows?** The 299 prompts below require M365 Copilot (they access your actual emails, files, and organizational data for deeper intelligence).
-
-⭐ **Star this repo** to bookmark it and help others discover it.
 
 ## 📊 Quick Stats
 
-- **349 prompts total** — 50 Quick Start basics + 299 advanced M365 workflows
+- **365 Total Prompts** across 17 specialized collections
 - **26 Power User Prompts** for advanced Copilot mastery
 - **70 Outlook Prompts** for email intelligence and automation
+- **66 Standalone Prompts** for any Copilot version
 - **203 Role-Specific Prompts** covering 12 business functions
-- **Tested in Production** by enterprise users
+- **Tested in Production** by thousands of enterprise users
 
-## 🚀 Advanced Start
+## 🚀 Quick Start
 
 ### Example: Turn Your Inbox into a Strategic Intelligence System
 
@@ -316,11 +53,11 @@ Analyze all emails I received in the last 30 days. Create a full intelligence br
 Format as an executive briefing.
 ```
 
-**Use Case:** Strategic email management  
-**Works In:** Outlook Copilot  
+**Use Case:** Strategic email management
+**Works In:** Outlook Copilot
 **Target Users:** Executives, Managers, Project Managers
 
-[See 69 more Outlook prompts →](prompts/outlook/)
+[See 70 more Outlook prompts →](prompts/outlook/)
 
 ### Example: Excel Data Analysis Without Being a Data Scientist
 
@@ -339,70 +76,228 @@ Analyze this dataset and tell the data story:
 Create visualizations for top 3 insights and provide narrative explanations suitable for presentation.
 ```
 
-**Use Case:** Business intelligence and reporting  
-**Works In:** Excel Copilot  
+**Use Case:** Business intelligence and reporting
+**Works In:** Excel Copilot
 **Target Users:** Business Analysts, Managers, Data Analysts
 
-[See more Excel prompts →](prompts/power-users/)
+[See more Excel prompts →](prompts/power-users/README.md)
 
-## 📚 Browse by Category
+## 🔄 Copilot vs ChatGPT: Key Differences
 
-### Power Users & Advanced Techniques
-- [**AI for Microsoft Copilot Power Users**](prompts/power-users/) (26 prompts)
-  - Advanced email intelligence
-  - Excel data intelligence
-  - PowerPoint automation
-  - Cross-app workflows
+Even when using the same underlying model (GPT-4/GPT-5), **Copilot behaves differently**:
 
-### Email & Communication Mastery
+| Aspect | Microsoft Copilot | ChatGPT |
+|--------|-------------------|---------|
+| **Safety filters** | Enterprise-grade, strict | Consumer-level, more permissive |
+| **Data access** | Your M365 organizational data | No access to your files/emails |
+| **Vision capabilities** | Restricted/simplified pipelines | Full multimodal reasoning |
+| **Reasoning depth** | Optimized for fast, safe answers | Allows exploratory reasoning |
+| **Uncertain results** | Prefers "no result" over guessing | May provide probabilistic answers |
+| **Best for** | Business documents & structured data | Creative writing & coding |
+
+### What Copilot Does Well ✅
+- Compare structured documents
+- Summarize long technical PDFs
+- Cross-reference requirements across files
+- Answer questions when tags/metadata are explicit
+- Reason over text-heavy documents
+
+### What Copilot Struggles With ⚠️
+- Dense visual tagging in schematics
+- Implicit symbol recognition
+- Ambiguous labels in images
+- Vision-first analysis without supporting text
+- Engineering drawings, P&IDs, EPC schematics
+
+## 📚 Complete Collection (365 Prompts)
+
+### 🎓 Power Users & Advanced Techniques
+
+- [**AI for Microsoft Copilot Power Users**](prompts/power-users/README.md) (26 prompts)
+  + Advanced email intelligence
+  + Excel data intelligence
+  + Outlook email mastery
+  + PowerPoint presentation power
+  + Teams meeting intelligence
+  + Word document excellence
+
+### 📧 Email & Communication Mastery (70 prompts)
+
 - [**Advanced Outlook Automation**](prompts/outlook/advanced-automation.md) (20 prompts)
+  + Cognitive load & workload management
+  + Compliance & knowledge extraction
+  + Email battle planning & prioritization
+  + Inbox intelligence & strategic analysis
+  + Relationship & stakeholder intelligence
+  + Risk detection & early warning systems
+
 - [**Advanced Outlook Prompt Pack**](prompts/outlook/advanced-prompts.md) (50 prompts)
+  + Collaboration & communication
+  + Customer relations
+  + Decision support
+  + Documentation & reporting
+  + Meeting preparation & follow-up
+  + Problem solving
+  + Risk & compliance
 
-### Role-Specific Collections
+### 🏢 Enterprise & Quick Start (66 prompts)
 
-#### Business Operations
+- [**Copilot Enterprise Prompts (Standalone)**](prompts/enterprise/standalone-prompts.md) (16 prompts)
+  + Analysis & reasoning frameworks
+  + Business writing templates
+  + Data processing & extraction
+  + Document analysis & comparison
+  + Image analysis (with limitations noted)
+  + Technical documentation
+
+- [**Copilot Quick Start Essentials**](prompts/quick-start/essentials.md) (50 prompts)
+  + Analysis & problem-solving
+  + Content creation
+  + Learning & research
+  + Planning & organization
+  + Writing & communication
+
+### 👔 Role-Specific Collections (203 prompts)
+
+#### Business Operations & Support
+
 - [**Administrative & Executive Assistants**](prompts/role-specific/admin-executive-assistants.md) (17 prompts)
+  + Board support, calendar management, correspondence
+  + Document management, event & travel coordination
+  + Meeting support, process documentation
+  + **Includes ⚠️ Administrative Copilot Guardrails**
+
 - [**Commercial Operations**](prompts/role-specific/commercial-operations.md) (18 prompts)
+  + Baseline management, bid management, contract tracking
+  + Document control, delay analysis, distribution control
+  + **Includes ⚠️ Commercial Operations Copilot Guardrails**
+
 - [**Project Leadership**](prompts/role-specific/project-leadership.md) (18 prompts)
+  + Budget management, change tracking, client communication
+  + Cost reporting, decision support, stakeholder management
+  + **Includes ⚠️ Leadership Copilot Guardrails**
 
 #### Revenue & Growth
+
 - [**Sales & Business Development**](prompts/role-specific/sales-business-development.md) (16 prompts)
+  + Account management, competitive analysis, lead qualification
+  + Outreach sequences, pipeline management, proposal follow-up
+  + **Includes ⚠️ Sales Copilot Guardrails**
+
 - [**Marketing & Communications**](prompts/role-specific/marketing-communications.md) (16 prompts)
+  + Campaign management, content creation, event marketing
+  + Social media, PR, internal communications
+  + **Includes ⚠️ Marketing & Communications Copilot Guardrails**
+
 - [**Customer Success & Support**](prompts/role-specific/customer-success-support.md) (16 prompts)
+  + Account health monitoring, QBR preparation, renewal management
+  + Escalation handling, onboarding support, expansion opportunities
+  + **Includes ⚠️ Customer Success & Support Copilot Guardrails**
 
 #### Professional Services
+
 - [**Consulting & Professional Services**](prompts/role-specific/consulting-professional-services.md) (16 prompts)
+  + Advisory services, client management, deliverable development
+  + Engagement management, workshop facilitation
+  + **Includes ⚠️ Consulting Copilot Guardrails + Client Confidentiality Warnings**
+
 - [**Engineering & Construction**](prompts/role-specific/engineering-construction.md) (16 prompts)
+  + Field documentation, meeting prep, problem resolution
+  + Project communication, quality management, site coordination
+  + **Includes ⚠️ Engineering Copilot Guardrails + ⚠️ Construction Safety Guardrails**
 
 #### Corporate Functions
+
 - [**Finance & HR**](prompts/role-specific/finance-hr.md) (18 prompts)
+  + Audit support, budgeting, financial review
+  + HR policy, internal comms, onboarding, employee engagement
+  + **Includes ⚠️ Finance & HR Copilot Guardrails**
+
 - [**HSE, Legal & Compliance**](prompts/role-specific/hse-legal-compliance.md) (20 prompts)
+  + Safety procedures, incident research, environmental compliance
+  + Contract negotiation, claims management, legal research
+  + **⛔ CRITICAL HSE GUARDRAILS - Safety authorization boundaries**
+  + **Includes ⚠️ Legal & IT Copilot Guardrails**
 
 #### Specialized Functions
+
 - [**Research & Development**](prompts/role-specific/research-development.md) (16 prompts)
+  + Prior art research, experiment tracking, literature review
+  + Publication planning, competitive research, lab management
+  + **Includes ⚠️ R&D Copilot Guardrails + IP & Confidentiality Warnings**
+
 - [**Supply Chain & Logistics**](prompts/role-specific/supply-chain-logistics.md) (16 prompts)
+  + Supplier management, shipment tracking, inventory optimization
+  + Disruption management, customs support, S&OP planning
+  + **Includes ⚠️ Supply Chain & Logistics Copilot Guardrails**
+
+## 🗂 Repository Structure
+
+The repository is organized by **Copilot application and user role**, making it easy to browse, reuse, and extend.
+
+```text
+prompts/
+├── power-users/
+│   └── README.md                # Advanced Copilot techniques & mastery prompts
+│
+├── outlook/
+│   ├── advanced-automation.md   # Inbox intelligence & automation
+│   ├── advanced-prompts.md      # Advanced Outlook prompt pack
+│   └── README.md
+│
+├── quick-start/
+│   └── essentials.md            # Beginner-friendly Copilot essentials
+│
+├── enterprise/
+│   └── standalone-prompts.md    # App-agnostic enterprise prompts
+│
+└── role-specific/
+    ├── admin-executive-assistants.md
+    ├── commercial-operations.md
+    ├── project-leadership.md
+    ├── sales-business-development.md
+    ├── marketing-communications.md
+    ├── customer-success-support.md
+    ├── consulting-professional-services.md
+    ├── engineering-construction.md
+    ├── finance-hr.md
+    ├── hse-legal-compliance.md
+    ├── research-development.md
+    └── supply-chain-logistics.md
+```
 
 ## 💡 How to Use These Prompts
 
 ### 1. Find Your Use Case
+
 Browse by role or search for your specific need (e.g., "email prioritization", "data analysis", "meeting prep").
 
 ### 2. Copy & Customize
+
 Each prompt is designed to work immediately but customize the placeholders:
+
 - `[TOPIC]` → your specific subject
 - `[TIMEFRAME]` → your desired period
 - `[METRIC]` → your KPI or measurement
+- `[ACCOUNT NAME]` → specific client or project
 
 ### 3. Run in Copilot
+
 Paste the prompt into the appropriate Microsoft 365 app:
-- **Outlook:** Use in Outlook Copilot chat
-- **Excel:** Use in Excel Copilot sidebar
-- **Word:** Use in Word Copilot drafting
+
+- **Outlook:** Use in Outlook Copilot chat or sidebar
+- **Excel:** Use in Excel Copilot sidebar for data analysis
+- **Word:** Use in Word Copilot drafting or editing
 - **PowerPoint:** Use in PowerPoint Copilot designer
-- **Teams:** Use in Teams Copilot chat
+- **Teams:** Use in Teams Copilot chat for meeting intelligence
 
 ### 4. Iterate & Improve
-Copilot learns from context. If the first result isn't perfect, provide feedback: "Make it more concise" or "Focus on Q4 data only".
+
+Copilot learns from context. If the first result isn't perfect, provide feedback:
+- "Make it more concise"
+- "Focus on Q4 data only"
+- "Add risk assessment"
+- "Format as a table"
 
 ## 🔥 Most Popular Prompts
 
@@ -411,10 +306,15 @@ Copilot learns from context. If the first result isn't perfect, provide feedback
 3. **Dashboard Insight Generator** - Turn Excel data into executive dashboards
 4. **Email Battle Plan Generator** - Strategic inbox prioritization
 5. **Context Fusion Engine** - Synthesize project status across all communications
+6. **Escalation Radar Detector** - Early crisis detection from email sentiment
+7. **Meeting Prep Intelligence Pack** - Comprehensive meeting preparation
+8. **QBR Preparation** - Quarterly business review content from communications
+9. **Deal Progress Summary** - Complete deal tracking from scattered emails
+10. **Shipment Issue Summary** - Logistics intelligence from multiple sources
 
-[See all power user prompts →](prompts/power-users/)
+[See all power user prompts →](prompts/power-users/README.md)
 
-## Enterprise Deployment
+## 🏢 Enterprise Deployment
 
 Using Copilot across your organization? These prompts work even better when deployed enterprise-wide.
 
@@ -423,16 +323,19 @@ Using Copilot across your organization? These prompts work even better when depl
 - Custom Copilot Studio agents
 - Enterprise prompt governance
 - Team training and adoption
+- Role-based prompt libraries
 
- 👉 https://kesslernity.com helps enterprises deploy Copilot at scale with managed prompt libraries and training.
+👉 **[Check out Kesslernity](https://kesslernity.com)** - Enterprise AI deployment platform
 
-## 🌐 Full Prompt Library
+## 🌐 Full Searchable Library
 
-This repo contains **299 prompts** optimized. For the complete searchable library with:
+This repo contains **365 prompts** optimized for Microsoft Copilot. For the complete searchable library with:
+
 - Advanced filtering by role, use case, and app
 - Copy-to-clipboard functionality
 - Regular updates with new prompts
-- No signup required
+- Additional ChatGPT, Claude, and Gemini prompts
+- **No signup required**
 
 👉 **Visit [NerdyChefs.ai](https://nerdychefs.ai)** - 1300+ free AI prompts & tools
 
@@ -441,12 +344,14 @@ This repo contains **299 prompts** optimized. For the complete searchable librar
 Have a killer Copilot prompt that's made your work life easier? We'd love to add it!
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on:
+
 - Prompt format requirements
 - Testing standards (must be production-tested)
 - Documentation expectations
 - Review process
 
 **Quality bar:** We only accept prompts that:
+
 1. Solve real business problems
 2. Have been tested in production environments
 3. Include clear use cases and target personas
@@ -457,37 +362,65 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on:
 New to Copilot? Here's how to get better results:
 
 ### The 4-Question Formula
+
 Transform vague requests into specific prompts:
+
 1. **WHAT** - What exactly do you want? (Be specific)
 2. **WHO** - Who is this for? (Audience matters)
 3. **WHY** - What's the business context? (Purpose drives output)
 4. **HOW LONG** - How detailed? (Scope the response)
 
 **Example:**
-❌ "Summarize my emails"  
+❌ "Summarize my emails"
 ✅ "Summarize emails from the last 7 days related to the Q1 budget review. I need bullet points for my VP—keep it under 5 key points highlighting any blockers."
 
 ### Give Copilot Context
+
 - Reference specific data: "Based on the spreadsheet I just opened..."
 - Mention timeframes: "In emails from this month..."
 - Specify format: "Create as a table" or "Write as a memo"
+- Include audience: "For technical team" vs "For executive review"
 
 ### Iterate Don't Restart
+
 If the output isn't right:
+
 - Add constraints: "Make it shorter" or "Focus only on risks"
 - Provide examples: "Like the format we used last quarter"
 - Correct mistakes: "The deadline is March 15, not May 15"
+- Request specific changes: "Add a risk assessment section"
+
+## 🔐 Governance & Guardrails
+
+Every role-specific collection includes **critical guardrails** explaining:
+
+- ✅ What Copilot IS good for in that role
+- ❌ When NEVER to use Copilot (safety, compliance, legal)
+- ⚠️ System limitations and integration notes
+- 📝 Golden rules for responsible usage
+
+**Example guardrails included:**
+- **HSE/Safety:** ⛔ NEVER for permit-to-work or safety authorization
+- **Legal:** NEVER for legal advice or contract interpretation
+- **Finance:** NEVER for financial calculations or budget approvals
+- **Sales:** NEVER for pricing decisions or contract terms
+- **Engineering:** NEVER for engineering calculations or design approval
+
+[See example guardrails →](prompts/role-specific/hse-legal-compliance.md#-hse-critical-guardrails---read-first)
 
 ## 📱 Stay Updated
 
+- ⭐ **Star this repo** to get updates when new prompts are added
 - 🔔 **Watch releases** for curated prompt pack releases
 - 🐦 **Follow on X/Twitter:** [@nerdychefsai](https://x.com/nerdychefsai) for Copilot tips and enterprise AI insights
+- 💼 **Follow on LinkedIn:** [Mathieu Kessler](https://linkedin.com/in/mathieukessler) for enterprise AI deployment strategies
 
 ## 📄 License
 
 This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
 
 **This means:**
+
 - ✅ You can use these prompts freely (personal or commercial)
 - ✅ You can modify and build upon them
 - ✅ You can share them with others
@@ -495,6 +428,7 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 Inter
 - 📌 Any derivatives must use the same license (stay open-source)
 
 **In practice:**
+
 - Use these prompts in your company ✅
 - Build internal tools with them ✅
 - Share improvements with the community ✅
@@ -508,8 +442,15 @@ Built by [Mathieu Kessler](https://linkedin.com/in/mathieukessler) and the team 
 
 ---
 
-**🔗 Links:**
-- [NerdyChefs.ai](https://nerdychefs.ai) - Full prompt library (1300+ prompts)
-- [Kesslernity](https://kesslernity.com) - Enterprise AI deployment
-- [LinkedIn](https://linkedin.com/in/mathieukessler) - Connect with Mathieu
-- [X/Twitter](https://x.com/nerdychefsai) - Daily AI productivity tips
+## 🔗 Quick Links
+
+- **[Full Prompt Library](https://nerdychefs.ai)** - 1300+ free AI prompts & tools (no signup)
+- **[Kesslernity](https://kesslernity.com)** - Enterprise AI deployment platform
+- **[LinkedIn](https://linkedin.com/in/mathieukessler)** - Connect with Mathieu
+- **[X/Twitter](https://x.com/nerdychefsai)** - Daily AI productivity tips
+- **[Contributing Guide](CONTRIBUTING.md)** - Submit your own prompts
+- **[License](LICENSE)** - CC BY-SA 4.0
+
+---
+
+**⚡ Pro Tip:** Star this repo and check back monthly for new prompt additions. We're continuously adding prompts based on enterprise feedback and real-world use cases.
