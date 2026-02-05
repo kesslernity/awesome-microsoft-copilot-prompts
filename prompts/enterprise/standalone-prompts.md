@@ -758,8 +758,10 @@ Constraints:
 
 ---
 
-## Footer
+---
 
-**Curated by NerdyChefs** - Enterprise AI prompt engineering for Microsoft Copilot
+**Made with care by [NerdyChefs.ai](https://nerdychefs.ai)**
 
-For more prompts and resources, visit the [awesome-microsoft-copilot-prompts](https://github.com/nerdychefs/awesome-microsoft-copilot-prompts) repository.
+[← Back to Main Collection](../../README.md) | [Browse All Prompts](../README.md)
+
+For the complete library of 1300+ AI prompts, visit [nerdychefs.ai](https://nerdychefs.ai)
