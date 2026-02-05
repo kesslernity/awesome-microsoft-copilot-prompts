@@ -11,7 +11,6 @@
 - [Quick Start](#-quick-start---universal-prompts)
 - [Browse by Category](#-browse-by-category)
 - [How to Use](#-how-to-use-these-prompts)
-- [Enterprise Deployment](#-enterprise-deployment)
 - [Contributing](#-contributing)
 
 **Why this repo exists:** Most AI prompt libraries are generic ChatGPT recycling. This collection focuses exclusively on **Microsoft Copilot** across Office 365 apps, built from real enterprise deployments and proven in production environments.
