@@ -43,7 +43,6 @@
 | **Access emails automatically** | ❌ No (need to export/paste) | ✅ Yes (Outlook integration) |
 | **Teams integration** | ⚠️ Limited (need to paste conversations) | ✅ Yes (full Teams access) |
 | **Cross-app workflows** | ❌ No | ✅ Yes (Excel → PowerPoint → Outlook) |
-| **Cost** | Included with M365 Enterprise plans | $30/user/month (+ M365 Business Standard or higher) |
 
 **Note:** Our [Quick Start prompts](prompts/QUICK-START.md) (50 prompts) work in both tiers, plus ChatGPT and free Copilot (copilot.microsoft.com). They don't require organizational data access.
 
@@ -195,7 +194,6 @@ Prompts that require:
 - ✅ Can access your data automatically (no upload needed)
 - ✅ Edit files directly
 - ✅ Send emails, schedule meetings
-- Costs $30/user/month (requires M365 Business Standard or higher)
 
 **Quick Test:**
 - Open Outlook → See Copilot icon in toolbar? = **M365 Copilot** ✅
