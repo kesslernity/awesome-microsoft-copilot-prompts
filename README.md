@@ -9,6 +9,19 @@ A curated collection of **365 production-tested Microsoft Copilot prompts** for 
 
 > Stop staring at the blank Copilot box. 365 enterprise-tested prompts that actually work—organized by role, not random categories.
 
+## 📬 AI at Work Newsletter
+
+Biweekly briefing: what shipped in GenAI, tested M365 Copilot prompts for one role, and one insight you won't find in a changelog. 4-minute read. Verified facts only.
+
+**What you get every two weeks:**
+- **What Happened** — 3-4 verified GenAI news items that affect how you work (source-linked, fact-checked)
+- **Prompts That Work** — 3-5 role-specific M365 Copilot prompts tested on real teams (plus what didn't work)
+- **The Takeaway** — One insight on human+AI collaboration that changes how you think about your workflow
+
+👉 **[Subscribe free](https://newsletter.kesslernity.com)** — no spam, no fluff, unsubscribe anytime.
+
+---
+
 ## 🧭 Contents
 
 - 📊 [Quick Stats](#-quick-stats)
