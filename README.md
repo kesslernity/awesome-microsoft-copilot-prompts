@@ -20,6 +20,11 @@ Biweekly briefing: what shipped in GenAI, tested M365 Copilot prompts for one ro
 
 👉 **[Subscribe free](https://newsletter.kesslernity.com)** — no spam, no fluff, unsubscribe anytime.
 
+## 🎓 Free AI Course
+
+Want to go beyond prompts? **AI Quick Start Essentials** is a free 35-minute course covering responsible AI use and practical human+AI collaboration workflows.
+
+👉 **[Start the free course](https://trainings.kesslernity.com)** .
 ---
 
 ## 🧭 Contents
