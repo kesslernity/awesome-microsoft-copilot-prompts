@@ -5,9 +5,9 @@
 [![License](https://img.shields.io/badge/license-CC%20BY--SA%204.0-blue)](/LICENSE)
 [![Enterprise](https://img.shields.io/badge/enterprise-tested-purple)](https://kesslernity.com)
 
-A curated collection of **365 production-tested Microsoft Copilot prompts** for enterprise professionals. From inbox intelligence to role-specific workflows, these prompts help you get the most out of Microsoft 365 Copilot.
+A curated collection of **365+ production-tested Microsoft Copilot prompts** for enterprise professionals. From inbox intelligence to role-specific workflows, these prompts help you get the most out of Microsoft 365 Copilot.
 
-> Stop staring at the blank Copilot box. 365 enterprise-tested prompts that actually work—organized by role, not random categories.
+> Stop staring at the blank Copilot box. 365+ enterprise-tested prompts that actually work—organized by role, not random categories.
 
 ## 📬 AI at Work Newsletter
 
