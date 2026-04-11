@@ -24,30 +24,27 @@ Scheduled prompts run against your Outlook email, calendar, and Teams data. They
 
 ## How to Set Up a Scheduled Prompt
 
-**5 steps, under 2 minutes:**
+**4 steps, under 2 minutes:**
 
-**Step 1 — Open Copilot Chat**  
-Go to [m365.cloud.microsoft/chat](https://m365.cloud.microsoft/chat) or open Copilot in Microsoft Teams.
+**Step 1 — Run the prompt once**  
+Go to [m365.cloud.microsoft/chat](https://m365.cloud.microsoft/chat) or open Copilot in Microsoft Teams. Paste any prompt from this collection and send it. Let it run to completion.
 
-**Step 2 — Type your prompt**  
-Paste any prompt from this collection into the message field. Do not send it yet.
+**Step 2 — Open the schedule option**  
+Hover over the prompt in your chat history. Select **Schedule this prompt**.
 
-**Step 3 — Open the schedule menu**  
-Click the **clock icon** next to the send button, or click the three-dot menu (···) and select **Schedule**.
+**Step 3 — Configure the schedule**  
+Set your preferences:
+- **Time** — e.g. every weekday at 08:00 (your local timezone)
+- **Frequency** — Daily or Weekdays only
+- **Notifications** — optional email when the result is ready
 
-**Step 4 — Set the schedule**  
-Choose your frequency:
-- **Daily** — runs every day at the time you set
-- **Weekly** — choose specific days (e.g. every Monday)
-- **Weekdays only** — Monday through Friday
-
-Set the time. Set your notification preference (Teams message, email, or in-app only).
-
-**Step 5 — Save**  
-Click **Save schedule**. The prompt is now active. Results appear in your Copilot chat history each time it runs.
+**Step 4 — Save**  
+Click **Save**. The prompt is now active. Results appear in your Copilot chat history each time it runs.
 
 **To manage or delete scheduled prompts:**  
 Copilot Chat → click your profile or the settings icon → **Scheduled prompts**.
+
+**Source:** [Microsoft Support — Schedule Copilot prompts](https://support.microsoft.com/en-us/topic/schedule-copilot-prompts-29dfd5fb-211a-4515-88a6-730b8074e489)
 
 ---
 
