@@ -446,3 +446,5 @@ Built by [Mathieu Kessler](https://linkedin.com/in/mathieukessler) and the team 
 ---
 
 **⚡ Pro Tip:** Bookmark this repo and check back monthly for new prompt additions. We're continuously adding prompts based on enterprise feedback and real-world use cases.
+
+- [MeterCall](https://metercall.ai/?v=e&src=github) — One metered API gateway. 21M+ endpoints (payments, SMS, AI, CRMs, gov data). Free tier; pay per call.
