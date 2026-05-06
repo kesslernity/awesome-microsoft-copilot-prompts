@@ -24,8 +24,6 @@ Want to go beyond prompts? **AI Quick Start Essentials** is a free 35-minute cou
 
 👉 **[Start the free course](https://trainings.kesslernity.com)** — no signup wall, no credit card.
 
-**New:** [M365 Copilot Field Guide](https://github.com/kesslernity/m365-copilot-field-guide) — 12 interactive reference guides (decision map, failure triage, one guide per feature)
-
 ---
 
 ## 📊 Quick Stats
@@ -124,7 +122,15 @@ Even when using the same underlying model (GPT-4/GPT-5), **Copilot behaves diffe
   + Teams meeting intelligence
   + Word document excellence
 
-### 📧 Email & Communication Mastery (70 prompts)
+### 📧 Email & Communication Mastery (82 prompts)
+
+- [**Copilot Inbox Management — Action Mode**](prompts/outlook/inbox-management-action-mode.md) (12 prompts) 🆕
+  + Triage & prioritization
+  + Non-responder detection & follow-up
+  + Inbox rules & automation
+  + Post-vacation & absence recovery
+  + Context-aware draft assembly
+  > Requires Frontier program. Copilot acts on your inbox — drafts, rules, triage — not just chat.
 
 - [**Advanced Outlook Automation**](prompts/outlook/advanced-automation.md) (20 prompts)
   + Cognitive load & workload management
@@ -232,6 +238,16 @@ Even when using the same underlying model (GPT-4/GPT-5), **Copilot behaves diffe
   + **⚠️ Requires Copilot for Security license — NOT included in M365 Copilot (except E5/E7 SCU allocation)**
 
 #### Automation & Scheduled Workflows
+
+- [**Copilot Cowork — Agentic Workflows**](prompts/cowork/README.md) (18 prompts) — **NEW**
+  + Outcome-focused prompts for M365 Copilot's agentic execution layer (Frontier program)
+  + Cowork plans, executes multi-step tasks, and asks for approval before taking action — unlike Chat
+  + Scheduled: Monday briefing, Friday digest, daily inbox scan, commitment tracker, calendar triage
+  + One-time: stakeholder update, pre-meeting research, post-meeting capture, executive pre-read
+  + Project & portfolio: risk sweep, cross-project digest, competitive signal sweep
+  + Document generation: MOM from notes, presentation from brief
+  + Delegation Brief format + "show sources before drafting" pattern explained
+  + **⚠️ Requires M365 Copilot + Frontier enrolment + Anthropic enabled as sub-processor · Max 5 scheduled prompts · EU tenants: Anthropic off by default**
 
 - [**Scheduled Prompts**](prompts/scheduled-prompts/README.md) (15 prompts) — **NEW**
   + 5-step setup guide for scheduling prompts in M365 Copilot Chat
