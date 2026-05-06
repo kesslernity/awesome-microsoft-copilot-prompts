@@ -1,0 +1,372 @@
+# Copilot Cowork — Research & Synthesis Workflows
+
+> Prompts that pull, synthesise, and structure information from across your M365 environment. These produce read-only outputs — Cowork searches and drafts; you review before any action is taken.
+
+[← Back to Cowork Collection](README.md) | [← Back to Main Collection](../../README.md)
+
+---
+
+## Requirements
+
+> **REQUIRES:** Microsoft 365 Copilot licence + Frontier program enrolment + Anthropic sub-processor enabled. See [README.md](README.md) for full setup details.
+
+---
+
+## Meeting & Stakeholder Prep
+
+### 6. Pre-Meeting Research Brief
+
+**Use Case:** Walk into any meeting fully prepared — know what was last discussed, what's open, and what they're likely to raise.
+
+**Target Personas:** Account Manager, Project Manager, Executive, Consultant
+
+**Tags:** `cowork`, `frontier`, `meeting-prep`, `outlook`, `teams`, `calendar`
+
+**Prompt:**
+```
+I have a meeting with [Name] at [Company/Team] coming up. Search all my emails, Teams messages, and meeting notes involving them from the last 90 days. Produce a pre-meeting brief:
+- The last 3 topics we discussed — newest first
+- Any open items or commitments on either side — list each with the date it was raised
+- The tone and direction of the last exchange — positive, tense, neutral, transactional
+- One thing I should bring up proactively based on what you found
+
+Show me the source messages you are drawing from before writing the brief, so I can verify accuracy. Keep the final brief under 150 words. Do not send or post anything.
+```
+
+**Schedulable:** No (requires [Name] variable)
+**Skills used:** Email, Meetings, Enterprise Search
+**Approval required:** No (read-only output)
+
+---
+
+### 7. Stakeholder Update — Multi-Step
+
+**Use Case:** Prepare a structured stakeholder update by letting Cowork find the relevant content first, then draft from verified sources. The "show sources before drafting" instruction is the key line — without it, Cowork may skip straight to drafting.
+
+**Target Personas:** Project Manager, Account Manager, Program Lead
+
+**Tags:** `cowork`, `frontier`, `stakeholder`, `agentic`, `outlook`, `teams`
+
+**Prompt:**
+```
+I need to prepare a stakeholder update for [project or initiative name]. Do the following in sequence:
+
+Step 1: Search my emails and Teams from the last 2 weeks for any updates, blockers, or decisions related to this project. Show me what you found — the actual message subjects, senders, and key content — before moving to Step 2.
+
+Step 2: From what you found, identify the 3 most important developments to highlight.
+
+Step 3: Draft a 5-bullet stakeholder update in this format:
+- What happened (the facts)
+- What is next (next actions and owner)
+- What needs a decision (anything blocked waiting on someone)
+- Key risks or concerns
+- Suggested subject line for the email
+
+Do not send anything. Present the draft for my review.
+```
+
+**Schedulable:** No (requires project name variable)
+**Skills used:** Email, Teams, Communications
+**Approval required:** Yes — review draft before sending
+
+---
+
+### 8. Post-Meeting Action Capture
+
+**Use Case:** Immediately after a meeting, convert notes and transcript into assigned tasks and a recap email — without doing it manually.
+
+**Target Personas:** Project Manager, Team Lead, Consultant, Executive Assistant
+
+**Tags:** `cowork`, `frontier`, `meeting-follow-up`, `teams`, `outlook`
+
+**Prompt:**
+```
+I just finished a meeting with [attendees/team]. Search for the Teams meeting transcript or my notes from the last 2 hours. Produce:
+
+1. A structured list of action items — each with: what needs to be done, who owns it, and any deadline mentioned
+2. A recap email draft to all attendees with: key decisions made, action items with owners, open questions, and next meeting date if mentioned
+
+Show me the action item list first. After I confirm it is accurate, show me the email draft. Do not send the email until I explicitly approve it and confirm the recipient list.
+```
+
+**Schedulable:** No
+**Skills used:** Email, Meetings, Communications
+**Approval required:** Yes — email send requires explicit approval
+
+---
+
+### 9. Executive Pre-Read
+
+**Use Case:** Before meeting with a senior stakeholder or exec, get a concise picture of the relationship, recent context, and what they care about.
+
+**Target Personas:** Account Manager, Business Developer, Project Manager, Consultant
+
+**Tags:** `cowork`, `frontier`, `executive`, `meeting-prep`, `outlook`, `teams`
+
+**Prompt:**
+```
+I am meeting with [Name], [Title], at [Organisation] on [date]. Search my emails, Teams messages, and calendar entries involving them or their organisation from the last 6 months. Produce an executive pre-read:
+- Last 3 topics or decisions involving them — what was the outcome of each
+- Any open asks, commitments, or concerns on either side
+- What they have said they care about or are focused on — use their exact words where possible, not paraphrases
+- Any signals about priorities, pressures, or agenda items for this meeting
+
+Keep this under 200 words. Do not send or post anything.
+```
+
+**Schedulable:** No
+**Skills used:** Email, Meetings, Enterprise Search
+**Approval required:** No (read-only output)
+
+---
+
+## Project & Portfolio Management
+
+### 10. Project Status Digest — Across All Active Projects
+
+**Use Case:** Get a cross-project status overview by letting Cowork sweep all recent communications rather than chasing each project lead.
+
+**Target Personas:** PMO Director, Program Manager, Portfolio Lead
+
+**Tags:** `cowork`, `frontier`, `project-management`, `portfolio`, `outlook`, `teams`
+
+**Prompt:**
+```
+Search my emails and Teams messages from the last 7 days. Across all active projects I am involved in, identify and summarise:
+- Projects where something notable happened — decision, blocker, escalation, or milestone
+- Projects that have gone quiet — no communication in the last 5+ days
+- Any deadline or milestone mentioned that falls within the next 14 days
+- Any open risk or issue flagged but not yet resolved
+
+Group by project. For each project use maximum 3 bullet points. Flag any project that needs my attention this week. Do not send or post anything.
+```
+
+**Schedulable:** Yes — Monday 8:00 AM
+**Skills used:** Email, Teams, Enterprise Search
+**Approval required:** No (read-only output)
+
+---
+
+### 11. Risk and Blocker Sweep
+
+**Use Case:** Surface every risk, blocker, or escalation mentioned across your communications before it reaches you in a meeting.
+
+**Target Personas:** Project Manager, Program Lead, PMO
+
+**Tags:** `cowork`, `frontier`, `risk`, `blockers`, `outlook`, `teams`
+
+**Prompt:**
+```
+Search my emails and Teams messages from the last 10 days. Find every instance where someone raised a risk, blocker, issue, delay, concern, or escalation — including phrases like "at risk", "blocked", "delayed", "concerned about", "issue with", "problem", "stuck", "waiting on". For each one:
+- What is the risk or blocker
+- Who raised it and when
+- What project or workstream it relates to
+- Whether there is any evidence it has been resolved
+
+Sort by date — most recent first. Do not infer — only surface items explicitly stated in the communications. Do not send or post anything.
+```
+
+**Schedulable:** Yes — Friday 3:00 PM
+**Skills used:** Email, Teams
+**Approval required:** No (read-only output)
+
+---
+
+## Document Generation
+
+### 12. Document from Meeting Notes
+
+**Use Case:** Turn raw meeting notes or a transcript into a finished Word document — briefing, MOM, or decision record.
+
+**Target Personas:** Project Manager, Executive Assistant, Consultant, Analyst
+
+**Tags:** `cowork`, `frontier`, `document`, `word`, `meeting-notes`
+
+**Prompt:**
+```
+I am attaching my notes from [meeting name] on [date]. [Attach file]
+
+Using these notes, create a Word document formatted as a Minutes of Meeting / Decision Record with:
+- Meeting: name, date, attendees
+- Context: one-paragraph summary of why this meeting was held
+- Key decisions: each on its own line with the decision and who made it
+- Action items: what needs to be done, who owns it, deadline if stated
+- Open questions: items discussed but not resolved
+- Next steps: agreed next meeting or follow-up date
+
+Use formal but clear language. Do not invent content not in the notes — if something is unclear, flag it with [CLARIFY] rather than guessing. Save as a Word document and show me the draft before saving.
+```
+
+**Schedulable:** No
+**Skills used:** Word, Meetings
+**Approval required:** Yes — review before saving
+
+---
+
+### 13. Presentation from Brief
+
+**Use Case:** Turn a written brief or set of bullet points into a structured PowerPoint deck.
+
+**Target Personas:** Project Manager, Consultant, Executive, Sales
+
+**Tags:** `cowork`, `frontier`, `powerpoint`, `presentation`, `document`
+
+**Prompt:**
+```
+I am attaching a brief for [presentation name / audience]. [Attach file]
+
+Using this brief, create a PowerPoint presentation with the following structure:
+- Slide 1: Title and context (what this presentation is and why it matters)
+- Slides 2–4: The three main points — one key message per slide, supporting evidence below
+- Slide 5: Implications or recommendations
+- Slide 6: Next steps and owner for each
+
+Use clean, minimal formatting. Each slide should have a single headline that stands alone as a sentence — not a label. Speaker notes on every slide with the key point to make verbally. Show me an outline of the slides before building the deck so I can confirm the structure.
+```
+
+**Schedulable:** No
+**Skills used:** PowerPoint
+**Approval required:** Yes — confirm outline before deck is built
+
+---
+
+## Research & Analysis
+
+### 14. Deep Research — Multi-Source Synthesis
+
+**Use Case:** Compile a research brief from both internal M365 data and external sources on a specific topic, company, or technology.
+
+**Target Personas:** Consultant, Analyst, Business Developer, Executive
+
+**Tags:** `cowork`, `frontier`, `research`, `deep-research`, `enterprise-search`
+
+**Prompt:**
+```
+I need a research brief on [topic, company, or technology]. Do the following in sequence:
+
+Step 1: Search my emails, Teams, and SharePoint for any internal content we already have on this topic. Show me what you found before continuing.
+
+Step 2: Search external sources for recent developments — focus on facts, announcements, and concrete data. No opinion pieces.
+
+Step 3: Synthesise both into a research brief with:
+- What we already know internally (from Step 1)
+- What is new or has changed recently (from Step 2)
+- The 3 most important things to understand about this topic right now
+- Gaps — what we do not know that we should
+
+Cite every source. Flag any claim you are not confident about with [VERIFY]. Do not send or post anything.
+```
+
+**Schedulable:** No (requires topic variable)
+**Skills used:** Deep Research, Enterprise Search, Email, Teams
+**Approval required:** No (read-only output)
+
+---
+
+### 15. Competitive Signal Sweep
+
+**Use Case:** Find every mention of competitors or alternatives across your recent communications — before a renewal, pitch, or strategy review.
+
+**Target Personas:** Account Manager, Sales, Business Developer, Strategy Lead
+
+**Tags:** `cowork`, `frontier`, `competitive`, `research`, `outlook`, `teams`
+
+**Prompt:**
+```
+Search my emails and Teams messages from the last 90 days. Find every mention of a competitor, alternative solution, or vendor comparison — including company names, product names, and phrases like "evaluating alternatives", "looking at other options", "comparing with", "also talking to". For each mention:
+- What was said and by whom
+- The date and context
+- Whether it was raised by a customer, colleague, or external party
+- Whether there is any follow-up or resolution in the thread
+
+Do not infer — only surface explicit mentions. Do not send or post anything.
+```
+
+**Schedulable:** No
+**Skills used:** Email, Teams, Enterprise Search
+**Approval required:** No (read-only output)
+
+---
+
+### 16. New Colleague or Stakeholder Onboarding Brief
+
+**Use Case:** Before working with someone new, quickly understand who they are based on your org's existing communications and their public profile.
+
+**Target Personas:** Manager, Project Manager, Executive, Account Manager
+
+**Tags:** `cowork`, `frontier`, `onboarding`, `stakeholder`, `research`
+
+**Prompt:**
+```
+I am about to start working with [Name] who is joining [team/project/organisation]. Search my emails and Teams for any existing context about them — past exchanges, mentions by colleagues, or project history. Also search externally for their professional background.
+
+Produce a brief covering:
+- What we already know about them internally (roles, projects, interactions)
+- Their professional background based on public sources
+- Any relevant context I should know before our first meeting
+- One question worth asking them to build rapport early
+
+Keep this under 200 words. Do not send or post anything.
+```
+
+**Schedulable:** No
+**Skills used:** Enterprise Search, Email, Teams, Deep Research
+**Approval required:** No (read-only output)
+
+---
+
+## Calendar Management
+
+### 17. Weekly Calendar Triage
+
+**Use Case:** Delegate your weekly calendar review — surface conflicts, low-value meetings, and missing focus time — then approve changes.
+
+**Target Personas:** Executive, Manager, Senior Individual Contributor
+
+**Tags:** `cowork`, `frontier`, `calendar`, `time-management`, `schedulable`
+
+**Prompt:**
+```
+Review my Outlook calendar for the next 7 days. Identify:
+- Any scheduling conflicts — two or more events at the same time
+- Meetings with no agenda or context in the invite that I own — list them so I can add context or cancel
+- Days with no focus time (blocks of 90+ uninterrupted minutes) — suggest where to add focus blocks
+- Any meeting I have accepted that appears low-value based on the invite content
+
+For each issue you identify, propose a specific action: decline, reschedule, add focus block, or request agenda. Present all proposed changes for my approval before making any calendar modifications. Do not accept, decline, or reschedule anything without my explicit go-ahead for each item.
+```
+
+**Schedulable:** Yes — Sunday evening or Monday 6:30 AM (run before Monday briefing)
+**Skills used:** Calendar Management, Scheduling
+**Approval required:** Yes — all calendar changes require explicit approval
+
+---
+
+### 18. Recurring Meeting Preparation — Automated
+
+**Use Case:** For a meeting that recurs every week or two, automatically pull the relevant context before each occurrence.
+
+**Target Personas:** Project Manager, Team Lead, Account Manager
+
+**Tags:** `cowork`, `frontier`, `meeting-prep`, `recurring`, `schedulable`, `outlook`, `teams`
+
+**Prompt:**
+```
+Before every [meeting name, e.g. "GenAI Biweekly Review"] — which recurs on [day and time] — do the following automatically 30 minutes before it starts:
+
+Search my emails and Teams for anything related to [topic/project] from the last 14 days. Produce:
+- New developments since the last meeting
+- Open items from previous meeting notes that are still unresolved
+- Anything I should raise proactively today
+- One question worth asking the group
+
+Keep this under 100 words. Deliver as a message to me only. Do not send or post to any other recipient.
+```
+
+**Schedulable:** Yes — set to 30 minutes before each recurrence
+**Skills used:** Email, Teams, Meetings, Calendar Management
+**Approval required:** No (read-only output)
+
+---
+
+*Part of the [Copilot Cowork collection](README.md) — [awesome-microsoft-copilot-prompts](https://github.com/kesslernity/awesome-microsoft-copilot-prompts) by [NerdyChefs.ai](https://www.nerdychefs.ai)*
