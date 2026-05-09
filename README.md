@@ -18,6 +18,12 @@ Tested prompts for Microsoft 365 Copilot. One role at a time. Plus verified GenA
 
 👉 **[Subscribe free](https://newsletter.kesslernity.com)** — no spam, no fluff, unsubscribe anytime.
 
+## 🥘 The Prompt Pantry — Weekly from NerdyChefs.ai
+
+The site gives you the prompts. The newsletter gives you the judgment, when to use them, how to sequence them, and why one approach works where another fails. Weekly. Free. Always.
+
+👉 **[Subscribe free](https://pantry.nerdychefs.ai)**
+
 ## 🎓 Free AI Course
 
 Want to go beyond prompts? **AI Quick Start Essentials** is a free 35-minute course covering responsible AI use and practical human+AI collaboration workflows.
