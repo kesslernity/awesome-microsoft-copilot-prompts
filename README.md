@@ -30,6 +30,12 @@ Want to go beyond prompts? **AI Quick Start Essentials** is a free 35-minute cou
 
 👉 **[Start the free course](https://trainings.kesslernity.com)** — no signup wall, no credit card.
 
+## 📦 M365 Copilot Practitioner Kit
+
+Running a Copilot deployment for a team or org? The **[M365 Copilot Practitioner Kit](https://kesslermathieu.gumroad.com/l/kpfpi)** packages everything a deployment lead needs: 26 field guides, a 90-day rollout roadmap, 10 paste-ready agent templates, a governance checklist, and an ROI conversation template for the budget meeting.
+
+👉 **[Get the kit →](https://kesslermathieu.gumroad.com/l/kpfpi)** — built for IT admins and Copilot champions who need more than prompts.
+
 ---
 
 ## 📊 Quick Stats
