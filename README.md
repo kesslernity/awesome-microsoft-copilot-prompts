@@ -38,6 +38,17 @@ Running a Copilot deployment for a team or org? The **[M365 Copilot Practitioner
 
 ---
 
+## 📘 Beyond the Prompts: The Practitioner Books
+
+Microsoft's CMO for AI at Work cited this repo as "battle-tested in production environments." These two short books are the thinking that earns that — the judgment and the craft underneath the prompts:
+
+- **[When Not to Use AI — A Decision Framework for Teams](https://kesslermathieu.gumroad.com/l/nusvz)** ($29) — the question nobody asks before adding AI to a workflow. A 5-question pre-flight check, a use-case scoring matrix, a 12-signal red-flags checklist, three "no AI" conversation scripts, and a section on applying it all to Microsoft 365 Copilot (grounding, oversharing, the draft-vs-act line, DLP).
+- **[Agent Instruction Block Design Guide](https://kesslermathieu.gumroad.com/l/eyeauo)** ($19) — 12 patterns for Copilot Chat agents that actually work, the 8 ways instruction blocks break, and a reusable scaffold. The craft behind the [52 free Copilot Chat agents](https://github.com/kesslernity/awesome-copilot-chat-agents).
+
+👉 **[Get both — From Decision to Deployment ($39, saves $9)](https://kesslermathieu.gumroad.com/l/oocxx)** — decide where AI belongs, then build it so it works.
+
+---
+
 ## 📊 Quick Stats
 
 - **365 Total Prompts** across 17 specialized collections
