@@ -55,7 +55,7 @@ Microsoft's CMO for AI at Work cited this repo as "battle-tested in production e
 - **26 Power User Prompts** for advanced Copilot mastery
 - **70 Outlook Prompts** for email intelligence and automation
 - **66 Standalone Prompts** for any Copilot version
-- **251 Role-Specific Prompts** covering 15 business functions
+- **267 Role-Specific Prompts** covering 16 business functions
 - **Tested in Production** by thousands of enterprise users
 
 ## 🚀 Quick Start
@@ -189,7 +189,7 @@ Even when using the same underlying model (GPT-4/GPT-5), **Copilot behaves diffe
   + Planning & organization
   + Writing & communication
 
-### 👔 Role-Specific Collections (251 prompts)
+### 👔 Role-Specific Collections (267 prompts)
 
 #### Business Operations & Support
 
@@ -301,6 +301,11 @@ Even when using the same underlying model (GPT-4/GPT-5), **Copilot behaves diffe
   + Prior art research, experiment tracking, literature review
   + Publication planning, competitive research, lab management
   + **Includes ⚠️ R&D Copilot Guardrails + IP & Confidentiality Warnings**
+
+- [**Procurement & Vendor Management**](prompts/role-specific/procurement-vendor.md) (16 prompts) — **NEW**
+  + Sourcing & RFx requirements, tender criteria, supplier comparison prep
+  + Vendor scorecards & risk, due diligence, negotiation prep, spend & savings, renewals
+  + **Includes ⛔ Procurement Copilot Guardrails — "Copilot prepares; procurement decides and awards"**
 
 - [**Supply Chain & Logistics**](prompts/role-specific/supply-chain-logistics.md) (16 prompts)
   + Supplier management, shipment tracking, inventory optimization
