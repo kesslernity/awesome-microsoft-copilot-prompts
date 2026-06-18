@@ -55,7 +55,7 @@ Microsoft's CMO for AI at Work cited this repo as "battle-tested in production e
 - **26 Power User Prompts** for advanced Copilot mastery
 - **70 Outlook Prompts** for email intelligence and automation
 - **66 Standalone Prompts** for any Copilot version
-- **203 Role-Specific Prompts** covering 12 business functions
+- **251 Role-Specific Prompts** covering 15 business functions
 - **Tested in Production** by thousands of enterprise users
 
 ## 🚀 Quick Start
@@ -189,7 +189,7 @@ Even when using the same underlying model (GPT-4/GPT-5), **Copilot behaves diffe
   + Planning & organization
   + Writing & communication
 
-### 👔 Role-Specific Collections (203 prompts)
+### 👔 Role-Specific Collections (251 prompts)
 
 #### Business Operations & Support
 
@@ -240,10 +240,15 @@ Even when using the same underlying model (GPT-4/GPT-5), **Copilot behaves diffe
 
 #### Corporate Functions
 
-- [**Finance & HR**](prompts/role-specific/finance-hr.md) (18 prompts)
-  + Audit support, budgeting, financial review
-  + HR policy, internal comms, onboarding, employee engagement
-  + **Includes ⚠️ Finance & HR Copilot Guardrails**
+- [**Finance**](prompts/role-specific/finance.md) (16 prompts) — **NEW**
+  + Month-end close prep, variance stories, budget-vs-actual, board & exec reporting
+  + Audit prep, AR/AP, cash & treasury, FP&A assumptions, capex justification
+  + **Includes ⛔ Finance Copilot Guardrails — verify every figure against the GL**
+
+- [**HR & People**](prompts/role-specific/hr-people.md) (16 prompts) — **NEW**
+  + Job descriptions, interview sets, onboarding, performance feedback drafts
+  + Engagement & exit themes, ER case organization, comp research prep, people comms
+  + **Includes ⛔ HR Copilot Guardrails — never decides on people; bias review required**
 
 - [**HSE, Legal & Compliance**](prompts/role-specific/hse-legal-compliance.md) (20 prompts)
   + Safety procedures, incident research, environmental compliance
@@ -255,6 +260,11 @@ Even when using the same underlying model (GPT-4/GPT-5), **Copilot behaves diffe
   + Contract abstraction, clause comparison, redline prep, NDA & policy drafting
   + Obligations tracking, matter status, dispute chronology, regulatory & privacy review
   + **⛔ CRITICAL LEGAL GUARDRAILS - "Copilot retrieves and drafts; lawyers advise and decide"**
+
+- [**IT & Service Desk**](prompts/role-specific/it-service-desk.md) (16 prompts) — **NEW**
+  + Incident & change prep, CAB, runbooks, KB articles, outage & change comms
+  + Service-desk triage, M365/tenant policy research, access context, vendor support
+  + **Includes ⛔ IT Copilot Guardrails — "Copilot researches; IT decides and executes"**
 
 #### Security Operations
 
