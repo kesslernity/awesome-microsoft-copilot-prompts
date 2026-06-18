@@ -1,6 +1,6 @@
 # Role-Specific Copilot Prompts
 
-> 203 production-tested Microsoft Copilot prompts across 12 business functions. Each collection includes governance guardrails.
+> 251 production-tested Microsoft Copilot prompts across 15 business functions. Each collection includes governance guardrails.
 
 [← Back to Main Collection](../../README.md) | [Browse All Prompts](../README.md)
 
@@ -38,10 +38,16 @@
 
 ## Corporate Functions
 
-- [**Finance & HR**](finance-hr.md) — 18 prompts
-  + Audit support, budgeting, financial review, HR policy, onboarding
+- [**Finance**](finance.md) — 16 prompts
+  + Close prep, variance, budget-vs-actual, reporting, audit prep, FP&A, treasury
+- [**HR & People**](hr-people.md) — 16 prompts
+  + Recruiting, onboarding, performance feedback, engagement, ER organization, people comms
 - [**HSE, Legal & Compliance**](hse-legal-compliance.md) — 20 prompts
   + Safety procedures, incident research, environmental compliance, legal research
+- [**In-House Legal & Contracts**](legal-contracts.md) — 18 prompts
+  + Contract abstraction, clause comparison, NDA drafting, obligations & matter tracking, regulatory & privacy review
+- [**IT & Service Desk**](it-service-desk.md) — 16 prompts
+  + Incident & change prep, runbooks, KB articles, outage comms, triage, M365 admin research
 
 ## Operations & Logistics
 
