@@ -55,7 +55,7 @@ Microsoft's CMO for AI at Work cited this repo as "battle-tested in production e
 - **26 Power User Prompts** for advanced Copilot mastery
 - **70 Outlook Prompts** for email intelligence and automation
 - **66 Standalone Prompts** for any Copilot version
-- **267 Role-Specific Prompts** covering 16 business functions
+- **331 Role-Specific Prompts** covering 20 business functions
 - **Tested in Production** by thousands of enterprise users
 
 ## 🚀 Quick Start
@@ -189,7 +189,7 @@ Even when using the same underlying model (GPT-4/GPT-5), **Copilot behaves diffe
   + Planning & organization
   + Writing & communication
 
-### 👔 Role-Specific Collections (267 prompts)
+### 👔 Role-Specific Collections (331 prompts)
 
 #### Business Operations & Support
 
@@ -265,6 +265,26 @@ Even when using the same underlying model (GPT-4/GPT-5), **Copilot behaves diffe
   + Incident & change prep, CAB, runbooks, KB articles, outage & change comms
   + Service-desk triage, M365/tenant policy research, access context, vendor support
   + **Includes ⛔ IT Copilot Guardrails — "Copilot researches; IT decides and executes"**
+
+- [**Data & Analytics**](prompts/role-specific/data-analytics.md) (16 prompts) — **NEW**
+  + Dataset profiling, anomaly exploration, insight & report-commentary drafts
+  + KPI & data-dictionary definitions, report/dashboard requirements, chart advice
+  + **Includes ⛔ Data & Analytics Guardrails — "Copilot explores and drafts; the analyst verifies and concludes"**
+
+- [**Data Privacy (DPO)**](prompts/role-specific/data-privacy.md) (16 prompts) — **NEW**
+  + DPIA & ROPA drafts, DSAR intake & response prep, breach assessment prep
+  + Transfer (TIA) prep, processor due diligence, privacy notices, lawful-basis options
+  + **Includes ⛔ Data Privacy Guardrails — never determines lawfulness, breach notifiability, or DPIA risk; no personal data in prompts**
+
+- [**Trade Compliance**](prompts/role-specific/trade-compliance.md) (16 prompts) — **NEW**
+  + Export classification prep, restricted-party & sanctions screening prep, red-flag review
+  + End-use statements, licence determination & application prep, customs/HS, TCP, audit
+  + **Includes ⛔ Trade Compliance Guardrails — never classifies, screens, or clears; trade compliance decides**
+
+- [**Risk, Ethics & Compliance**](prompts/role-specific/risk-ethics-compliance.md) (16 prompts) — **NEW**
+  + Policy & code-of-conduct drafting, COI & gifts review prep, ABAC third-party due diligence
+  + Speak-up intake, investigation chronology, controls mapping, risk register, board reporting
+  + **Includes ⛔ GRC Guardrails — never rules, finds, or accepts risk; investigations stay confidential**
 
 #### Security Operations
 

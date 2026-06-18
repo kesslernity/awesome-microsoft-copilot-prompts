@@ -1,6 +1,6 @@
 # Role-Specific Copilot Prompts
 
-> 267 production-tested Microsoft Copilot prompts across 16 business functions. Each collection includes governance guardrails.
+> 331 production-tested Microsoft Copilot prompts across 20 business functions. Each collection includes governance guardrails.
 
 [← Back to Main Collection](../../README.md) | [Browse All Prompts](../README.md)
 
@@ -48,6 +48,14 @@
   + Contract abstraction, clause comparison, NDA drafting, obligations & matter tracking, regulatory & privacy review
 - [**IT & Service Desk**](it-service-desk.md) — 16 prompts
   + Incident & change prep, runbooks, KB articles, outage comms, triage, M365 admin research
+- [**Data & Analytics**](data-analytics.md) — 16 prompts
+  + Profiling, insight & report-commentary drafts, KPI & data-dictionary definitions, requirements, viz advice
+- [**Data Privacy (DPO)**](data-privacy.md) — 16 prompts
+  + DPIA, ROPA, DSAR intake & response prep, breach prep, transfers, processor due diligence, privacy notices
+- [**Trade Compliance**](trade-compliance.md) — 16 prompts
+  + Export classification & screening prep, red-flag review, end-use & licence prep, customs, TCP, audit
+- [**Risk, Ethics & Compliance**](risk-ethics-compliance.md) — 16 prompts
+  + Policy drafting, COI & gifts review, ABAC due diligence, speak-up & investigation prep, controls, risk register
 
 ## Operations & Logistics
 
