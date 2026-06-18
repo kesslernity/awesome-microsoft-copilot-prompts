@@ -251,6 +251,11 @@ Even when using the same underlying model (GPT-4/GPT-5), **Copilot behaves diffe
   + **⛔ CRITICAL HSE GUARDRAILS - Safety authorization boundaries**
   + **Includes ⚠️ Legal & IT Copilot Guardrails**
 
+- [**In-House Legal & Contracts**](prompts/role-specific/legal-contracts.md) (18 prompts) — **NEW**
+  + Contract abstraction, clause comparison, redline prep, NDA & policy drafting
+  + Obligations tracking, matter status, dispute chronology, regulatory & privacy review
+  + **⛔ CRITICAL LEGAL GUARDRAILS - "Copilot retrieves and drafts; lawyers advise and decide"**
+
 #### Security Operations
 
 - [**Microsoft Copilot for Security**](prompts/security-copilot/README.md) (35 prompts) — **NEW**
