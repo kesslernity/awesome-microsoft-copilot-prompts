@@ -1,6 +1,6 @@
 # Role-Specific Copilot Prompts
 
-> 251 production-tested Microsoft Copilot prompts across 15 business functions. Each collection includes governance guardrails.
+> 267 production-tested Microsoft Copilot prompts across 16 business functions. Each collection includes governance guardrails.
 
 [← Back to Main Collection](../../README.md) | [Browse All Prompts](../README.md)
 
@@ -51,6 +51,8 @@
 
 ## Operations & Logistics
 
+- [**Procurement & Vendor Management**](procurement-vendor.md) — 16 prompts
+  + Sourcing & RFx, supplier comparison, scorecards, negotiation prep, spend & contract tracking
 - [**Supply Chain & Logistics**](supply-chain-logistics.md) — 16 prompts
   + Supplier management, shipment tracking, inventory optimization, S&OP planning
 
