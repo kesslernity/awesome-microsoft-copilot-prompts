@@ -1,11 +1,11 @@
 # Awesome Microsoft Copilot Prompts 🍳
 
-[![Prompts](https://img.shields.io/badge/prompts-400-blue)](https://nerdychefs.ai)
+[![Prompts](https://img.shields.io/badge/prompts-573-blue)](https://nerdychefs.ai)
 [![Categories](https://img.shields.io/badge/categories-18-green)](https://nerdychefs.ai)
 [![License](https://img.shields.io/badge/license-CC%20BY--SA%204.0-blue)](LICENSE)
 [![Enterprise](https://img.shields.io/badge/enterprise-tested-purple)](https://kesslernity.com)
 
-A curated collection of **400 production-tested Microsoft Copilot prompts** for enterprise professionals. From inbox intelligence to role-specific workflows, these prompts help you get the most out of Microsoft 365 Copilot.
+A curated collection of **573 production-tested Microsoft Copilot prompts** for enterprise professionals. From inbox intelligence to role-specific workflows, these prompts help you get the most out of Microsoft 365 Copilot.
 
 ## 📬 AI at Work Newsletter
 
@@ -43,15 +43,28 @@ Running a Copilot deployment for a team or org? The **[M365 Copilot Practitioner
 Microsoft's CMO for AI at Work cited this repo as "battle-tested in production environments." These two short books are the thinking that earns that — the judgment and the craft underneath the prompts:
 
 - **[When Not to Use AI — A Decision Framework for Teams](https://kesslermathieu.gumroad.com/l/nusvz)** ($29) — the question nobody asks before adding AI to a workflow. A 5-question pre-flight check, a use-case scoring matrix, a 12-signal red-flags checklist, three "no AI" conversation scripts, and a section on applying it all to Microsoft 365 Copilot (grounding, oversharing, the draft-vs-act line, DLP).
-- **[Agent Instruction Block Design Guide](https://kesslermathieu.gumroad.com/l/eyeauo)** ($19) — 12 patterns for Copilot Chat agents that actually work, the 8 ways instruction blocks break, and a reusable scaffold. The craft behind the [52 free Copilot Chat agents](https://github.com/kesslernity/awesome-copilot-chat-agents).
+- **[Agent Instruction Block Design Guide](https://kesslermathieu.gumroad.com/l/eyeauo)** ($19) — 12 patterns for Copilot Chat agents that actually work, the 8 ways instruction blocks break, and a reusable scaffold. The craft behind the [82 free Copilot Chat agents](https://github.com/kesslernity/awesome-copilot-chat-agents).
 
 👉 **[Get both — From Decision to Deployment ($39, saves $9)](https://kesslermathieu.gumroad.com/l/oocxx)** — decide where AI belongs, then build it so it works.
 
 ---
 
+## 🏛️ Organizational Prompts: Import-Ready Starter Library (Preview)
+
+Microsoft 365 Copilot now lets IT admins publish a curated prompt library to the whole tenant, surfaced to users in Copilot Chat, Teams, and Edge. The catch in Microsoft's own rollout: it ships a bulk CSV importer with no prompts in it.
+
+So we carved a starter library from this repo into Microsoft's exact import format.
+
+👉 **[Organizational prompts import pack →](organizational-prompts-import/)**: 44 production-safe prompts across 8 departments (Finance, HR, Sales, Marketing, Project Management, IT, Procurement, Customer Success), a mix of quick everyday prompts and richer structured ones, formatted into Microsoft's `prompt-import-template.csv`. Includes a one-page guide to the limits nobody mentions: the 1,000-prompt cap, the **only 4 can be pinned** reality, the per-field character limits, and the two gotchas that reject an import.
+
+> [!NOTE]
+> This feature is in **Frontier preview** now; general availability is targeted for **July 2026**. The CSV is ready to use, but the admin surface may not be visible in your tenant until your organization has preview or GA access. No new licence: it uses the existing Microsoft 365 Copilot add-on.
+
+---
+
 ## 📊 Quick Stats
 
-- **365 Total Prompts** across 17 specialized collections
+- **573 Total Prompts** across 29 specialized collections
 - **26 Power User Prompts** for advanced Copilot mastery
 - **70 Outlook Prompts** for email intelligence and automation
 - **66 Standalone Prompts** for any Copilot version
@@ -133,7 +146,7 @@ Even when using the same underlying model (GPT-4/GPT-5), **Copilot behaves diffe
 - Vision-first analysis without supporting text
 - Engineering drawings, P&IDs, EPC schematics
 
-## 📚 Complete Collection (365 Prompts)
+## 📚 Complete Collection (573 Prompts)
 
 ### 🎓 Power Users & Advanced Techniques
 
@@ -395,7 +408,7 @@ Using Copilot across your organization? These prompts work even better when depl
 
 ## 🌐 Full Searchable Library
 
-This repo contains **365 prompts** optimized for Microsoft Copilot. For the complete searchable library with:
+This repo contains **573 prompts** optimized for Microsoft Copilot. For the complete searchable library with:
 
 - Advanced filtering by role, use case, and app
 - Copy-to-clipboard functionality

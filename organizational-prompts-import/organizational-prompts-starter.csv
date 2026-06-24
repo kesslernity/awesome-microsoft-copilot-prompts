@@ -1,0 +1,357 @@
+Title,Description,Display Prompt,Prompt Text,Products,Department,Task Type,Locale
+Catch up on month-end close,"Source pack finance.md (Month-End Close Prep). Coordination only: every figure must be confirmed in the GL, Copilot does not connect to the ERP.",Catch me up on open items and blockers for this month's close from my emails and Teams.,"Catch me up on the month-end close for [MONTH]. Search my recent emails and Teams chats and pull together: open items and pending journal entries that people mentioned, accruals or provisions being discussed, late information or blockers from other teams, and anything flagged as a risk to the timetable. Give me a short close-prep checklist grouped by owner. Work only from what is actually in my messages, do not invent figures or dates, and any number you mention is for context only and must be confirmed in the GL.","Copilot web, Copilot work",Finance,Catch up,en-US
+Draft AR collections follow-up,Source pack finance.md (AR / Collections Context). Confirm balances in the ledger; Copilot summaries may be stale. No payment or write-off decisions.,Summarize the collections history for an overdue account so I can prepare a follow-up.,"For the account [CUSTOMER NAME], search my emails for the collections history and summarize: invoices and amounts referenced, any promises to pay and the dates given, disputes or queries raised, and the last contact and its outcome. Keep it to what is actually in the correspondence, write 'not found' where something is missing, and do not invent balances. This is to prepare my follow-up, so confirm all balances in the ledger before I act on them.","Copilot web, Copilot work",Finance,Catch up,en-US
+Build a variance story draft,"Source pack finance.md (Variance Story Draft). Narrative only: no calculations or sign-off. Drivers tagged 'to confirm', figures verified against the GL.",Draft a plain-language explanation of a variance from the emails and notes I provide.,"Act as my FP&A drafting assistant. I have a [FAVOURABLE / ADVERSE] variance of [AMOUNT] in [COST LINE OR AREA] and I want a plain-language explanation I can refine.
+
+Ground your draft only in the emails, meeting notes, and documents I provide or that you can find in my workspace on this topic. Work strictly from what is there. Do not invent drivers, names, figures, or causes. Where the source does not say, write 'not stated in the material' or mark it [VERIFY]. Never present an assumption as a confirmed driver.
+
+Structure the draft as:
+1. One-line summary of the variance in plain English.
+2. Likely drivers, each tagged as one-off or recurring, with a short note of where in the material it came from.
+3. What the business said about the cause, quoting or paraphrasing the source.
+4. Open questions and items to confirm, each marked 'to confirm with [OWNER]'.
+
+This is a narrative draft for me to verify. It does not calculate, finalize, or sign off the variance. The figures and the root cause are mine to confirm against the system of record before this is used or shared. Do not send anything.","Copilot web, Copilot work",Finance,Create,en-US
+Assemble an exec pre-read,"Source pack finance.md (Executive Financial Pre-Read). Every figure sourced or marked [VERIFY]; draft for review, no authoritative numbers, no approvals.","Assemble a one-page pre-read for a finance review from recent reports, emails, and decks.","Act as my finance reporting assistant and assemble a one-page pre-read for the [MEETING NAME] on [DATE], drawing from the recent reports, emails, and decks in my workspace on this topic.
+
+Ground everything only in that existing material. Work strictly from what is there. Do not invent headline numbers, names, dates, or movements. Cite the source document for each figure you include. Where a figure is not yet confirmed in the source, mark it [VERIFY]. If something an attendee will expect is missing, list it as a gap rather than filling it in.
+
+Structure the pre-read as:
+1. Headline results, as reported, each with its source cited.
+2. Key movements and the reason given for each, in plain language.
+3. Risks and decisions needed at the meeting.
+4. Open actions carried over from last time and their status.
+
+Keep it to one page, factual, no spin. This is a draft for me to review and verify before circulating. It does not produce authoritative numbers or approve anything. Do not send it.","Copilot web, Copilot work",Finance,Prepare,en-US
+Prep an audit request response,"Source pack finance.md (Audit Request Response Prep). Prep only: formal evidence from official systems, response requires finance sign-off before reaching auditors.","Draft a response outline with evidence pointers for an audit request, for finance sign-off.","Act as my audit-support assistant. We have received an audit request on [TOPIC] and I want a response outline I can build on.
+
+Search my workspace for the relevant policies and process notes, prior responses on similar items, where supporting evidence is likely held, and any open issues previously raised on this. Ground the outline only in what you actually find. Do not invent policy clauses, dates, document names, or evidence locations. Where you cannot find something, write ""not found"" and list it as an open item to track down, marked [VERIFY], rather than guessing.
+
+Structure the output as:
+1. Restated understanding of what the auditors are asking for.
+2. Draft response points, each with a pointer to where the supporting evidence is likely held.
+3. Relevant policies or process notes found, cited.
+4. Open items and evidence still to locate.
+
+Formal audit evidence must come from the official systems, not from this summary. This is a preparation draft only. The response must be reviewed and signed off by finance before anything goes to the auditors. Do not send it.","Copilot web, Copilot work",Finance,Prepare,en-US
+Find an HR policy,"Source pack hr-people.md (Policy Research / FAQ). Summary only: verify current policy version, route edge cases to HR, no interpretation or determinations.",Search SharePoint for HR policies on a topic and summarize the key provisions for me.,"Search SharePoint for HR policies related to [TOPIC, e.g. remote work or leave of absence]. List the policy documents you find, their effective dates if stated, and a short summary of the key provisions of each. Work only from the documents you actually find, do not paraphrase beyond what they say, and do not interpret edge cases. I need this to answer an employee question and I will verify the current policy version before I respond.","Copilot web, Copilot work",HR,Find,en-US
+Draft an interview question set,"Source pack hr-people.md (Interview Question Set). Interviewer aid only: no scoring, ranking, or hiring decisions; those stay with the panel.",Generate competency-based interview questions and follow-up probes from a job description.,"From this job description, generate a competency-based interview set: [PASTE JOB DESCRIPTION]. For each key competency, give 2 to 3 behavioural questions and a follow-up probe, plus a short note on what a strong versus a weak answer looks like. Keep questions job-relevant and non-discriminatory. This is for the interviewer to use. It does not score, rank, or decide on any candidate. The scoring and the hiring decision stay with the panel.","Copilot web, Copilot work",HR,Create,en-US
+Draft a job description,"Source pack hr-people.md (Job Description Draft). Inclusive-language draft only, gaps marked [TBC]; hiring manager reviews and owns, no hiring commitment.","Draft an inclusive job description from a role brief, marked DRAFT for hiring-manager review.","Act as my recruiting drafting assistant and write a job description for [ROLE] from this brief: [PASTE BRIEF].
+
+Ground the description only in the brief I provide and any role information in my workspace. Work strictly from what is there. Do not invent responsibilities, qualifications, salary figures, reporting lines, or benefits that are not in the source. Where a standard section is missing from the brief, mark it [TBC] rather than filling it in.
+
+Structure the draft as:
+1. Role purpose in two or three sentences.
+2. Key responsibilities.
+3. Requirements, split into must-have and nice-to-have.
+4. Our EVP and what makes the role attractive, only using points present in the source.
+
+Use inclusive, plain language. Avoid gendered, age-coded, or exclusionary terms. Label the whole thing 'DRAFT, for hiring manager review.' This prepares a draft for a human to review and own. It does not post the role or make any hiring commitment. Do not send or publish it.","Copilot web, Copilot work",HR,Create,en-US
+Summarize engagement themes,"Source pack hr-people.md (Engagement Survey Theme Summary). Neutral themes only, anonymized, no attribution; action planning and people decisions stay human.","Summarize recurring themes from open-text engagement comments, anonymized, for the people team.","Act as my people-insights assistant and summarize the themes in the open-text comments I provide or reference: [PASTE OR REFERENCE COMMENTS].
+
+Work strictly from the comments themselves. Do not invent themes, do not exaggerate how common something is, and do not attribute any comment to a named individual. If a sentiment appears only once, say so rather than presenting it as a pattern. Where a topic is not in the comments, write ""not found"" rather than inferring it, and mark anything ambiguous [VERIFY].
+
+Structure the summary as:
+1. Top recurring themes, each with a rough sense of how often it appears.
+2. Positive signals worth noting.
+3. Concerns or frustrations raised.
+4. A few notable verbatim examples, anonymized and stripped of any identifying detail.
+
+Keep it neutral and factual. This is input for the people team to discuss, not a conclusion about any manager, team, or person, and not an action plan. Action planning and any people decisions stay with the human team. This is a draft for my review. Do not send it.","Copilot web, Copilot work",HR,Analyze,en-US
+Build an onboarding plan,"Source pack hr-people.md (Onboarding Plan Builder). Practical draft, manager-input items [TBC]; no performance, objective-setting, or people decisions.",Build a 30/60/90-day onboarding plan for a new hire from a role brief.,"Act as my onboarding assistant and build a 30/60/90-day onboarding plan for a new [ROLE] starting [DATE]: [PASTE CONTEXT].
+
+Ground the plan in the role context I provide and any relevant onboarding material in my workspace. Work from what is there. Do not invent system names, contacts, training courses, or policies that are not in the source. Where you do not have the detail, leave a clearly marked placeholder rather than guessing.
+
+Structure the plan as:
+1. Pre-arrival setup, things to arrange before day one.
+2. Week one essentials.
+3. Days 1 to 30, key people to meet and first goals.
+4. Days 31 to 60 and 61 to 90, ramp-up goals and check-in points.
+
+Make it practical and specific. Mark anything that needs the manager's input as [TBC]. This is a draft plan for the manager and the new hire to adapt. It does not assign work, set objectives, or make any commitment on the person's behalf. This is a draft for me to review. Do not send it.","Copilot web, Copilot work",HR,Prepare,en-US
+Watch contract renewals,"Source pack procurement-vendor.md (Contract Renewal & Expiry Watch). Action list only, uncertainties flagged 'verify in contract'; no renew/re-tender recommendation.","List supplier contracts with renewals or notice deadlines coming up, sorted by soonest.","From our contract register or repository in SharePoint, list supplier contracts with renewals or expiries in the next [TIMEFRAME]. For each, give the supplier and contract, the expiry or renewal date, the notice deadline, whether it auto-renews (Yes / No / Unknown), and the owner. Work only from what the documents actually state, and mark anything unclear 'verify in contract'. Sort by soonest deadline. This is an action list for me to review, not a recommendation to renew or re-tender, and it commits to nothing.","Copilot web, Copilot work",Procurement,Find,en-US
+Draft a supplier message,"Source pack procurement-vendor.md (Supplier Communication Draft). Draft only, no price/award/volume commitment; human reviews and sends.","Draft a neutral supplier-facing message (invite, clarification, or decline) for my review.","Draft a [RFI INVITATION / CLARIFICATION REQUEST / UNSUCCESSFUL-BIDDER NOTICE / ONBOARDING REQUEST] to [SUPPLIER]: [CONTEXT]. Keep it professional and neutral. Make no price, award, or volume commitment of any kind. For a decline, keep it courteous and non-specific on the reasons. Use only the facts I provide, do not invent details, and mark anything you are unsure of [VERIFY]. This is a draft for me to review and send myself. Do not send it.","Copilot web, Copilot work",Procurement,Create,en-US
+Compare supplier responses,"Source pack procurement-vendor.md (Supplier Response Comparison Prep). Matrix from supplier wording only; no scoring, ranking, or award, those stay with the panel.","Organize supplier responses into a comparison matrix against our requirements, for the panel.","Act as my bid-comparison assistant. Organize the supplier responses I reference into a comparison matrix against our requirements: [REFERENCE THE RESPONSES AND REQUIREMENTS].
+
+Ground every cell only in what the suppliers actually wrote and what our requirements actually say. Work strictly from the source documents. Do not infer capabilities a supplier did not claim, do not fill blanks, and do not soften or sharpen what they said. Quote or cite the supplier's own wording for each point. Where a supplier did not respond to a requirement, write ""not found"" and mark it clearly as a gap or non-response. Mark anything ambiguous [VERIFY].
+
+Structure the output as a matrix:
+1. One row per requirement, one column per supplier.
+2. In each cell, what that supplier offered, quoting or citing their response.
+3. A 'gaps' column listing where each supplier is silent or non-compliant.
+4. Below the matrix, a list of clarification questions to raise with each supplier.
+
+This prepares the evaluation panel's review. It does not score, weight, rank, recommend, or select a winner. Scoring and the award decision stay with the panel under your procurement governance. This is a draft for the panel to verify.","Copilot web, Copilot work",Procurement,Analyze,en-US
+Prep a negotiation brief,"Source pack procurement-vendor.md (Negotiation Prep Brief). Prep only, figures verified against system of record; no mandate, price recommendation, or commitment.","Assemble leverage, history, and talking points for a supplier negotiation from our records.","Act as my negotiation-prep assistant for the negotiation with [SUPPLIER] on [SCOPE].
+
+Gather from my emails, documents, and workspace: the history of prior pricing, terms, and concessions; our spend and dependence on them and their dependence on us; issues and asks each side has raised; and any market or alternative-supplier signals mentioned internally. Ground everything only in what is actually in our records. Do not invent prices, terms, market data, or quotes. Where a figure or fact is not in the source, write 'not found in our records' or mark it [VERIFY]. Confirm any figure against the system of record before relying on it.
+
+Structure the brief as:
+1. Relationship and spend snapshot, sourced.
+2. History of pricing, terms, and concessions.
+3. Leverage points, ours and theirs.
+4. Open issues and likely asks from each side.
+5. Suggested talking points and questions to ask.
+
+This is preparation only. It is not a negotiating mandate, a price recommendation, or an offer, and it commits to nothing. Setting targets, agreeing terms, and any commitment stay with me under our procurement authority. This is a draft for me to review. Do not send it.","Copilot web, Copilot work",Procurement,Prepare,en-US
+Prep a vendor scorecard,Source pack procurement-vendor.md (Vendor Scorecard Prep). Evidence-only structure with ratings left blank; the reviewer sets ratings using system data.,"Compile performance signals into a scorecard structure for a vendor review, ratings left blank.","Act as my vendor-review assistant. For [SUPPLIER], gather from my emails, documents, and notes the performance signals over [PERIOD].
+
+Ground everything only in what those sources actually say. Do not invent incidents, metrics, dates, or quotes. Where you have no evidence for a criterion, write 'no evidence found in the material' rather than guessing. Attribute each point to where it came from so a reviewer can check it.
+
+Organize the output as a scorecard structure:
+1. Delivery and on-time performance, with the evidence found.
+2. Quality and any NCR references, with evidence.
+3. Responsiveness and relationship notes, with evidence.
+4. Commercial and value points, with evidence.
+5. An 'evidence gaps' note listing criteria where the record is thin.
+
+Leave the rating cells blank. Do not assign scores, ratings, or an overall verdict. The ratings are the reviewer's decision, supported by authoritative system data, not by this summary. Note that figures here may be stale and must be confirmed against the system of record. This is a draft for the reviewer to complete and verify.","Copilot web, Copilot work",Procurement,Prepare,en-US
+Account Briefing Pack,PIN: From sales-business-development.md (Account Research Summary). Reminder: research and brief only; AEs close. No pricing/discount/forecast or CRM writes.,"Compile a pre-call briefing on an account from my emails, Teams, and files.","Act as my account research assistant and prepare a pre-call briefing on [Account Name] so I walk into the call fully prepared.
+
+Search my emails, Teams chats, and SharePoint files for everything connected to this account: threads with their team, internal discussions about them, meeting notes, and shared documents.
+
+Grounding and accuracy rules:
+- Work only from what is actually in my data. Do not add general knowledge about the company or industry.
+- If a section has no supporting evidence, write ""not found"" instead of guessing or filling a plausible blank.
+- Never invent stakeholder names, job titles, dates, deal sizes, or commitments. If you are unsure whether a detail is right, mark it [VERIFY] and note where you saw it.
+- When you state something, point to the source (for example, ""per email from [name], March 4"").
+
+Organize the briefing under these numbered headings:
+1. Account snapshot: what they do and our current relationship, in two or three lines
+2. Key stakeholders and their roles, plus who is the main point of contact
+3. Recent interactions and meetings, most recent first, with dates where stated
+4. Open opportunities or deals discussed
+5. Pain points and challenges they raised, in their own words where possible
+6. Competitive mentions and what was said
+7. Commitments made by either side, and who owns each
+8. Open questions and gaps for me to resolve before the call
+
+Keep it factual and skimmable. Do not score, rank, or qualify the account, and do not make pricing, discount, or forecast statements: those live in our CRM and are mine to decide. Copilot researches, I close.
+
+This is a draft briefing for me to verify against the source threads. Do not send anything to anyone.","Copilot web, Copilot work",Sales,Prepare,en-US
+Outreach Email Draft,From sales-business-development.md (Outreach Sequence Draft). Reminder: draft for human edit before sending; no compliance-sensitive or do-not-contact outreach.,"Draft a short, personalized cold outreach email I can edit before sending.","Draft a personalized cold outreach email to [Contact Name], [Title] at [Company Name]. Tie it to their industry, [Industry], and a likely pain point for their role, and connect it to how we help similar companies. Keep it under 150 words, professional, with one clear call to action. Leave placeholders for anything I should personalize. This is a draft for me to edit and verify before sending. Do not send it.","Copilot web, Copilot work",Sales,Create,en-US
+Deal Progress Recap,"From sales-business-development.md (Deal Progress Summary). Reminder: summarize only; no forecast commit, scoring, or pricing figures. CRM is source of truth.",Summarize all correspondence on a deal before my pipeline review.,"Act as my pipeline-prep assistant and recap the [Deal Name] opportunity with [Account Name] so I am ready for my pipeline review.
+
+Search my emails and Teams for all correspondence on this deal: customer threads, internal strategy chats, and any notes shared about it.
+
+Grounding and accuracy rules:
+- Use only what is in my data. Do not infer a stage or status that is not supported by the messages.
+- If a field has no evidence, write ""not found"" rather than assuming.
+- Do not invent decision-maker names, dates, or numbers. Flag anything ambiguous as [VERIFY] with the source.
+- Do not include specific pricing figures. Refer to pricing only as ""discussed"", ""pending"", or ""TBD"". Pull the figures from the CRM yourself later.
+
+Summarize under these numbered headings:
+1. Where the deal stands: the current stage and the next steps that were actually discussed
+2. Decision makers and influencers named, each with their stated position or sentiment
+3. Objections and concerns raised, and how each was answered (or mark it ""open"")
+4. Timeline expectations and key dates mentioned
+5. Competitive threats referenced and what was said
+6. Risks and blockers slowing the deal
+7. What I need to confirm or chase before the review
+
+Keep it tight and evidence-based, citing the thread for each major point. Do not forecast, commit, score, or register this deal: the CRM is the source of truth and the call is mine to make. Copilot summarizes, I decide.
+
+This is a draft recap for me to verify. Do not send it anywhere.","Copilot web, Copilot work",Sales,Catch up,en-US
+Follow-up Nudge,From sales-business-development.md (Meeting Request Follow-up). Reminder: draft for human edit before sending; not pushy; no commitments.,"Draft a short, non-pushy follow-up to a prospect who went quiet.","Draft a short, respectful follow-up to [Contact Name], who has not replied to my last message. Reference my original topic, add one new angle or value point, and offer flexible options. Keep it brief and not pushy. This is attempt [2 or 3], so adjust the tone. Draft only, for me to edit before sending.","Copilot web, Copilot work",Sales,Create,en-US
+Competitive Mentions,"From sales-business-development.md (Competitive Intelligence Search). Reminder: internal research only, human validates; no invented claims; verify with current intel.",Find what a prospect said about a named competitor across my messages.,"Search my emails and files for mentions of [Competitor Name] in relation to [Account Name]. Pull together what the prospect said, any feature or pricing comparisons mentioned, and why we won or lost against them before. Use only what is in my data and write ""not found"" for gaps. Do not invent details. This is research for me to validate against current intel, not a final assessment.","Copilot web, Copilot work",Sales,Find,en-US
+Campaign Feedback Recap,"From marketing-communications.md (Campaign Performance Summary). Reminder: qualitative only; hard metrics from analytics, not Copilot; no invented results.",Pull qualitative campaign feedback from emails and Teams for my review.,"Act as my marketing assistant and pull together the qualitative feedback on the [Campaign Name] campaign so I can prepare for my campaign review.
+
+Search my emails and Teams for discussions about this campaign: stakeholder reactions, internal debriefs, and any feedback forwarded to me.
+
+Grounding and accuracy rules:
+- Work only from what is in my messages. Do not add outside knowledge or assumed results.
+- If a topic was not discussed, write ""not found"" rather than filling it in.
+- Do not invent quotes, names, metrics, or outcomes. Keep quotes verbatim where you find them and attribute each only to the person who said it.
+- Mark anything unclear or second-hand as [VERIFY] with the source thread.
+
+Organize under these numbered headings:
+1. Stated goals and KPIs that were mentioned for the campaign
+2. Qualitative feedback received, grouped as positive and as critical
+3. Issues or challenges raised, noting who raised each
+4. Optimization ideas and suggestions
+5. Stakeholder reactions and sentiment
+6. Open questions and follow-ups
+
+Keep it factual and easy to scan, with a source note next to each major point. Do not report, estimate, or judge actual campaign performance: hard metrics come from our analytics platform, not from email, and the read on results is mine to make. Copilot drafts, I refine.
+
+This is a draft summary for me to verify. Do not send it to anyone.","Copilot web, Copilot work",Marketing,Analyze,en-US
+Blog Outline Starter,From marketing-communications.md (Blog Post Outline). Reminder: outline only; human expands and fact-checks; no medical/financial claims or final SEO.,Draft a blog post outline with headline options I can expand.,"Draft a blog post outline on [Topic] tied to our [Product or Service]. Include three headline options, an intro hook, the main sections with key points under each, and a couple of call-to-action ideas, with [Target Keyword] in mind. Keep claims general where you are unsure and mark anything to verify as [VERIFY]. This is a starting outline for me to expand and fact-check.","Copilot web, Copilot work",Marketing,Create,en-US
+Social Post Variations,From marketing-communications.md (Social Media Copy Draft). Reminder: draft for human review; verify facts; no invented stats; check brand and trademark.,Draft three on-brand social post variations for one announcement.,"Draft three social media post variations for [Platform] about [Topic or Announcement]. Give each a different angle, fit the platform length, and add hashtag and call-to-action options. Match our brand voice based on previous posts. Do not invent stats, claims, or quotes. This is a draft for me to refine and add visuals before posting.","Copilot web, Copilot work",Marketing,Create,en-US
+Marketing Brief Draft,"From marketing-communications.md (Marketing Brief Draft). Reminder: draft only, mark gaps; no budget approval, spend allocation, or final messaging.","Draft a marketing brief from scattered discussions, flagging gaps to confirm.","Act as my marketing assistant and draft a marketing brief for [Project/Campaign Name] from the discussions we have already had.
+
+Search my emails and Teams for context on this project: kickoff threads, stakeholder input, and any planning notes.
+
+Grounding and accuracy rules:
+- Build the brief only from what was actually discussed. Do not pad it with generic best-practice filler.
+- Where something was not agreed or not mentioned, write ""not found"" or ""to confirm"" rather than inventing it.
+- Do not invent budget figures, audience details, names, deadlines, or approved messaging.
+- Mark every assumption or inferred point as [VERIFY] and note where it came from.
+
+Structure the brief under these numbered headings:
+1. Background and objectives discussed
+2. Target audience as described in the threads
+3. Key messages agreed, quoting the source where possible
+4. Channels suggested
+5. Timeline references and any dates mentioned
+6. Budget considerations mentioned, clearly labeled ""as discussed, not approved""
+7. Open decisions and who owns each
+
+At the top, add a one-line note flagging which sections are confirmed versus still open, so I can see the gaps at a glance. Do not approve budget, allocate spend, finalize messaging, or commit the plan: those are decisions for me and the stakeholders. Copilot drafts, marketers refine.
+
+This is a draft brief for me to verify and finalize with stakeholders. Do not send it.","Copilot web, Copilot work",Marketing,Create,en-US
+Internal Announcement,From marketing-communications.md (Internal Announcement Draft). Reminder: draft for HR/leadership review; not an official statement; verify before sending.,Draft an internal announcement for review with HR or leadership.,"Draft an internal announcement about [Topic] for [audience: all employees or a specific team]. Include a clear headline, the key message (what and why), the impact on employees, next steps, and who to contact with questions. Keep the tone [formal or conversational] for our culture. This is a draft for me to review with HR or leadership before sending.","Copilot web, Copilot work",Marketing,Create,en-US
+Customer Health Recap,"PIN: From customer-success-support.md (Customer Health Summary). Reminder: qualitative only; no health score, churn, or renewal forecast. CS platform owns metrics.",Summarize recent interactions with a customer for my account review.,"Act as my customer success assistant and prepare an account-review recap on [Customer Name] so I have the full relationship context in one place.
+
+Search my emails and Teams for all recent interactions with this customer: support threads, check-ins, escalations, and internal discussions about the account.
+
+Grounding and accuracy rules:
+- Ground every point only in what you find in my data. Do not infer satisfaction or risk that the messages do not support.
+- If a topic was not discussed, write ""not found"".
+- Do not invent contacts, dates, sentiment, or renewal figures. Quote brief evidence for tone and sentiment rather than asserting it.
+- Mark anything ambiguous as [VERIFY] with the source.
+
+Summarize under these numbered headings:
+1. Recent conversations and their tone, with a short quote as evidence
+2. Issues or concerns the customer raised
+3. Feature requests and product feedback
+4. Adoption or usage discussions (qualitative only)
+5. Renewal or expansion mentions
+6. Escalations and risk signals, with the specific evidence for each
+7. Follow-ups and commitments I made that are still open
+
+Keep it factual with no speculation beyond what the messages support. Do not calculate a health score, predict churn, or forecast the renewal: those come from our CS platform and are mine to judge. Copilot monitors, I build the relationship.
+
+This is a draft recap for me to verify. Do not send it to the customer or anyone else.","Copilot web, Copilot work",Customer Success,Catch up,en-US
+Support Update Email,From customer-success-support.md (Customer Communication Draft). Reminder: draft for human review; no SLA commitments or invented resolution dates.,Draft an empathetic case update email I can review before sending.,"Draft an update email to [Customer Name] about their support case [Case Reference]. Acknowledge the issue, give the current status and the next steps being taken, and an expected timeline, with a brief apology if appropriate. Keep it professional and empathetic. Use only confirmed status: do not invent a resolution date or commit to one. This is a draft for me to review before sending.","Copilot web, Copilot work",Customer Success,Create,en-US
+Renewal Prep Notes,"From customer-success-support.md (Renewal Preparation). Reminder: context only; no forecast, term commitment, or pricing approval. Contract details in CRM/legal.",Gather renewal context from my messages before renewal planning.,"Act as my renewals-prep assistant and gather the context I need on [Customer Name]'s upcoming renewal before I start renewal planning.
+
+Search my emails and Teams for all discussions tied to this renewal: pricing talk, value conversations, concerns, and any internal notes about the account.
+
+Grounding and accuracy rules:
+- Use only what is in my data. Do not assume terms or positions that the messages do not show.
+- If a point was not discussed, write ""not found"".
+- Do not invent contract terms, prices, dates, or decision-maker positions.
+- Refer to pricing only as ""discussed"", never as a specific figure: I will pull the real numbers from the CRM.
+- Mark anything unclear as [VERIFY] with the source thread.
+
+Compile under these numbered headings:
+1. Contract terms mentioned, labeled ""as discussed""
+2. Value realized and outcomes the customer referenced
+3. Concerns or objections raised, and whether each is open or addressed
+4. Competitive mentions and what was said
+5. Decision makers and their stated positions
+6. Timeline and key dates mentioned
+7. Open items I need to confirm before planning
+
+Keep it evidence-based, with a source note for each major point. Do not forecast the renewal, commit to terms, score the account, or approve pricing: actual contract details live in the CRM, and those decisions are mine and legal's. Copilot tracks, I own the relationship.
+
+This is a draft for me to verify. Do not send it anywhere.","Copilot web, Copilot work",Customer Success,Prepare,en-US
+Handoff Brief,"From customer-success-support.md (Handoff Documentation). Reminder: factual handover only; no contract, pricing, renewal, or compliance decisions.",Compile an account handoff brief from relationship history.,"Act as my transition assistant and compile a handoff brief for [Account Name], which I am moving to a new account manager, so nothing gets lost in the handover.
+
+Search my emails, Teams, and shared files for the relationship history with this account: contacts, initiatives, open issues, and key milestones.
+
+Grounding and accuracy rules:
+- Build the brief only from what you find. Do not fill gaps with assumptions.
+- If something is missing, write ""not found"" rather than guessing.
+- Do not invent contacts, dates, commitments, or status.
+- Mark anything uncertain or second-hand as [VERIFY] with the source.
+
+Structure the brief under these numbered headings:
+1. Account snapshot: who they are and the state of the relationship, in a few lines
+2. Key contacts and current relationship status (champion, neutral, or strained, with evidence)
+3. Ongoing initiatives and where each one stands
+4. Open issues and concerns
+5. Upcoming milestones such as renewals and QBRs, with dates where stated
+6. Historical context: notable wins and challenges
+7. Commitments I made that are still open, with owners and due dates if known
+8. My handover notes and the open questions the new owner should pick up
+
+Make it complete enough that someone new could run the account from it, but keep it factual. Do not make contract, pricing, renewal, or compliance decisions: those stay with the new owner and the relevant systems. Copilot tracks, the account manager owns the relationship.
+
+This is a draft handoff for me to verify before I share it. Do not send it automatically.","Copilot web, Copilot work",Customer Success,Prepare,en-US
+Similar Issue Finder,From customer-success-support.md (Similar Issue Search). Reminder: research to inform troubleshooting; not a confirmed fix; no ticket resolution or KB writes.,Find how we resolved similar past issues to inform troubleshooting.,"Search my emails and Teams for previous discussions about [Issue Type or Error]. Find how we resolved similar issues before, any workarounds that worked, root causes identified, who handled them, and any documentation created. Use only what is in my data and write ""not found"" for gaps. Do not invent fixes. This is research to inform my current troubleshooting, not a confirmed solution.","Copilot web, Copilot work",Customer Success,Find,en-US
+Weekly status report draft,"PIN: From project-leadership.md (Weekly Status Synthesis). Guardrail: Copilot aggregates, the PM verifies and finalizes; no figures invented, no sign-off.",Synthesize my week of project comms into a draft status report I can verify and finalize.,"Act as my project reporting assistant. Review my emails, Teams messages, and meeting notes from the past week related to [Project Name]. Work only from what is actually in those communications. If something is not stated, write ""not found"" or [VERIFY] rather than guessing, and never invent names, dates, figures, or decisions.
+
+Produce a draft weekly status report with these sections, in this order:
+1. Progress highlights: what got done this week.
+2. Key issues raised: each with who raised it and when.
+3. Decisions made or still pending.
+4. Risks or concerns mentioned, with the source.
+5. Client or stakeholder feedback.
+6. Actions assigned and their current status.
+
+Flag any area where the information seems incomplete or where two messages conflict, so I can chase it down. Keep the tone factual and plain. Do not calculate budget, schedule, or earned value figures, and do not assess severity or approve anything. This is a draft for me to verify, edit, and finalize. Do not send it.","Copilot web, Copilot work",Project Management,Catch up,en-US
+Risk and issue sweep,From project-leadership.md (Risk and Issue Surfacing). Guardrail: surfaces from comms only; PM assesses severity and decides the register. No scoring or ranking.,"Sweep recent project comms for risks, blockers, and concerns I should assess and log.","Act as my project risk assistant. Review the project correspondence for [Project Name] from the past 2 weeks across my emails and Teams. Work only from what is written in those messages. If a detail is not stated, write ""not found"" or [VERIFY], and never invent names, dates, amounts, or causes.
+
+Identify and group anything that reads as a risk, issue, or early warning:
+1. Problems, blockers, or things flagged as going wrong.
+2. Schedule or cost concerns that people raised.
+3. Quality or safety worries.
+4. Resource constraints (people, equipment, vendor capacity).
+5. Stakeholder or client escalations.
+
+For each item, give: a one-line description, who raised it, the date, and a short quote or paraphrase of the source so I can find it. Do not score, rank, or prioritize the risks, and do not decide what goes into the risk register. I will assess severity and decide what to log. This is a draft for me to review and verify, not a final risk assessment. Do not send it anywhere.","Copilot web, Copilot work",Project Management,Analyze,en-US
+Decision log reconstruction,From project-leadership.md (Decision Log Research). Guardrail: reconstructs from comms to cross-check formal records; never invents decisions or approves anything.,"Reconstruct the decision trail on a topic from my emails and Teams, to check against records.","Act as my project decision-log assistant. Search my emails and Teams for decisions made on [Project Name] about [topic area, for example ""design freeze"" or ""contractor selection""]. Work only from what the messages actually say. Where the record is thin, write ""not found"" or [VERIFY], and never invent a decision, a date, a name, or an outcome.
+
+For each decision you can find, list:
+1. What was decided (in plain words).
+2. When it was decided, approximately, with the date of the source message.
+3. Who was involved or who signed off, as named in the messages.
+4. Any conditions, caveats, or follow-up actions attached to it.
+5. The source: a short quote or the message subject so I can locate it.
+
+If two messages seem to contradict each other on the same decision, show both and flag the conflict rather than picking one. Do not approve, re-open, or interpret the merits of any decision. I will verify this against our formal decision register and meeting minutes. This is a draft for my verification only.","Copilot web, Copilot work",Project Management,Find,en-US
+Cost variance narrative,"From project-leadership.md (Cost Variance Narrative). Guardrail: narrates discussion only; all numbers come from the cost system, never calculated by Copilot.",Draft the narrative for a cost variance from team discussions. I will add the official numbers.,"Act as my cost-reporting assistant. Search my emails and Teams messages for discussions about cost variances on [Project Name]. Work only from what people actually wrote. If an explanation or area is not mentioned, write ""not found"" or [VERIFY], and never invent figures, percentages, cost codes, or causes.
+
+Draft the narrative section of a cost report covering:
+1. Variance explanations that have been given, with who gave them.
+2. Cost codes or areas mentioned as over or under, exactly as named in the messages.
+3. Corrective actions that were discussed.
+4. Forecast concerns that were raised.
+5. Any item where the explanation is unclear or contested, flagged as [VERIFY].
+
+Do not calculate or estimate any variance amount, percentage, earned value metric, or forecast. I will add the actual numbers from our cost system; leave clearly marked placeholders like [INSERT FIGURE FROM COST SYSTEM] where a number belongs. This is a narrative draft for me to verify against the official cost data before anyone sees it. Do not send it.","Copilot web, Copilot work",Project Management,Create,en-US
+Stakeholder meeting prep,From project-leadership.md (Stakeholder Meeting Prep - PM). Guardrail: prep notes from comms only; no invented commitments; for the PM's prep.,Prep me for a stakeholder meeting using recent correspondence: open items and likely topics.,"I have a meeting with [Stakeholder Name] about [Project Name] tomorrow. Based on our recent correspondence in my emails and Teams, prepare briefing notes covering: what topics they are likely to raise, recent questions of theirs that still need follow-up, any unresolved issues or complaints, and positive developments I can highlight. Use only what is in the messages, mark anything missing as [VERIFY], and do not invent commitments. This is for my preparation only.","Copilot web, Copilot work",Project Management,Prepare,en-US
+Decision context research,"From project-leadership.md (Decision Context Research). Guardrail: compiles context only; Copilot informs, the leader decides; no recommendation.","Gather the background on a topic before I decide: prior discussion, options, risks raised.","I need to make a decision about [topic]. Search my emails, Teams, and files for context and compile: previous discussions on this topic, options that have already been considered, recommendations my team has made, and risks or concerns that were raised. Use only what is actually there and mark gaps as [VERIFY]. Do not recommend a choice or make the decision. Present this as background for my decision-making.","Copilot web, Copilot work",Project Management,Find,en-US
+Change order email scan,"From project-leadership.md (Change Order History). Guardrail: surfaces informal mentions to cross-check the register; no approval, no invented figures.",Find informal change order discussions in my emails to cross-check the formal register.,"Find all emails and documents related to change orders on [Project Name] from [date range]. For each change order mentioned, list: the change order reference if one is stated, a brief description of the scope change, the status discussed (pending, approved, or rejected), and any cost or schedule impact mentioned. Use only what the messages say, mark anything unstated as [VERIFY], and do not invent references or amounts. I need this to cross-reference against our formal change register; it does not approve anything.","Copilot web, Copilot work",Project Management,Find,en-US
+Incident post-mortem timeline,"From it-service-desk.md (Post-Incident Review Prep). Guardrail: factual blameless timeline only; no fault, no root cause, no conclusions. Team decides.","Build a factual, blameless incident timeline from emails and Teams for the team's review.","Act as my post-incident review assistant. For the incident on [date / system], gather from my emails and Teams a factual, blameless timeline. Work only from what the messages actually say. Where a time, action, or owner is not recorded, write ""not found"" or [VERIFY], and never invent a time, a name, an action, or a cause.
+
+Produce:
+1. Detection: when it was first noticed and by whom.
+2. Timeline of actions: each action taken, the time, and who reported taking it, in order.
+3. Communications: updates sent, when, and to whom.
+4. Restoration: when service was confirmed restored, per the messages.
+5. Open questions: gaps in the record the team will need to fill, marked [VERIFY].
+
+Keep it strictly factual and blameless. Do not attribute fault, do not state a root cause, and do not draw conclusions or recommend fixes. Those are for the team to decide in the review. This is preparation for the team's post-incident review, not its findings. Do not publish it.","Copilot web, Copilot work",IT,Prepare,en-US
+Change / maintenance notice,PIN: From it-service-desk.md (Change / Maintenance Communication Draft). Guardrail: draft from provided details only; no invented dates/impact; human approves before sending.,"Draft a plain-language user notice for a planned change or maintenance window, for review.","Act as my IT communications assistant. Draft a clear, non-technical notification for end users about [planned change or maintenance window]. Use only the details I give you here: [paste window, impact, and actions]. Do not invent a date, a time, an impact level, or a contact. Where a detail is missing, leave a clearly marked placeholder like [INSERT WINDOW] or [VERIFY].
+
+Structure the notice as:
+1. What is happening and why, in plain language.
+2. When it happens (the window) and the expected impact on users.
+3. What users need to do, if anything.
+4. Who to contact for help.
+
+Keep the tone calm, plain, and reassuring. No jargon, no speculation, no promises about outcomes I have not stated. This is a draft for me to review and approve before it is sent. Do not send it or post it anywhere.","Copilot web, Copilot work",IT,Create,en-US
+Outage status update,From it-service-desk.md (Outage Communication Draft). Guardrail: no invented root cause or restoration time; draft only; human reviews before publishing.,"Draft a calm service-status update during an outage from my notes, no speculation on cause.","Act as my service-status communications assistant. Draft a status update about [system] being [degraded / unavailable]. Use only the facts I provide here: [paste what is known, any workaround, and the next update time]. Do not invent a root cause, a restoration time, or an impact figure. Where I have not given you something, leave a marked placeholder like [NEXT UPDATE TIME] or write [VERIFY].
+
+Structure the update as:
+1. What users are currently experiencing.
+2. What we know and what we are doing, drawn only from my notes.
+3. Workaround, if one exists in my notes.
+4. When the next update will be posted.
+
+Keep it plain, calm, and reassuring, with no speculation about the cause and no guesses at when it will be fixed. This is a draft for me to review before it is published. Do not publish it.","Copilot web, Copilot work",IT,Create,en-US
+Monthly service review prep,"From it-service-desk.md (SLA / Service Report Prep). Guardrail: gathers narrative context only; all SLA/availability metrics come from ITSM, never calculated.",Gather context for my service review from emails and Teams. Authoritative metrics come from ITSM.,"Act as my service-review assistant. For my [weekly / monthly] service review of [service], gather context from my emails and Teams. Work only from what is written there. Where something is not stated, write ""not found"" or [VERIFY], and never invent incident counts, ticket numbers, dates, or names.
+
+Compile, with sources:
+1. Major incidents and their reported impact, with dates.
+2. Changes that were implemented during the period.
+3. Recurring complaints or praise from users.
+4. Outstanding actions and who owns them.
+5. Anything unclear or contested, flagged as [VERIFY].
+
+Do not calculate or estimate SLA percentages, availability, mean-time-to-resolve, or any metric. The authoritative numbers come from the ITSM and monitoring tools, not from these messages; leave placeholders like [INSERT SLA FROM ITSM] where a metric belongs. This is context for me to build my report on and verify. Do not send it.","Copilot web, Copilot work",IT,Catch up,en-US
+Incident history search,"From it-service-desk.md (Incident History Search). Guardrail: research only; Copilot researches, IT verifies and acts; no live remediation.",Find how we handled similar past incidents to inform troubleshooting. Verify before acting.,"Search my emails and Teams for previous incidents related to [system or application] or [error type]. Compile: incident descriptions, root causes that were identified, resolutions that were applied, and any documented workarounds. Use only what the messages say, note where details are missing as [VERIFY], and do not invent fixes or causes. This is research for troubleshooting only. I will verify applicability to the current issue before taking any action.","Copilot web, Copilot work",IT,Find,en-US
+Doc currency check,From it-service-desk.md (Technical Documentation Search). Guardrail: locates and dates docs only; IT verifies currency before relying on them.,Find runbooks or SOPs for a system in SharePoint and show when they were last updated.,"Find runbooks, SOPs, or technical documentation in SharePoint related to [system or process]. List each document with its title and location, the last update date if visible, and the topics it covers. Use only what you actually find, and mark anything you cannot confirm as [VERIFY] rather than guessing. I need this to check whether our documentation is current; I will verify each document before relying on it.","Copilot web, Copilot work",IT,Find,en-US
+Vendor support summary,From it-service-desk.md (Vendor Support Summary). Guardrail: compiles correspondence only to prep an escalation; no invented ticket numbers or commitments.,"Compile our support history with a vendor on an issue, to prepare an escalation.","Search my emails for correspondence with [vendor] support about [issue or product]. Summarize: the issues reported, the vendor's responses and recommendations, any ticket numbers mentioned, and the current resolution status. Use only what the emails say, mark anything unstated as [VERIFY], and do not invent ticket numbers, dates, or commitments. I need this to prepare an escalation; it does not make any decision.","Copilot web, Copilot work",IT,Catch up,en-US
