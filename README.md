@@ -522,7 +522,6 @@ This repo is free and stays free. If it's useful, here's the rest of the toolkit
 - 📄 **Copilot on One Page** — the one-page cheat sheet for getting real answers out of Copilot. [Free download](https://store.kesslernity.com/l/copilot-on-one-page)
 
 **The rest of the free Copilot repos**
-- [awesome-microsoft-copilot-prompts](https://github.com/kesslernity/awesome-microsoft-copilot-prompts) — 400+ tested Copilot prompts
 - [awesome-copilot-studio-agents](https://github.com/kesslernity/awesome-copilot-studio-agents) — ready-to-deploy Copilot Studio agents
 - [awesome-copilot-chat-agents](https://github.com/kesslernity/awesome-copilot-chat-agents) — Copilot Chat agents, no premium licence needed
 - [awesome-copilot-cowork-skills](https://github.com/kesslernity/awesome-copilot-cowork-skills) — Cowork skills
