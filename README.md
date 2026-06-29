@@ -32,9 +32,9 @@ Want to go beyond prompts? **AI Quick Start Essentials** is a free 35-minute cou
 
 ## 📦 M365 Copilot Practitioner Kit
 
-Running a Copilot deployment for a team or org? The **[M365 Copilot Practitioner Kit](https://kesslermathieu.gumroad.com/l/kpfpi)** packages everything a deployment lead needs: 26 field guides, a 90-day rollout roadmap, 10 paste-ready agent templates, a governance checklist, and an ROI conversation template for the budget meeting.
+Running a Copilot deployment for a team or org? The **[M365 Copilot Practitioner Kit](https://store.kesslernity.com/l/kpfpi)** packages everything a deployment lead needs: 26 field guides, a 90-day rollout roadmap, 10 paste-ready agent templates, a governance checklist, and an ROI conversation template for the budget meeting.
 
-👉 **[Get the kit →](https://kesslermathieu.gumroad.com/l/kpfpi)** — built for IT admins and Copilot champions who need more than prompts.
+👉 **[Get the kit →](https://store.kesslernity.com/l/kpfpi)** — built for IT admins and Copilot champions who need more than prompts.
 
 ---
 
@@ -42,10 +42,10 @@ Running a Copilot deployment for a team or org? The **[M365 Copilot Practitioner
 
 Microsoft's CMO for AI at Work cited this repo as "battle-tested in production environments." These two short books are the thinking that earns that — the judgment and the craft underneath the prompts:
 
-- **[When Not to Use AI — A Decision Framework for Teams](https://kesslermathieu.gumroad.com/l/nusvz)** ($29) — the question nobody asks before adding AI to a workflow. A 5-question pre-flight check, a use-case scoring matrix, a 12-signal red-flags checklist, three "no AI" conversation scripts, and a section on applying it all to Microsoft 365 Copilot (grounding, oversharing, the draft-vs-act line, DLP).
-- **[Agent Instruction Block Design Guide](https://kesslermathieu.gumroad.com/l/eyeauo)** ($19) — 12 patterns for Copilot Chat agents that actually work, the 8 ways instruction blocks break, and a reusable scaffold. The craft behind the [82 free Copilot Chat agents](https://github.com/kesslernity/awesome-copilot-chat-agents).
+- **[When Not to Use AI — A Decision Framework for Teams](https://store.kesslernity.com/l/nusvz)** ($29) — the question nobody asks before adding AI to a workflow. A 5-question pre-flight check, a use-case scoring matrix, a 12-signal red-flags checklist, three "no AI" conversation scripts, and a section on applying it all to Microsoft 365 Copilot (grounding, oversharing, the draft-vs-act line, DLP).
+- **[Agent Instruction Block Design Guide](https://store.kesslernity.com/l/eyeauo)** ($19) — 12 patterns for Copilot Chat agents that actually work, the 8 ways instruction blocks break, and a reusable scaffold. The craft behind the [82 free Copilot Chat agents](https://github.com/kesslernity/awesome-copilot-chat-agents).
 
-👉 **[Get both — From Decision to Deployment ($39, saves $9)](https://kesslermathieu.gumroad.com/l/oocxx)** — decide where AI belongs, then build it so it works.
+👉 **[Get both — From Decision to Deployment ($39, saves $9)](https://store.kesslernity.com/l/oocxx)** — decide where AI belongs, then build it so it works.
 
 ---
 
