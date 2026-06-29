@@ -513,6 +513,25 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 Inter
 - Share improvements with the community ✅
 - Create a closed-source product repackaging them ❌
 
+## More from Kesslernity
+
+This repo is free and stays free. If it's useful, here's the rest of the toolkit.
+
+**Free**
+- 📬 **AI at Work** — a short biweekly briefing on Microsoft Copilot and enterprise AI, with tested prompts and one honest insight. [newsletter.kesslernity.com](https://newsletter.kesslernity.com)
+- 📄 **Copilot on One Page** — the one-page cheat sheet for getting real answers out of Copilot. [Free download](https://store.kesslernity.com/l/copilot-on-one-page)
+
+**The rest of the free Copilot repos**
+- [awesome-microsoft-copilot-prompts](https://github.com/kesslernity/awesome-microsoft-copilot-prompts) — 400+ tested Copilot prompts
+- [awesome-copilot-studio-agents](https://github.com/kesslernity/awesome-copilot-studio-agents) — ready-to-deploy Copilot Studio agents
+- [awesome-copilot-chat-agents](https://github.com/kesslernity/awesome-copilot-chat-agents) — Copilot Chat agents, no premium licence needed
+- [awesome-copilot-cowork-skills](https://github.com/kesslernity/awesome-copilot-cowork-skills) — Cowork skills
+
+**Deploying Copilot for a team?**
+- 🛒 Deployment kits, governance playbooks, and the honest "when not to use it" guides, built so you can deploy Copilot without a consultant: **[kesslernity.com/store](https://kesslernity.com/store)**
+
+Independent and vendor-neutral. Not affiliated with Microsoft.
+
 ## 🙏 Acknowledgments
 
 Built by [Mathieu Kessler](https://linkedin.com/in/mathieukessler) and the team at NerdyChefs.ai.
@@ -529,9 +548,8 @@ Built by [Mathieu Kessler](https://linkedin.com/in/mathieukessler) and the team 
 ## 🔗 Quick Links
 
 - **[Full Prompt Library](https://nerdychefs.ai)** - 1,565+ free AI prompts & tools (no signup)
-- **[Kesslernity](https://kesslernity.com)** - Enterprise AI deployment platform
 - **[LinkedIn](https://linkedin.com/in/mathieukessler)** - Connect with Mathieu
-- **[X/Twitter](https://x.com/nerdychefsai)** - Daily AI productivity tips
+- **[X/Twitter](https://x.com/mayeu20)** - Daily AI productivity tips
 - **[Contributing Guide](CONTRIBUTING.md)** - Submit your own prompts
 - **[License](LICENSE)** - CC BY-SA 4.0
 
