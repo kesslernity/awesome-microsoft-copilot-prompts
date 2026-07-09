@@ -7,6 +7,8 @@
 
 A curated collection of **573 production-tested Microsoft Copilot prompts** for enterprise professionals. From inbox intelligence to role-specific workflows, these prompts help you get the most out of Microsoft 365 Copilot.
 
+> 📄 **New here?** Grab **[Copilot on One Page](https://store.kesslernity.com/l/copilot-on-one-page?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo)** first: the free one-page cheat sheet for getting real answers out of Copilot. Print it, pin it, then come back for the full library.
+
 ## 📬 AI at Work Newsletter
 
 Tested prompts for Microsoft 365 Copilot. One role at a time. Plus verified GenAI news and one insight you won't find in a changelog. Biweekly, 4-minute read.
