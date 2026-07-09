@@ -18,7 +18,7 @@ Tested prompts for Microsoft 365 Copilot. One role at a time. Plus verified GenA
 - **Prompts That Work** — 3-5 role-specific M365 Copilot prompts tested on real teams (plus what didn't work)
 - **The Takeaway** — One insight on human+AI collaboration that changes how you think about your workflow
 
-👉 **[Subscribe free](https://newsletter.kesslernity.com)** — no spam, no fluff, unsubscribe anytime.
+👉 **[Subscribe free](https://newsletter.kesslernity.com/?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo)**. No spam, no fluff, unsubscribe anytime.
 
 ## 🥘 The Prompt Pantry — Weekly from NerdyChefs.ai
 
@@ -520,8 +520,8 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 Inter
 This repo is free and stays free. If it's useful, here's the rest of the toolkit.
 
 **Free**
-- 📬 **AI at Work** — a short biweekly briefing on Microsoft Copilot and enterprise AI, with tested prompts and one honest insight. [newsletter.kesslernity.com](https://newsletter.kesslernity.com)
-- 📄 **Copilot on One Page** — the one-page cheat sheet for getting real answers out of Copilot. [Free download](https://store.kesslernity.com/l/copilot-on-one-page)
+- 📬 **AI at Work** — a short biweekly briefing on Microsoft Copilot and enterprise AI, with tested prompts and one honest insight. [newsletter.kesslernity.com]([https://newsletter.kesslernity.com](https://newsletter.kesslernity.com/?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo))
+- 📄 **Copilot on One Page** — the one-page cheat sheet for getting real answers out of Copilot. [Free download]([https://store.kesslernity.com/l/copilot-on-one-page](https://store.kesslernity.com/l/copilot-on-one-page?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo))
 
 **The rest of the free Copilot repos**
 - [awesome-copilot-studio-agents](https://github.com/kesslernity/awesome-copilot-studio-agents) — ready-to-deploy Copilot Studio agents
