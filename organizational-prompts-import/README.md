@@ -1,7 +1,7 @@
 # Organizational prompts: an import-ready starter library
 
-> [!IMPORTANT]
-> **This Microsoft feature is in preview.** Organizational prompts are in the Frontier preview program now; Microsoft's roadmap targets general availability in July 2026. The CSV here is ready to use, but the admin surface may not appear in your tenant until your organization has preview or GA access. No new licence: it uses the existing Microsoft 365 Copilot add-on. See the status section below.
+> [!NOTE]
+> **This Microsoft feature is generally available.** Organizational prompts rolled out to general availability worldwide through July 2026 (Microsoft 365 Roadmap ID 486695, Message Center MC1396361). No new licence: it uses the existing Microsoft 365 Copilot add-on. One thing to know before you start: prompts do not appear in Copilot Chat until an admin publishes at least one, so an empty library shows your users nothing. See the status section below for the limits that still apply.
 
 Microsoft 365 Copilot now lets admins publish a curated prompt library to the whole tenant ("organizational prompts"). The catch in Microsoft's own rollout note: it tells you to "draft and publish an initial prompt library," then hands you a bulk importer with **no prompts in it**.
 
@@ -33,7 +33,7 @@ Every prompt is a **drafting, summarizing, or research aid that works on the use
 ## The status, stated honestly (June 2026)
 
 - **In Frontier preview now.** Per [Microsoft Learn](https://learn.microsoft.com/en-us/microsoft-365/copilot/organizational-prompts) (doc updated 2026-06-18), the feature needs the Frontier preview program for early access.
-- **GA targeted July 2026.** Microsoft's roadmap (ID 486695 / Message Center MC1396361) targets general availability worldwide in July 2026, available by default, with no change to Copilot licensing.
+- **Generally available.** General availability worldwide rolled out through July 2026 per Microsoft's roadmap (ID 486695 / Message Center MC1396361), available by default, with no change to Copilot licensing.
 - **Requires a Microsoft 365 Copilot licence** (the existing $30 per-user add-on). No new SKU.
 
 If you are reading this before GA in your tenant, the admin surface may not be visible yet.
@@ -96,7 +96,9 @@ Publishing is the easy part. Keeping it useful is the work:
 - **Use the built-in analytics.** Each prompt shows Active users and Submissions over 7, 14, or 28 days. Prune the prompts nobody uses; promote the ones that land.
 - **Review the 4 pins quarterly.** They are your most valuable real estate.
 
-This is the operational layer. If you want the full governance model (the owner role, the quarterly review cadence, the pin-prioritization, and the honest read on where Copilot does not belong), that is what [The Honest M365 Copilot Kit](https://store.kesslernity.com/l/honest-m365-copilot-kit) covers.
+This is the operational layer. If you want the full governance model (the owner role, the quarterly review cadence, the pin-prioritization, and the honest read on where Copilot does not belong), that is what [The Honest M365 Copilot Kit](https://www.kesslernity.com/honest-copilot-kit?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=org_csv) covers.
+
+Before you import anything, **[Copilot on One Page](https://store.kesslernity.com/l/copilot-on-one-page?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=org_csv)** is the free one-page cheat sheet worth publishing alongside the library, so users know how to phrase a prompt once they find one.
 
 ---
 

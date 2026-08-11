@@ -3,11 +3,11 @@
 [![Prompts](https://img.shields.io/badge/prompts-573-blue)](https://nerdychefs.ai)
 [![Categories](https://img.shields.io/badge/categories-18-green)](https://nerdychefs.ai)
 [![License](https://img.shields.io/badge/license-CC%20BY--SA%204.0-blue)](LICENSE)
-[![Enterprise](https://img.shields.io/badge/enterprise-tested-purple)](https://kesslernity.com)
+[![Enterprise](https://img.shields.io/badge/enterprise-tested-purple)](https://www.kesslernity.com/?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=badge)
 
 A curated collection of **573 production-tested Microsoft Copilot prompts** for enterprise professionals. From inbox intelligence to role-specific workflows, these prompts help you get the most out of Microsoft 365 Copilot.
 
-> 📄 **New here?** Grab **[Copilot on One Page](https://store.kesslernity.com/l/copilot-on-one-page?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo)** first: the free one-page cheat sheet for getting real answers out of Copilot. Print it, pin it, then come back for the full library.
+> 📄 **New here?** Grab **[Copilot on One Page](https://store.kesslernity.com/l/copilot-on-one-page?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=hero)** first: the free one-page cheat sheet for getting real answers out of Copilot. Print it, pin it, then come back for the full library.
 
 ## 📬 AI at Work Newsletter
 
@@ -18,7 +18,7 @@ Tested prompts for Microsoft 365 Copilot. One role at a time. Plus verified GenA
 - **Prompts That Work** — 3-5 role-specific M365 Copilot prompts tested on real teams (plus what didn't work)
 - **The Takeaway** — One insight on human+AI collaboration that changes how you think about your workflow
 
-👉 **[Subscribe free](https://newsletter.kesslernity.com/?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo)**. No spam, no fluff, unsubscribe anytime.
+👉 **[Subscribe free](https://newsletter.kesslernity.com/?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=hero)**. No spam, no fluff, unsubscribe anytime.
 
 ## 🥘 The Prompt Pantry — Weekly from NerdyChefs.ai
 
@@ -30,13 +30,13 @@ The site gives you the prompts. The newsletter gives you the judgment, when to u
 
 Want to go beyond prompts? **AI Quick Start Essentials** is a free 35-minute course covering responsible AI use and practical human+AI collaboration workflows.
 
-👉 **[Start the free course](https://trainings.kesslernity.com)** — no signup wall, no credit card.
+👉 **[Start the free course](https://trainings.kesslernity.com/?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=hero)**: no signup wall, no credit card.
 
-## 📦 M365 Copilot Practitioner Kit
+## 📦 M365 Copilot Deployment Kit
 
-Running a Copilot deployment for a team or org? The **[M365 Copilot Practitioner Kit](https://store.kesslernity.com/l/kpfpi)** packages everything a deployment lead needs: 26 field guides, a 90-day rollout roadmap, 10 paste-ready agent templates, a governance checklist, and an ROI conversation template for the budget meeting.
+Running a Copilot deployment for a team or org? The **[M365 Copilot Deployment Kit](https://www.kesslernity.com/kit?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=kit_block)** packages everything a deployment lead needs: 26 field guides, a 90-day rollout roadmap, 10 paste-ready agent templates, a governance checklist, and an ROI conversation template for the budget meeting.
 
-👉 **[Get the kit →](https://store.kesslernity.com/l/kpfpi)** — built for IT admins and Copilot champions who need more than prompts.
+👉 **[See what is in the kit →](https://www.kesslernity.com/kit?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=kit_block)**: built for IT admins and Copilot champions who need more than prompts.
 
 ---
 
@@ -44,14 +44,14 @@ Running a Copilot deployment for a team or org? The **[M365 Copilot Practitioner
 
 Microsoft's CMO for AI at Work cited this repo as "battle-tested in production environments." These two short books are the thinking that earns that — the judgment and the craft underneath the prompts:
 
-- **[When Not to Use AI — A Decision Framework for Teams](https://store.kesslernity.com/l/nusvz)** ($29) — the question nobody asks before adding AI to a workflow. A 5-question pre-flight check, a use-case scoring matrix, a 12-signal red-flags checklist, three "no AI" conversation scripts, and a section on applying it all to Microsoft 365 Copilot (grounding, oversharing, the draft-vs-act line, DLP).
-- **[Agent Instruction Block Design Guide](https://store.kesslernity.com/l/eyeauo)** ($19) — 12 patterns for Copilot Chat agents that actually work, the 8 ways instruction blocks break, and a reusable scaffold. The craft behind the [82 free Copilot Chat agents](https://github.com/kesslernity/awesome-copilot-chat-agents).
+- **[When Not to Use AI: A Decision Framework for Teams](https://www.kesslernity.com/products/when-not-to-use-ai?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=books_block)** ($29): the question nobody asks before adding AI to a workflow. A 5-question pre-flight check, a use-case scoring matrix, a 12-signal red-flags checklist, three "no AI" conversation scripts, and a section on applying it all to Microsoft 365 Copilot (grounding, oversharing, the draft-vs-act line, DLP).
+- **[Agent Instruction Block Design Guide](https://www.kesslernity.com/products/agent-instruction-block-design-guide?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=books_block)** ($19): 12 patterns for Copilot Chat agents that actually work, the 8 ways instruction blocks break, and a reusable scaffold. The craft behind the [82 free Copilot Chat agents](https://github.com/kesslernity/awesome-copilot-chat-agents).
 
-👉 **[Get both — From Decision to Deployment ($39, saves $9)](https://store.kesslernity.com/l/oocxx)** — decide where AI belongs, then build it so it works.
+👉 **[Get both, From Decision to Deployment ($39, saves $9)](https://www.kesslernity.com/products/from-decision-to-deployment?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=books_block)**: decide where AI belongs, then build it so it works.
 
 ---
 
-## 🏛️ Organizational Prompts: Import-Ready Starter Library (Preview)
+## 🏛️ Organizational Prompts: Import-Ready Starter Library
 
 Microsoft 365 Copilot now lets IT admins publish a curated prompt library to the whole tenant, surfaced to users in Copilot Chat, Teams, and Edge. The catch in Microsoft's own rollout: it ships a bulk CSV importer with no prompts in it.
 
@@ -60,7 +60,7 @@ So we carved a starter library from this repo into Microsoft's exact import form
 👉 **[Organizational prompts import pack →](organizational-prompts-import/)**: 44 production-safe prompts across 8 departments (Finance, HR, Sales, Marketing, Project Management, IT, Procurement, Customer Success), a mix of quick everyday prompts and richer structured ones, formatted into Microsoft's `prompt-import-template.csv`. Includes a one-page guide to the limits nobody mentions: the 1,000-prompt cap, the **only 4 can be pinned** reality, the per-field character limits, and the two gotchas that reject an import.
 
 > [!NOTE]
-> This feature is in **Frontier preview** now; general availability is targeted for **July 2026**. The CSV is ready to use, but the admin surface may not be visible in your tenant until your organization has preview or GA access. No new licence: it uses the existing Microsoft 365 Copilot add-on.
+> This feature is **generally available**: it rolled out worldwide through July 2026 (Microsoft 365 Roadmap ID 486695, Message Center MC1396361). No new licence, it uses the existing Microsoft 365 Copilot add-on. Note that prompts only appear in Copilot Chat once an admin publishes at least one.
 
 ---
 
@@ -395,18 +395,15 @@ Copilot learns from context. If the first result isn't perfect, provide feedback
 
 [See all power user prompts →](prompts/power-users/README.md)
 
-## 🏢 Enterprise Deployment
+## 🏢 Deploying Copilot Across an Organization
 
 Using Copilot across your organization? These prompts work even better when deployed enterprise-wide.
 
-**Need help with:**
-- Microsoft 365 Copilot rollout strategy
-- Custom Copilot Studio agents
-- Enterprise prompt governance
-- Team training and adoption
-- Role-based prompt libraries
+Prompts are the easy half. A rollout also needs the prerequisites checked, a governance decision taken before anything is published, a sequence that survives week one, and something to put in front of the person holding the budget.
 
-👉 **[Check out Kesslernity](https://kesslernity.com)** - Enterprise AI deployment platform
+That is what the paid kits are for. Buy once, own the files, no platform to log into and no consultant in the loop.
+
+👉 **[See the deployment kits →](https://www.kesslernity.com/store?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=enterprise_block)**
 
 ## 🌐 Full Searchable Library
 
@@ -520,8 +517,8 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 Inter
 This repo is free and stays free. If it's useful, here's the rest of the toolkit.
 
 **Free**
-- 📬 **AI at Work** — a short biweekly briefing on Microsoft Copilot and enterprise AI, with tested prompts and one honest insight. [newsletter.kesslernity.com]([https://newsletter.kesslernity.com](https://newsletter.kesslernity.com/?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo))
-- 📄 **Copilot on One Page** — the one-page cheat sheet for getting real answers out of Copilot. [Free download]([https://store.kesslernity.com/l/copilot-on-one-page](https://store.kesslernity.com/l/copilot-on-one-page?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo))
+- 📬 **AI at Work**: a short biweekly briefing on Microsoft Copilot and enterprise AI, with tested prompts and one honest insight. [newsletter.kesslernity.com](https://newsletter.kesslernity.com/?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=footer)
+- 📄 **Copilot on One Page**: the one-page cheat sheet for getting real answers out of Copilot. [Free download](https://store.kesslernity.com/l/copilot-on-one-page?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=footer)
 
 **The rest of the free Copilot repos**
 - [awesome-copilot-studio-agents](https://github.com/kesslernity/awesome-copilot-studio-agents) — ready-to-deploy Copilot Studio agents
@@ -529,7 +526,7 @@ This repo is free and stays free. If it's useful, here's the rest of the toolkit
 - [awesome-copilot-cowork-skills](https://github.com/kesslernity/awesome-copilot-cowork-skills) — Cowork skills
 
 **Deploying Copilot for a team?**
-- 🛒 Deployment kits, governance playbooks, and the honest "when not to use it" guides, built so you can deploy Copilot without a consultant: **[kesslernity.com/store](https://kesslernity.com/store)**
+- 🛒 Deployment kits, governance playbooks, and the honest "when not to use it" guides, built so you can deploy Copilot without a consultant: **[kesslernity.com/store](https://www.kesslernity.com/store?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=footer)**
 
 Independent and vendor-neutral. Not affiliated with Microsoft.
 

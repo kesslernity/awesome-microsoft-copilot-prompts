@@ -521,4 +521,4 @@ After the query, add a one-paragraph explanation of the detection logic and any 
 
 ---
 
-**License:** CC BY-SA 4.0 · [NerdyChefs.ai](https://nerdychefs.ai) · [AI at Work Newsletter](https://newsletter.kesslernity.com)
+**License:** CC BY-SA 4.0 · [NerdyChefs.ai](https://nerdychefs.ai) · [AI at Work Newsletter](https://newsletter.kesslernity.com/?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=seccopilot_soc)

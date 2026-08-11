@@ -6,6 +6,8 @@
 
 **Category:** Productivity & Tools
 
+> 📄 **Free first:** **[Copilot on One Page](https://store.kesslernity.com/l/copilot-on-one-page?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=outlook_automation)** is a one-page cheat sheet for phrasing prompts so they come back with something usable. Print it, then work through the list below.
+
 **Prompts in this pack:** 20
 
 ---
@@ -363,6 +365,16 @@ Predict which email topics are likely to become future problems based on pattern
 - [Power Users Collection](../power-users/README.md)
 - [Advanced Outlook Prompt Pack](advanced-prompts.md)
 - [Role-Specific Collections](../role-specific/)
+
+---
+
+## If you are the one rolling Copilot out
+
+These prompts work for one person on day one. Rolling them out across a team is a different job: prerequisites checked, a governance decision taken before anything is published, a sequence that survives week one, and something to put in front of the person holding the budget.
+
+The **[M365 Copilot Deployment Kit](https://www.kesslernity.com/kit?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=outlook_automation)** ($97) is the org-level version of this page: 26 field guides, a 90-day rollout roadmap, a governance checklist, 10 paste-ready agent templates, and an ROI conversation template. Buy it once and you own the files, with no platform to log into and no consultant in the loop.
+
+The rest of the shelf is at **[kesslernity.com/store](https://www.kesslernity.com/store?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=outlook_automation)**.
 
 ---
 
