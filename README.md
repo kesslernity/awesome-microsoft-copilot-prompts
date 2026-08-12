@@ -14,13 +14,13 @@ A curated collection of **573 production-tested Microsoft Copilot prompts** for 
 Tested prompts for Microsoft 365 Copilot. One role at a time. Plus verified GenAI news and one insight you won't find in a changelog. Biweekly, 4-minute read.
 
 **What you get every two weeks:**
-- **What Happened** — 3-4 verified GenAI news items that affect how you work (source-linked, fact-checked)
-- **Prompts That Work** — 3-5 role-specific M365 Copilot prompts tested on real teams (plus what didn't work)
-- **The Takeaway** — One insight on human+AI collaboration that changes how you think about your workflow
+- **What Happened**: 3-4 verified GenAI news items that affect how you work (source-linked, fact-checked)
+- **Prompts That Work**: 3-5 role-specific M365 Copilot prompts tested on real teams (plus what didn't work)
+- **The Takeaway**: One insight on human+AI collaboration that changes how you think about your workflow
 
 👉 **[Subscribe free](https://newsletter.kesslernity.com/?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=hero)**. No spam, no fluff, unsubscribe anytime.
 
-## 🥘 The Prompt Pantry — Weekly from NerdyChefs.ai
+## 🥘 The Prompt Pantry: Weekly from NerdyChefs.ai
 
 The site gives you the prompts. The newsletter gives you the judgment, when to use them, how to sequence them, and why one approach works where another fails. Weekly. Free. Always.
 
@@ -42,7 +42,7 @@ Running a Copilot deployment for a team or org? The **[M365 Copilot Deployment K
 
 ## 📘 Beyond the Prompts: The Practitioner Books
 
-Microsoft's CMO for AI at Work cited this repo as "battle-tested in production environments." These two short books are the thinking that earns that — the judgment and the craft underneath the prompts:
+Microsoft's CMO for AI at Work cited this repo as "battle-tested in production environments." These two short books are the thinking that earns that. The judgment and the craft underneath the prompts:
 
 - **[When Not to Use AI: A Decision Framework for Teams](https://www.kesslernity.com/products/when-not-to-use-ai?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=books_block)** ($29): the question nobody asks before adding AI to a workflow. A 5-question pre-flight check, a use-case scoring matrix, a 12-signal red-flags checklist, three "no AI" conversation scripts, and a section on applying it all to Microsoft 365 Copilot (grounding, oversharing, the draft-vs-act line, DLP).
 - **[Agent Instruction Block Design Guide](https://www.kesslernity.com/products/agent-instruction-block-design-guide?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=books_block)** ($19): 12 patterns for Copilot Chat agents that actually work, the 8 ways instruction blocks break, and a reusable scaffold. The craft behind the [82 free Copilot Chat agents](https://github.com/kesslernity/awesome-copilot-chat-agents).
@@ -162,13 +162,13 @@ Even when using the same underlying model (GPT-4/GPT-5), **Copilot behaves diffe
 
 ### 📧 Email & Communication Mastery (82 prompts)
 
-- [**Copilot Inbox Management — Action Mode**](prompts/outlook/inbox-management-action-mode.md) (12 prompts) 🆕
+- [**Copilot Inbox Management: Action Mode**](prompts/outlook/inbox-management-action-mode.md) (12 prompts) 🆕
   + Triage & prioritization
   + Non-responder detection & follow-up
   + Inbox rules & automation
   + Post-vacation & absence recovery
   + Context-aware draft assembly
-  > Requires Frontier program. Copilot acts on your inbox — drafts, rules, triage — not just chat.
+  > Requires Frontier program. Copilot acts on your inbox (drafts, rules, triage), not just chat.
 
 - [**Advanced Outlook Automation**](prompts/outlook/advanced-automation.md) (20 prompts)
   + Cognitive load & workload management
@@ -255,15 +255,15 @@ Even when using the same underlying model (GPT-4/GPT-5), **Copilot behaves diffe
 
 #### Corporate Functions
 
-- [**Finance**](prompts/role-specific/finance.md) (16 prompts) — **NEW**
+- [**Finance**](prompts/role-specific/finance.md) (16 prompts) · **NEW**
   + Month-end close prep, variance stories, budget-vs-actual, board & exec reporting
   + Audit prep, AR/AP, cash & treasury, FP&A assumptions, capex justification
-  + **Includes ⛔ Finance Copilot Guardrails — verify every figure against the GL**
+  + **Includes ⛔ Finance Copilot Guardrails: verify every figure against the GL**
 
-- [**HR & People**](prompts/role-specific/hr-people.md) (16 prompts) — **NEW**
+- [**HR & People**](prompts/role-specific/hr-people.md) (16 prompts) · **NEW**
   + Job descriptions, interview sets, onboarding, performance feedback drafts
   + Engagement & exit themes, ER case organization, comp research prep, people comms
-  + **Includes ⛔ HR Copilot Guardrails — never decides on people; bias review required**
+  + **Includes ⛔ HR Copilot Guardrails: never decides on people; bias review required**
 
 - [**HSE, Legal & Compliance**](prompts/role-specific/hse-legal-compliance.md) (20 prompts)
   + Safety procedures, incident research, environmental compliance
@@ -271,50 +271,50 @@ Even when using the same underlying model (GPT-4/GPT-5), **Copilot behaves diffe
   + **⛔ CRITICAL HSE GUARDRAILS - Safety authorization boundaries**
   + **Includes ⚠️ Legal & IT Copilot Guardrails**
 
-- [**In-House Legal & Contracts**](prompts/role-specific/legal-contracts.md) (18 prompts) — **NEW**
+- [**In-House Legal & Contracts**](prompts/role-specific/legal-contracts.md) (18 prompts) · **NEW**
   + Contract abstraction, clause comparison, redline prep, NDA & policy drafting
   + Obligations tracking, matter status, dispute chronology, regulatory & privacy review
   + **⛔ CRITICAL LEGAL GUARDRAILS - "Copilot retrieves and drafts; lawyers advise and decide"**
 
-- [**IT & Service Desk**](prompts/role-specific/it-service-desk.md) (16 prompts) — **NEW**
+- [**IT & Service Desk**](prompts/role-specific/it-service-desk.md) (16 prompts) · **NEW**
   + Incident & change prep, CAB, runbooks, KB articles, outage & change comms
   + Service-desk triage, M365/tenant policy research, access context, vendor support
-  + **Includes ⛔ IT Copilot Guardrails — "Copilot researches; IT decides and executes"**
+  + **Includes ⛔ IT Copilot Guardrails: "Copilot researches; IT decides and executes"**
 
-- [**Data & Analytics**](prompts/role-specific/data-analytics.md) (16 prompts) — **NEW**
+- [**Data & Analytics**](prompts/role-specific/data-analytics.md) (16 prompts) · **NEW**
   + Dataset profiling, anomaly exploration, insight & report-commentary drafts
   + KPI & data-dictionary definitions, report/dashboard requirements, chart advice
-  + **Includes ⛔ Data & Analytics Guardrails — "Copilot explores and drafts; the analyst verifies and concludes"**
+  + **Includes ⛔ Data & Analytics Guardrails: "Copilot explores and drafts; the analyst verifies and concludes"**
 
-- [**Data Privacy (DPO)**](prompts/role-specific/data-privacy.md) (16 prompts) — **NEW**
+- [**Data Privacy (DPO)**](prompts/role-specific/data-privacy.md) (16 prompts) · **NEW**
   + DPIA & ROPA drafts, DSAR intake & response prep, breach assessment prep
   + Transfer (TIA) prep, processor due diligence, privacy notices, lawful-basis options
-  + **Includes ⛔ Data Privacy Guardrails — never determines lawfulness, breach notifiability, or DPIA risk; no personal data in prompts**
+  + **Includes ⛔ Data Privacy Guardrails: never determines lawfulness, breach notifiability, or DPIA risk; no personal data in prompts**
 
-- [**Trade Compliance**](prompts/role-specific/trade-compliance.md) (16 prompts) — **NEW**
+- [**Trade Compliance**](prompts/role-specific/trade-compliance.md) (16 prompts) · **NEW**
   + Export classification prep, restricted-party & sanctions screening prep, red-flag review
   + End-use statements, licence determination & application prep, customs/HS, TCP, audit
-  + **Includes ⛔ Trade Compliance Guardrails — never classifies, screens, or clears; trade compliance decides**
+  + **Includes ⛔ Trade Compliance Guardrails: never classifies, screens, or clears; trade compliance decides**
 
-- [**Risk, Ethics & Compliance**](prompts/role-specific/risk-ethics-compliance.md) (16 prompts) — **NEW**
+- [**Risk, Ethics & Compliance**](prompts/role-specific/risk-ethics-compliance.md) (16 prompts) · **NEW**
   + Policy & code-of-conduct drafting, COI & gifts review prep, ABAC third-party due diligence
   + Speak-up intake, investigation chronology, controls mapping, risk register, board reporting
-  + **Includes ⛔ GRC Guardrails — never rules, finds, or accepts risk; investigations stay confidential**
+  + **Includes ⛔ GRC Guardrails: never rules, finds, or accepts risk; investigations stay confidential**
 
 #### Security Operations
 
-- [**Microsoft Copilot for Security**](prompts/security-copilot/README.md) (35 prompts) — **NEW**
+- [**Microsoft Copilot for Security**](prompts/security-copilot/README.md) (35 prompts) · **NEW**
   + How Copilot for Security works + SCU billing mechanics explained
   + SCU-optimized prompting guide: what costs less vs. what burns compute
   + [SOC Operations](prompts/security-copilot/soc-operations.md): incident triage, threat hunting, identity investigation, vulnerability management, DLP
   + [Security Reporting](prompts/security-copilot/security-reporting.md): board reports, CISO briefings, compliance posture, audit responses, patch compliance
-  + **⚠️ Requires Copilot for Security license — NOT included in M365 Copilot (except E5/E7 SCU allocation)**
+  + **⚠️ Requires Copilot for Security license, NOT included in M365 Copilot (except E5/E7 SCU allocation)**
 
 #### Automation & Scheduled Workflows
 
-- [**Copilot Cowork — Agentic Workflows**](prompts/cowork/README.md) (18 prompts) — **NEW**
+- [**Copilot Cowork: Agentic Workflows**](prompts/cowork/README.md) (18 prompts) · **NEW**
   + Outcome-focused prompts for M365 Copilot's agentic execution layer (Frontier program)
-  + Cowork plans, executes multi-step tasks, and asks for approval before taking action — unlike Chat
+  + Cowork plans, executes multi-step tasks, and asks for approval before taking action, unlike Chat
   + Scheduled: Monday briefing, Friday digest, daily inbox scan, commitment tracker, calendar triage
   + One-time: stakeholder update, pre-meeting research, post-meeting capture, executive pre-read
   + Project & portfolio: risk sweep, cross-project digest, competitive signal sweep
@@ -322,7 +322,7 @@ Even when using the same underlying model (GPT-4/GPT-5), **Copilot behaves diffe
   + Delegation Brief format + "show sources before drafting" pattern explained
   + **⚠️ Requires M365 Copilot + Frontier enrolment + Anthropic enabled as sub-processor · Max 5 scheduled prompts · EU tenants: Anthropic off by default**
 
-- [**Scheduled Prompts**](prompts/scheduled-prompts/README.md) (15 prompts) — **NEW**
+- [**Scheduled Prompts**](prompts/scheduled-prompts/README.md) (15 prompts) · **NEW**
   + 5-step setup guide for scheduling prompts in M365 Copilot Chat
   + Daily productivity: morning briefing, calendar prep, end-of-day commitment tracker
   + Sales & BD: weekly pipeline pulse, prospect follow-up, competitive intelligence digest
@@ -337,10 +337,10 @@ Even when using the same underlying model (GPT-4/GPT-5), **Copilot behaves diffe
   + Publication planning, competitive research, lab management
   + **Includes ⚠️ R&D Copilot Guardrails + IP & Confidentiality Warnings**
 
-- [**Procurement & Vendor Management**](prompts/role-specific/procurement-vendor.md) (16 prompts) — **NEW**
+- [**Procurement & Vendor Management**](prompts/role-specific/procurement-vendor.md) (16 prompts) · **NEW**
   + Sourcing & RFx requirements, tender criteria, supplier comparison prep
   + Vendor scorecards & risk, due diligence, negotiation prep, spend & savings, renewals
-  + **Includes ⛔ Procurement Copilot Guardrails — "Copilot prepares; procurement decides and awards"**
+  + **Includes ⛔ Procurement Copilot Guardrails: "Copilot prepares; procurement decides and awards"**
 
 - [**Supply Chain & Logistics**](prompts/role-specific/supply-chain-logistics.md) (16 prompts)
   + Supplier management, shipment tracking, inventory optimization
@@ -450,7 +450,7 @@ Transform vague requests into specific prompts:
 
 **Example:**
 ❌ "Summarize my emails"
-✅ "Summarize emails from the last 7 days related to the Q1 budget review. I need bullet points for my VP—keep it under 5 key points highlighting any blockers."
+✅ "Summarize emails from the last 7 days related to the Q1 budget review. I need bullet points for my VP, keep it under 5 key points highlighting any blockers."
 
 ### Give Copilot Context
 
@@ -521,9 +521,9 @@ This repo is free and stays free. If it's useful, here's the rest of the toolkit
 - 📄 **Copilot on One Page**: the one-page cheat sheet for getting real answers out of Copilot. [Free download](https://store.kesslernity.com/l/copilot-on-one-page?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=footer)
 
 **The rest of the free Copilot repos**
-- [awesome-copilot-studio-agents](https://github.com/kesslernity/awesome-copilot-studio-agents) — ready-to-deploy Copilot Studio agents
-- [awesome-copilot-chat-agents](https://github.com/kesslernity/awesome-copilot-chat-agents) — Copilot Chat agents, no premium licence needed
-- [awesome-copilot-cowork-skills](https://github.com/kesslernity/awesome-copilot-cowork-skills) — Cowork skills
+- [awesome-copilot-studio-agents](https://github.com/kesslernity/awesome-copilot-studio-agents): ready-to-deploy Copilot Studio agents
+- [awesome-copilot-chat-agents](https://github.com/kesslernity/awesome-copilot-chat-agents): Copilot Chat agents, no premium licence needed
+- [awesome-copilot-cowork-skills](https://github.com/kesslernity/awesome-copilot-cowork-skills): Cowork skills
 
 **Deploying Copilot for a team?**
 - 🛒 Deployment kits, governance playbooks, and the honest "when not to use it" guides, built so you can deploy Copilot without a consultant: **[kesslernity.com/store](https://www.kesslernity.com/store?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=footer)**
