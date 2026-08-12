@@ -77,6 +77,6 @@ Every collection includes **guardrails** explaining:
 
 ---
 
-**Made with care by [NerdyChefs.ai](https://nerdychefs.ai)**
+**Built by [Mathieu Kessler](https://www.kesslernity.com/?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=page_footer)**
 
-For the complete library of 1,565+ AI prompts, visit [nerdychefs.ai](https://nerdychefs.ai)
+For 27 free Copilot reference guides, visit [kesslernity.com/guides](https://www.kesslernity.com/guides?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=page_cta)

@@ -542,8 +542,8 @@ This is for thought leadership development.
 
 ---
 
-**Made with care by [NerdyChefs.ai](https://nerdychefs.ai)**
+**Built by [Mathieu Kessler](https://www.kesslernity.com/?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=page_footer)**
 
 [← Back to Main Collection](../../README.md) | [Browse All Prompts](../README.md) | [Role-Specific Prompts](./README.md)
 
-For the complete library of 1,565+ AI prompts, visit [nerdychefs.ai](https://nerdychefs.ai)
+For 27 free Copilot reference guides, visit [kesslernity.com/guides](https://www.kesslernity.com/guides?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=page_cta)

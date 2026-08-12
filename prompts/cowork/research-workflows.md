@@ -369,4 +369,4 @@ Keep this under 100 words. Deliver as a message to me only. Do not send or post 
 
 ---
 
-*Part of the [Copilot Cowork collection](README.md) — [awesome-microsoft-copilot-prompts](https://github.com/kesslernity/awesome-microsoft-copilot-prompts) by [NerdyChefs.ai](https://www.nerdychefs.ai)*
+*Part of the [Copilot Cowork collection](README.md) in [awesome-microsoft-copilot-prompts](https://github.com/kesslernity/awesome-microsoft-copilot-prompts)*

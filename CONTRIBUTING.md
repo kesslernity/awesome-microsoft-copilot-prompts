@@ -211,7 +211,7 @@ Enterprise, Governance, Guardrails, Safety
 ### Contact
 
 - **GitHub Issues:** For prompt-related questions
-- **Twitter/X:** [@nerdychefsai](https://x.com/nerdychefsai)
+- **Twitter/X:** [@kesslernity](https://x.com/kesslernity)
 - **LinkedIn:** [Mathieu Kessler](https://linkedin.com/in/mathieukessler)
 
 ---
@@ -228,4 +228,4 @@ Thank you for helping make Microsoft Copilot more useful for everyone!
 
 ---
 
-**Made with ❤️ by [NerdyChefs.ai](https://nerdychefs.ai)**
+**Built by [Mathieu Kessler](https://www.kesslernity.com/?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=contributing)**

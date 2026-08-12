@@ -165,4 +165,4 @@ The Friday Digest is valuable but if you are already running the Monday Briefing
 
 ---
 
-*Part of the [Copilot Cowork collection](README.md) — [awesome-microsoft-copilot-prompts](https://github.com/kesslernity/awesome-microsoft-copilot-prompts) by [NerdyChefs.ai](https://www.nerdychefs.ai)*
+*Part of the [Copilot Cowork collection](README.md) in [awesome-microsoft-copilot-prompts](https://github.com/kesslernity/awesome-microsoft-copilot-prompts)*

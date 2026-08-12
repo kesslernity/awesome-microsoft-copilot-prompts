@@ -1,7 +1,7 @@
 # Awesome Microsoft Copilot Prompts 🍳
 
-[![Prompts](https://img.shields.io/badge/prompts-573-blue)](https://nerdychefs.ai)
-[![Categories](https://img.shields.io/badge/categories-18-green)](https://nerdychefs.ai)
+[![Prompts](https://img.shields.io/badge/prompts-573-blue)](prompts/)
+[![Categories](https://img.shields.io/badge/categories-18-green)](prompts/)
 [![License](https://img.shields.io/badge/license-CC%20BY--SA%204.0-blue)](LICENSE)
 [![Enterprise](https://img.shields.io/badge/enterprise-tested-purple)](https://www.kesslernity.com/?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=badge)
 
@@ -19,12 +19,6 @@ Tested prompts for Microsoft 365 Copilot. One role at a time. Plus verified GenA
 - **The Takeaway**: One insight on human+AI collaboration that changes how you think about your workflow
 
 👉 **[Subscribe free](https://newsletter.kesslernity.com/?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=hero)**. No spam, no fluff, unsubscribe anytime.
-
-## 🥘 The Prompt Pantry: Weekly from NerdyChefs.ai
-
-The site gives you the prompts. The newsletter gives you the judgment, when to use them, how to sequence them, and why one approach works where another fails. Weekly. Free. Always.
-
-👉 **[Subscribe free](https://pantry.nerdychefs.ai)**
 
 ## 🎓 Free AI Course
 
@@ -405,17 +399,17 @@ That is what the paid kits are for. Buy once, own the files, no platform to log 
 
 👉 **[See the deployment kits →](https://www.kesslernity.com/store?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=enterprise_block)**
 
-## 🌐 Full Searchable Library
+## 🌐 Free Copilot Reference Guides
 
-This repo contains **573 prompts** optimized for Microsoft Copilot. For the complete searchable library with:
+This repo gives you the prompts. The free field guide covers what a prompt cannot: which Copilot you are actually on, what each feature does, and what to do when an answer comes back wrong.
 
-- Advanced filtering by role, use case, and app
-- Copy-to-clipboard functionality
-- Regular updates with new prompts
-- Additional ChatGPT, Claude, and Gemini prompts
-- **No signup required**
+- 27 reference guides, one per feature
+- A decision map for picking the right Copilot
+- A failure triage table for answers that look right and are not
+- Browser-readable and print-ready
+- **No account required**
 
-👉 **Visit [NerdyChefs.ai](https://nerdychefs.ai)** - 1,565+ free AI prompts & tools
+👉 **[Read the field guide →](https://www.kesslernity.com/guides?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=guides_block)**
 
 ## 🤝 Contributing
 
@@ -490,7 +484,7 @@ Every role-specific collection includes **critical guardrails** explaining:
 
 - ⭐ **Star this repo** to get updates when new prompts are added
 - 🔔 **Watch releases** for curated prompt pack releases
-- 🐦 **Follow on X/Twitter:** [@nerdychefsai](https://x.com/nerdychefsai) for Copilot tips and enterprise AI insights
+- 🐦 **Follow on X/Twitter:** [@kesslernity](https://x.com/kesslernity) for Copilot tips and enterprise AI insights
 - 💼 **Follow on LinkedIn:** [Mathieu Kessler](https://linkedin.com/in/mathieukessler) for enterprise AI deployment strategies
 
 ## 📄 License
@@ -532,7 +526,7 @@ Independent and vendor-neutral. Not affiliated with Microsoft.
 
 ## 🙏 Acknowledgments
 
-Built by [Mathieu Kessler](https://linkedin.com/in/mathieukessler) and the team at NerdyChefs.ai.
+Built by [Mathieu Kessler](https://linkedin.com/in/mathieukessler).
 
 **Special thanks to:**
 - The thousands of enterprise users who tested these prompts in production
@@ -545,7 +539,7 @@ Built by [Mathieu Kessler](https://linkedin.com/in/mathieukessler) and the team 
 
 ## 🔗 Quick Links
 
-- **[Full Prompt Library](https://nerdychefs.ai)** - 1,565+ free AI prompts & tools (no signup)
+- **[Free Copilot Guides](https://www.kesslernity.com/guides?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=quicklinks)** - 27 reference guides, no account required
 - **[LinkedIn](https://linkedin.com/in/mathieukessler)** - Connect with Mathieu
 - **[X/Twitter](https://x.com/mayeu20)** - Daily AI productivity tips
 - **[Contributing Guide](CONTRIBUTING.md)** - Submit your own prompts

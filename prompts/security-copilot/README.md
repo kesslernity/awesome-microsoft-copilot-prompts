@@ -154,4 +154,4 @@ This approach costs roughly 1 SCU per execution regardless of query complexity. 
 
 ---
 
-**License:** CC BY-SA 4.0 · [NerdyChefs.ai](https://nerdychefs.ai) · [AI at Work Newsletter](https://newsletter.kesslernity.com/?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=seccopilot_readme)
+**License:** CC BY-SA 4.0 · [AI at Work Newsletter](https://newsletter.kesslernity.com/?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=seccopilot_readme)

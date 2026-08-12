@@ -86,4 +86,4 @@ The difference is what happens after the research. Chat hands you a draft and st
 
 *Prompts tested in Microsoft 365 Copilot Cowork (Frontier program, May 2026). Production use — review all outputs before sending or sharing.*
 
-*Part of the [awesome-microsoft-copilot-prompts](https://github.com/kesslernity/awesome-microsoft-copilot-prompts) collection by [NerdyChefs.ai](https://www.nerdychefs.ai)*
+*Part of the [awesome-microsoft-copilot-prompts](https://github.com/kesslernity/awesome-microsoft-copilot-prompts) collection*

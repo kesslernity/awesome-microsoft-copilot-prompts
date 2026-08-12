@@ -249,6 +249,6 @@ I need to reply to the most recent email from [NAME] about [TOPIC or PROJECT]. S
 
 > **Feature note:** These prompts use Copilot's action mode introduced in Frontier on April 27, 2026 (MC1293485). Action mode is the default experience in Copilot Chat for Outlook in the Frontier program. To revert to chat-only mode, use the "default mode" dropdown above the prompt box. Not available to users in the EU.
 
-**Made with care by [NerdyChefs.ai](https://nerdychefs.ai)**
+**Built by [Mathieu Kessler](https://www.kesslernity.com/?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=page_footer)**
 
-For the complete library of prompts, visit [nerdychefs.ai](https://nerdychefs.ai)
+For 27 free Copilot reference guides, visit [kesslernity.com/guides](https://www.kesslernity.com/guides?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=page_cta)

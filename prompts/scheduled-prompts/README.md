@@ -456,4 +456,4 @@ The rest of the shelf is at **[kesslernity.com/store](https://www.kesslernity.co
 ---
 
 *Part of the [Awesome Microsoft Copilot Prompts](https://github.com/kesslernity/awesome-microsoft-copilot-prompts) library.*  
-*NerdyChefs.ai · CC BY-SA 4.0*
+*Kesslernity · CC BY-SA 4.0*
