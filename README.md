@@ -32,6 +32,8 @@ Running a Copilot deployment for a team or org? The **[M365 Copilot Deployment K
 
 👉 **[See what is in the kit →](https://www.kesslernity.com/kit?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=kit_block)**: built for IT admins and Copilot champions who need more than prompts.
 
+Rolling it out across a team? There is no self-serve seat pack. Email mathieu@kesslernity.com with the headcount and it comes back as one quote and one invoice, with a bank transfer option if procurement prefers that to a card.
+
 ---
 
 ## 📘 Beyond the Prompts: The Practitioner Books
