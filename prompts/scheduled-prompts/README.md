@@ -449,7 +449,7 @@ Flag anyone in the "not communicated with" list where a 14-day gap is unusual ba
 
 These prompts work for one person on day one. Rolling them out across a team is a different job: prerequisites checked, a governance decision taken before anything is published, a sequence that survives week one, and something to put in front of the person holding the budget.
 
-The **[M365 Copilot Deployment Kit](https://www.kesslernity.com/kit?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=scheduled_prompts)** ($97) is the org-level version of this page: 26 field guides, a 90-day rollout roadmap, a governance checklist, 10 paste-ready agent templates, and an ROI conversation template. Buy it once and you own the files, with no platform to log into and no consultant in the loop. Rolling it out across a team? Email mathieu@kesslernity.com with the headcount and it comes back as one quote and one invoice.
+The **[M365 Copilot Deployment Kit](https://www.kesslernity.com/kit?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=scheduled_prompts)** ($97) is the org-level version of this page: 28 field guides, a 90-day rollout roadmap, a governance checklist, 10 paste-ready agent templates, and an ROI conversation template. Buy it once and you own the files, with no platform to log into and no consultant in the loop. Rolling it out across a team? Email mathieu@kesslernity.com with the headcount and it comes back as one quote and one invoice.
 
 The rest of the shelf is at **[kesslernity.com/store](https://www.kesslernity.com/store?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=scheduled_prompts)**.
 

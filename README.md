@@ -28,7 +28,7 @@ Want to go beyond prompts? **AI Quick Start Essentials** is a free 35-minute cou
 
 ## 📦 M365 Copilot Deployment Kit
 
-Running a Copilot deployment for a team or org? The **[M365 Copilot Deployment Kit](https://www.kesslernity.com/kit?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=kit_block)** packages everything a deployment lead needs: 26 field guides, a 90-day rollout roadmap, 10 paste-ready agent templates, a governance checklist, and an ROI conversation template for the budget meeting.
+Running a Copilot deployment for a team or org? The **[M365 Copilot Deployment Kit](https://www.kesslernity.com/kit?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=kit_block)** packages everything a deployment lead needs: 28 field guides, a 90-day rollout roadmap, 10 paste-ready agent templates, a governance checklist, and an ROI conversation template for the budget meeting.
 
 👉 **[See what is in the kit →](https://www.kesslernity.com/kit?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=kit_block)**: built for IT admins and Copilot champions who need more than prompts.
 
