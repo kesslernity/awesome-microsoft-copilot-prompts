@@ -108,6 +108,15 @@ Carved from [awesome-microsoft-copilot-prompts](../README.md). Licence: CC BY-SA
 
 ---
 
+If you are importing prompts into a tenant, you are past the question of whether Copilot is
+useful and into the questions that get asked in front of other people. Which prompts become
+official. What happens when one of them returns something wrong. Who owns the answer when
+somebody asks what it can see.
+
+[The M365 Copilot Deployment Kit](https://store.kesslernity.com/l/kpfpi?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=org_import_a) is the rest of that work. $97, one-time.
+
+---
+
 **Free**
 
 - 📄 **Copilot on One Page**: the one-page cheat sheet for getting real answers out of Copilot. [Free download](https://store.kesslernity.com/l/copilot-on-one-page?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=page_capture)
