@@ -39,6 +39,13 @@ Universal, company-wide prompts for productivity and communication excellence:
 
 ---
 
+Inbox prompts fail in a specific way: they read a thread, miss the one reply that reversed the
+decision, and summarise the wrong outcome confidently. Nothing in the output tells you it happened.
+
+[The Honest M365 Copilot Kit](https://store.kesslernity.com/l/honest-m365-copilot-kit?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=outlook_a) has a card for Outlook specifically, including what it cannot see in a thread and the check that catches a reversed decision. Fourteen cards and a guide. $39, one-time.
+
+---
+
 **Free**
 
 - 📄 **Copilot on One Page**: the one-page cheat sheet for getting real answers out of Copilot. [Free download](https://store.kesslernity.com/l/copilot-on-one-page?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=page_capture)
