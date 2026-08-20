@@ -475,6 +475,14 @@ The rest of the shelf is at **[kesslernity.com/store](https://www.kesslernity.co
 
 ---
 
+If you are reading this folder, you are probably the person other people ask. That role tends to
+arrive without a title, a budget or anyone to escalate to, and the hard part is rarely the
+prompting.
+
+[The AI Champion's Playbook](https://store.kesslernity.com/l/ryymlf?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=power_users_a) is written for exactly that position. $59, one-time.
+
+---
+
 **Free**
 
 - 📄 **Copilot on One Page**: the one-page cheat sheet for getting real answers out of Copilot. [Free download](https://store.kesslernity.com/l/copilot-on-one-page?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=page_capture)
