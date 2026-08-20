@@ -7,7 +7,7 @@
 
 A curated collection of **573 production-tested Microsoft Copilot prompts** for enterprise professionals. From inbox intelligence to role-specific workflows, these prompts help you get the most out of Microsoft 365 Copilot.
 
-> 📄 **New here?** Grab **[Copilot on One Page](https://store.kesslernity.com/l/copilot-on-one-page?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=hero)** first: the free one-page cheat sheet for getting real answers out of Copilot. Print it, pin it, then come back for the full library.
+**Start here, free:** [Copilot on One Page](https://store.kesslernity.com/l/copilot-on-one-page?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=hero) is the four-step loop every prompt below assumes. One page, printable, and it names the step most people skip.
 
 ## 📬 AI at Work Newsletter
 
@@ -412,6 +412,15 @@ This repo gives you the prompts. The free field guide covers what a prompt canno
 - **No account required**
 
 👉 **[Read the field guide →](https://www.kesslernity.com/guides?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=guides_block)**
+
+### If you are the one rolling this out
+
+These prompts make one person faster. Getting four hundred people to use them the same way is a
+different job, and it starts before anyone opens a prompt: who gets a licence, what Copilot can
+already see, which prompts you publish to the tenant, and what you say to the person who asks
+whether it read their private files.
+
+That is the job [The M365 Copilot Deployment Kit](https://store.kesslernity.com/l/kpfpi?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=deploy_block_a) covers. $97, one-time, no subscription.
 
 ## 🤝 Contributing
 
