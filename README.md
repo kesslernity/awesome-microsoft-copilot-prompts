@@ -497,6 +497,7 @@ Every role-specific collection includes **critical guardrails** explaining:
 - 🔔 **Watch releases** for curated prompt pack releases
 - 🐦 **Follow on X/Twitter:** [@kesslernity](https://x.com/kesslernity) for Copilot tips and enterprise AI insights
 - 💼 **Follow on LinkedIn:** [Mathieu Kessler](https://linkedin.com/in/mathieukessler) for enterprise AI deployment strategies
+- 📺 **Subscribe on YouTube:** [@Kesslernity](https://www.youtube.com/@Kesslernity?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=stay_updated) for Copilot walkthroughs and agent builds
 
 ## 📄 License
 
@@ -524,6 +525,7 @@ This repo is free and stays free. If it's useful, here's the rest of the toolkit
 **Free**
 - 📬 **AI at Work**: a short biweekly briefing on Microsoft Copilot and enterprise AI, with tested prompts and one honest insight. [newsletter.kesslernity.com](https://newsletter.kesslernity.com/?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=footer)
 - 📄 **Copilot on One Page**: the one-page cheat sheet for getting real answers out of Copilot. [Free download](https://store.kesslernity.com/l/copilot-on-one-page?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=footer)
+- 📺 **YouTube**: Copilot walkthroughs, agent builds, and what actually changed in the roadmap this month. [@Kesslernity](https://www.youtube.com/@Kesslernity?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=footer)
 
 **The rest of the free Copilot repos**
 - [awesome-copilot-studio-agents](https://github.com/kesslernity/awesome-copilot-studio-agents): ready-to-deploy Copilot Studio agents
@@ -553,6 +555,7 @@ Built by [Mathieu Kessler](https://linkedin.com/in/mathieukessler).
 - **[Free Copilot Guides](https://www.kesslernity.com/guides?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=quicklinks)** - 27 reference guides, no account required
 - **[LinkedIn](https://linkedin.com/in/mathieukessler)** - Connect with Mathieu
 - **[X/Twitter](https://x.com/mayeu20)** - Daily AI productivity tips
+- **[YouTube](https://www.youtube.com/@Kesslernity?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=quicklinks)** - Copilot walkthroughs and agent builds
 - **[Contributing Guide](CONTRIBUTING.md)** - Submit your own prompts
 - **[License](LICENSE)** - CC BY-SA 4.0
 
