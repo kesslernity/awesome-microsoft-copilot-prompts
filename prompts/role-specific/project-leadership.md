@@ -300,6 +300,12 @@ EXPERIMENTAL: May lack context on what was actually implemented vs. just discuss
 
 **Tags:** `copilot`, `microsoft-365`, `enterprise`, `executive`, `sentiment`, `experimental`
 
+> **⚠️ Copilot may refuse this prompt, and we have not run this one.** In August 2026 a reader ran a different prompt in this repo, one that asked Copilot to sort each named sender into supportive, neutral, demanding or at-risk. Copilot refused it as an "ungrounded employee assessment". This prompt is further from that line, because it asks for themes and names nobody, so it may well run. Treat a refusal as the guardrail working rather than a fault in your tenant.
+>
+> Where the line seems to sit, on the evidence we have, is per-person profiling rather than the word sentiment. That is why the single-email tone reader elsewhere in this repo carries no warning: reading one message someone sent you is not the same act as building a picture of your colleagues from their mail.
+>
+> The EXPERIMENTAL note in the prompt is about accuracy. There is a second question it does not cover. Reading the mood of a workforce from its mail is a decision for whoever governs employee monitoring where you are, which may be HR, a privacy officer, employee representatives or a regulator, and it should not be made because a prompt was available.
+
 **Prompt:**
 ```
 Based on communications across my inbox and Teams, identify emerging themes about organizational concerns or opportunities that I should be aware of:

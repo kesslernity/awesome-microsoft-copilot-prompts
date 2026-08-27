@@ -69,6 +69,16 @@ Based on the last 60 days of emails, predict my workload for next month includin
 
 **Tags:** `Microsoft Copilot`, `Microsoft 365`, `Productivity`, `Office`, `Work Users`
 
+> **⚠️ Copilot refused this prompt.** A reader ran it on a licensed Microsoft 365 tenant in August 2026 and got this back instead of an answer:
+>
+> > I can't classify individual coworkers as "demanding," "at-risk," supportive, or otherwise infer their attitudes from communications. That creates an ungrounded employee assessment and could distort relationship or personnel decisions.
+>
+> We then wrote a version that removed every tone judgement and asked only for message counts and reply times for each sender. Copilot refused that one too, on a different tenant. So the trigger is probably the per-person picture of named colleagues rather than the word "tone". Two runs make that a hypothesis, not a finding. We are testing it properly and will publish the result, including the variants that fail.
+>
+> The prompt stays here because the refusal teaches more than the output would have. Copilot stopped this before anyone had a written assessment of a named colleague to forward, and stopping it at that point costs nothing. Once that document exists, who gets to ask about it depends on where you work: HR, employee representatives, a privacy officer, or employment counsel.
+>
+> For the useful half, ask about threads and about your own commitments rather than about people. The Commitment Tracker in [prompts/outlook/advanced-automation.md](../outlook/advanced-automation.md) is that shape. We have not run that one against this guardrail either.
+
 **Prompt:**
 
 ```
@@ -185,6 +195,14 @@ Analyze this dataset and tell the data story: 1) Key trends over time, 2) Notabl
 
 **Tags:** `Microsoft Copilot`, `Microsoft 365`, `Productivity`, `Office`, `Work Users`
 
+> **⚠️ Copilot is likely to refuse this prompt, and we have not run this one.** The 360° Relationship Mapper in this repo asks for the same thing, and a reader ran it on a licensed Microsoft 365 tenant in August 2026. Copilot answered:
+>
+> > I can't classify individual coworkers as "demanding," "at-risk," supportive, or otherwise infer their attitudes from communications. That creates an ungrounded employee assessment and could distort relationship or personnel decisions.
+>
+> Item 2, "Communication tone by sender (supportive, neutral, demanding)", is the line that matches the refusal. Nothing else in the prompt judges a person. Expect the same answer here. Rewriting it to remove the tone words is not enough: we tried that on the prompt above, asking only for counts and reply times per sender, and Copilot refused that too.
+>
+> Delete item 2 and renumber. The rest of the briefing is topic clusters, unresolved threads and project status, none of which asks Copilot to form a view about a colleague.
+
 **Prompt:**
 
 ```
@@ -216,6 +234,14 @@ Dissect this messy email thread into: 1) What each person said (chronological su
 **Target Personas:** Manager, Executive, Project Manager, Team Lead
 
 **Tags:** `Microsoft Copilot`, `Microsoft 365`, `Productivity`, `Office`, `Work Users`
+
+> **⚠️ Copilot is likely to refuse this prompt, and we have not run this one.** The 360° Relationship Mapper in this repo asks for the same thing, and a reader ran it on a licensed Microsoft 365 tenant in August 2026. Copilot answered:
+>
+> > I can't classify individual coworkers as "demanding," "at-risk," supportive, or otherwise infer their attitudes from communications. That creates an ungrounded employee assessment and could distort relationship or personnel decisions.
+>
+> Items 1 and 5 ask Copilot to read tension and passive-aggression into named people's messages. Expect the same answer here. Rewriting it to remove the tone words is not enough: we tried that on the prompt above, asking only for counts and reply times per sender, and Copilot refused that too.
+>
+> Items 2, 3, 4 and 6 are closer to what the messages record: dates that passed, requests sent again, questions with no reply, commitments with nothing after them. Asking for those alone gives up the psychology and keeps the early warning.
 
 **Prompt:**
 

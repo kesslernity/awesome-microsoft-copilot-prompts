@@ -235,6 +235,14 @@ Dissect this messy email thread into a structured analysis: 1) What each person 
 
 **Tags:** `Microsoft Copilot`, `Outlook`, `Email Management`, `Productivity`, `Work Users`
 
+> **⚠️ Copilot is likely to refuse this prompt, and we have not run this one.** The 360° Relationship Mapper in this repo asks for the same thing, and a reader ran it on a licensed Microsoft 365 tenant in August 2026. Copilot answered:
+>
+> > I can't classify individual coworkers as "demanding," "at-risk," supportive, or otherwise infer their attitudes from communications. That creates an ungrounded employee assessment and could distort relationship or personnel decisions.
+>
+> Item 2, "Communication tone by sender (supportive, neutral, demanding, frustrated)", is the line that matches the refusal. Nothing else in the prompt judges a person. Expect the same answer here. Rewriting it to remove the tone words is not enough: we tried that on the prompt above, asking only for counts and reply times per sender, and Copilot refused that too.
+>
+> Delete item 2 and renumber. The rest of the briefing is topic clusters, unresolved threads and project status, none of which asks Copilot to form a view about a colleague.
+
 **Prompt:**
 
 ```
@@ -285,6 +293,14 @@ Identify relationship-building opportunities from emails in the last 30 days: 1)
 
 **Tags:** `Microsoft Copilot`, `Outlook`, `Email Management`, `Productivity`, `Work Users`
 
+> **⚠️ Copilot is likely to refuse this prompt, and we have not run this one.** The 360° Relationship Mapper in this repo asks for the same thing, and a reader ran it on a licensed Microsoft 365 tenant in August 2026. Copilot answered:
+>
+> > I can't classify individual coworkers as "demanding," "at-risk," supportive, or otherwise infer their attitudes from communications. That creates an ungrounded employee assessment and could distort relationship or personnel decisions.
+>
+> This one asks Copilot to rate each stakeholder on sentiment, engagement, trust and influence, then plot them on a matrix. Item 5, "influence level and decision-making power", is a judgement about a person's standing rather than anything the messages record. Expect the same answer here. Rewriting it to remove the tone words is not enough: we tried that on the prompt above, asking only for counts and reply times per sender, and Copilot refused that too.
+>
+> If your stakeholders are customers, the exposure is different from colleagues and so is the law. Copilot reads one mailbox and cannot tell the two apart, which is a good reason to name the accounts you mean instead of asking for "key stakeholders".
+
 **Prompt:**
 
 ```
@@ -300,6 +316,14 @@ Analyze sentiment and engagement levels of key stakeholders over the last 60 day
 **Target Personas:** Account Manager, Executive, Sales Manager, Relationship Manager, Business Development
 
 **Tags:** `Microsoft Copilot`, `Outlook`, `Email Management`, `Productivity`, `Work Users`
+
+> **⚠️ Copilot is likely to refuse this prompt, and we have not run this one.** The 360° Relationship Mapper in this repo asks for the same thing, and a reader ran it on a licensed Microsoft 365 tenant in August 2026. Copilot answered:
+>
+> > I can't classify individual coworkers as "demanding," "at-risk," supportive, or otherwise infer their attitudes from communications. That creates an ungrounded employee assessment and could distort relationship or personnel decisions.
+>
+> This is the heavier version of that prompt: the same four categories, plus a 1 to 10 relationship health score attached to each named colleague, sentiment tracked over time, and a dashboard to keep it in. Expect the same answer here. Rewriting it to remove the tone words is not enough: we tried that on the prompt above, asking only for counts and reply times per sender, and Copilot refused that too.
+>
+> For the answer underneath it, ask about threads and about your own commitments rather than about people. [The Commitment Tracker](#2-the-commitment-tracker) below is that shape. We have not run that one against this guardrail either.
 
 **Prompt:**
 
@@ -318,6 +342,14 @@ Map communication volume and tone for each sender in the last 90 days. Categoriz
 **Target Personas:** Manager, Executive, Project Manager, Team Lead, Account Manager
 
 **Tags:** `Microsoft Copilot`, `Outlook`, `Email Management`, `Productivity`, `Work Users`
+
+> **⚠️ Copilot is likely to refuse this prompt, and we have not run this one.** The 360° Relationship Mapper in this repo asks for the same thing, and a reader ran it on a licensed Microsoft 365 tenant in August 2026. Copilot answered:
+>
+> > I can't classify individual coworkers as "demanding," "at-risk," supportive, or otherwise infer their attitudes from communications. That creates an ungrounded employee assessment and could distort relationship or personnel decisions.
+>
+> Items 1, 5 and 7 ask Copilot to read tension, passive-aggression and dissatisfaction into named people's messages. Expect the same answer here. Rewriting it to remove the tone words is not enough: we tried that on the prompt above, asking only for counts and reply times per sender, and Copilot refused that too.
+>
+> Items 2, 3, 4 and 6 are closer to what the messages record: dates that passed, requests sent again, questions with no reply, commitments with nothing after them. Asking for those alone gives up the psychology and keeps the early warning.
 
 **Prompt:**
 
