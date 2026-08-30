@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/badge/license-CC%20BY--SA%204.0-blue)](LICENSE)
 [![Enterprise](https://img.shields.io/badge/enterprise-tested-purple)](https://www.kesslernity.com/?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=badge)
 
-A curated collection of **573 production-tested Microsoft Copilot prompts** for enterprise professionals. From inbox intelligence to role-specific workflows, these prompts help you get the most out of Microsoft 365 Copilot.
+A curated collection of **573 Microsoft Copilot prompts**, RAI-reviewed and source-quality labelled, for enterprise professionals. From inbox intelligence to role-specific workflows, these prompts help you get the most out of Microsoft 365 Copilot.
 
 **Start here, free:** [Copilot on One Page](https://store.kesslernity.com/l/copilot-on-one-page?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=hero) is the four-step loop every prompt below assumes. One page, printable, and it names the step most people skip.
 
@@ -38,7 +38,7 @@ Rolling it out across a team? There is no self-serve seat pack. Email mathieu@ke
 
 ## 📘 Beyond the Prompts: The Practitioner Books
 
-Microsoft's CMO for AI at Work cited this repo as "battle-tested in production environments." These two short books are the thinking that earns that. The judgment and the craft underneath the prompts:
+Featured by Jared Spataro, Microsoft's CMO for AI at Work (LinkedIn, Feb 18 2026). These two short books are the judgment and the craft underneath the prompts:
 
 - **[When Not to Use AI: A Decision Framework for Teams](https://www.kesslernity.com/products/when-not-to-use-ai?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=books_block)** ($29): the question nobody asks before adding AI to a workflow. A 5-question pre-flight check, a use-case scoring matrix, a 12-signal red-flags checklist, three "no AI" conversation scripts, and a section on applying it all to Microsoft 365 Copilot (grounding, oversharing, the draft-vs-act line, DLP).
 - **[Agent Instruction Block Design Guide](https://www.kesslernity.com/products/agent-instruction-block-design-guide?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=books_block)** ($19): 12 patterns for Copilot Chat agents that actually work, the 8 ways instruction blocks break, and a reusable scaffold. The craft behind the [82 free Copilot Chat agents](https://github.com/kesslernity/awesome-copilot-chat-agents).
@@ -67,7 +67,7 @@ So we carved a starter library from this repo into Microsoft's exact import form
 - **70 Outlook Prompts** for email intelligence and automation
 - **66 Standalone Prompts** for any Copilot version
 - **331 Role-Specific Prompts** covering 20 business functions
-- **Tested in Production** by thousands of enterprise users
+- **RAI-reviewed**, source-quality labelled, every prompt
 
 ## 🚀 Quick Start
 
@@ -542,7 +542,7 @@ Independent and vendor-neutral. Not affiliated with Microsoft.
 Built by [Mathieu Kessler](https://linkedin.com/in/mathieukessler).
 
 **Special thanks to:**
-- The thousands of enterprise users who tested these prompts in production
+- Everyone who filed issues and improvements
 - Microsoft 365 admins who provided governance feedback
 - Role-specific subject matter experts who validated use cases
 
