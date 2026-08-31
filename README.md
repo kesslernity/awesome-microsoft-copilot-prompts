@@ -405,7 +405,7 @@ That is what the paid kits are for. Buy once, own the files, no platform to log 
 
 This repo gives you the prompts. The free field guide covers what a prompt cannot: which Copilot you are actually on, what each feature does, and what to do when an answer comes back wrong.
 
-- 27 reference guides, one per feature
+- 28 reference guides, one per feature
 - A decision map for picking the right Copilot
 - A failure triage table for answers that look right and are not
 - Browser-readable and print-ready
@@ -552,7 +552,7 @@ Built by [Mathieu Kessler](https://linkedin.com/in/mathieukessler).
 
 ## 🔗 Quick Links
 
-- **[Free Copilot Guides](https://www.kesslernity.com/guides?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=quicklinks)** - 27 reference guides, no account required
+- **[Free Copilot Guides](https://www.kesslernity.com/guides?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=quicklinks)** - 28 reference guides, no account required
 - **[LinkedIn](https://linkedin.com/in/mathieukessler)** - Connect with Mathieu
 - **[X/Twitter](https://x.com/mayeu20)** - Daily AI productivity tips
 - **[YouTube](https://www.youtube.com/@Kesslernity?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=quicklinks)** - Copilot walkthroughs and agent builds
