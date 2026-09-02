@@ -422,6 +422,19 @@ whether it read their private files.
 
 That is the job [The M365 Copilot Deployment Kit](https://store.kesslernity.com/l/kpfpi?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=deploy_block_a) covers. $97, one-time, no subscription.
 
+### If prompts are working and agents are next
+
+A prompt makes one task faster. The next question, for an IT team, is which tasks deserve a
+standing agent, which should stay a prompt, and which should never run unattended at all. Most
+teams answer that by enthusiasm. A more honest answer is a classification: across 100 common IT
+activities, only 16 make sense as straightforward automation, 40 work as agent-drafts-human-approves,
+29 as AI assisting a person, 13 belong on a never-automate list (access approvals, production
+change approvals and wipe decisions among them), and 2 stay human-only. Whatever you build, put a named human gate on anything hard to reverse,
+and smoke-test an agent before it touches real tickets.
+
+That classification, plus ten tenant-tested Copilot agents with the fixtures and answer keys to
+verify your own builds, eleven gated workflows and a 30-day sprint, is [The IT AI Stack](https://store.kesslernity.com/l/it-ai-stack?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=stack_block_a). From $99, one-time.
+
 ## 🤝 Contributing
 
 Have a killer Copilot prompt that's made your work life easier? We'd love to add it!
