@@ -4,7 +4,7 @@
 
 **Category:** Automation & Scheduled Workflows
 
-> 📄 **Free first:** **[Copilot on One Page](https://store.kesslernity.com/l/copilot-on-one-page?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=scheduled_prompts)** is a one-page cheat sheet for phrasing prompts so they come back with something usable. Print it, then work through the list below.
+> 📄 **Free first:** **[Copilot on One Page](https://www.kesslernity.com/copilot-on-one-page?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=scheduled_prompts)** is a one-page cheat sheet for phrasing prompts so they come back with something usable. Print it, then work through the list below.
 
 **Prompts:** 15
 
@@ -460,7 +460,7 @@ any more, it is an agent with no supervision.
 
 **Free**
 
-- 📄 **Copilot on One Page**: the one-page cheat sheet for getting real answers out of Copilot. [Free download](https://store.kesslernity.com/l/copilot-on-one-page?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=page_capture)
+- 📄 **Copilot on One Page**: the one-page cheat sheet for getting real answers out of Copilot. [Free download](https://www.kesslernity.com/copilot-on-one-page?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=page_capture)
 - 📬 **AI at Work**: a short biweekly briefing on Microsoft Copilot and enterprise AI, with tested prompts and one honest insight. [Subscribe](https://newsletter.kesslernity.com/?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=page_capture)
 - 📘 **27 free Copilot reference guides**, no sign-up needed. [kesslernity.com/guides](https://www.kesslernity.com/guides?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=page_capture)
 
