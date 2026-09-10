@@ -420,7 +420,7 @@ different job, and it starts before anyone opens a prompt: who gets a licence, w
 already see, which prompts you publish to the tenant, and what you say to the person who asks
 whether it read their private files.
 
-That is the job [The M365 Copilot Deployment Kit](https://store.kesslernity.com/l/kpfpi?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=deploy_block_a) covers. $97, one-time, no subscription.
+That is the job [The M365 Copilot Deployment Kit](https://store.kesslernity.com/l/kpfpi?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=deploy_block_a) covers. $97, one-time, no subscription. If you also need the cost model and the user-facing guide, [the Copilot Rollout Bundle](https://store.kesslernity.com/l/copilot-rollout-bundle?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=rollout_bundle) has the Kit, The Real Cost of Copilot and the Honest Kit together for $134 instead of $165.
 
 ### If prompts are working and agents are next
 
@@ -538,6 +538,7 @@ This repo is free and stays free. If it's useful, here's the rest of the toolkit
 **Free**
 - 📬 **AI at Work**: a short biweekly briefing on Microsoft Copilot and enterprise AI, with tested prompts and one honest insight. [newsletter.kesslernity.com](https://newsletter.kesslernity.com/?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=footer)
 - 📄 **Copilot on One Page**: the one-page cheat sheet for getting real answers out of Copilot. [Free download](https://www.kesslernity.com/copilot-on-one-page?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=footer)
+- ✅ **Day-0 Readiness Gate**: eight pass-or-fail checks to settle before the first Copilot licence goes out. [Free download](https://www.kesslernity.com/copilot-day0-readiness?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=day0)
 - 📺 **YouTube**: Copilot walkthroughs, agent builds, and what actually changed in the roadmap this month. [@Kesslernity](https://www.youtube.com/@Kesslernity?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=footer)
 
 **The rest of the free Copilot repos**
