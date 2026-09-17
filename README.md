@@ -5,7 +5,7 @@
 [![Prompts](https://img.shields.io/badge/prompts-573-blue)](prompts/)
 [![Categories](https://img.shields.io/badge/categories-18-green)](prompts/)
 [![License](https://img.shields.io/badge/license-CC%20BY--SA%204.0-blue)](LICENSE)
-[![Enterprise](https://img.shields.io/badge/enterprise-tested-purple)](https://www.kesslernity.com/?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=badge)
+[![What broke](https://img.shields.io/badge/what%20broke-dated%2C%20with%20fixes-purple)](https://www.kesslernity.com/what-broke?utm_source=github&utm_medium=readme&utm_campaign=fail_line&utm_content=awesome-microsoft-copilot-prompts-badge)
 
 A curated collection of **573 Microsoft Copilot prompts**, RAI-reviewed and source-quality labelled, for enterprise professionals. From inbox intelligence to role-specific workflows, these prompts help you get the most out of Microsoft 365 Copilot.
 
@@ -53,7 +53,7 @@ Featured by Jared Spataro, Microsoft's CMO for AI at Work (LinkedIn, Feb 18 2026
 
 Microsoft 365 Copilot now lets IT admins publish a curated prompt library to the whole tenant, surfaced to users in Copilot Chat, Teams, and Edge. The catch in Microsoft's own rollout: it ships a bulk CSV importer with no prompts in it.
 
-So we carved a starter library from this repo into Microsoft's exact import format.
+So I carved a starter library from this repo into Microsoft's exact import format.
 
 👉 **[Organizational prompts import pack →](organizational-prompts-import/)**: 44 production-safe prompts across 8 departments (Finance, HR, Sales, Marketing, Project Management, IT, Procurement, Customer Success), a mix of quick everyday prompts and richer structured ones, formatted into Microsoft's `prompt-import-template.csv`. Includes a one-page guide to the limits nobody mentions: the 1,000-prompt cap, the **only 4 can be pinned** reality, the per-field character limits, and the two gotchas that reject an import.
 
@@ -439,19 +439,19 @@ verify your own builds, eleven gated workflows and a 30-day sprint, is [The IT A
 
 ## 🤝 Contributing
 
-Have a killer Copilot prompt that's made your work life easier? We'd love to add it!
+Have a Copilot prompt that has made your work easier? I would like to add it.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on:
 
 - Prompt format requirements
-- Testing standards (must be production-tested)
+- Testing standards: say where you ran it and what happened
 - Documentation expectations
 - Review process
 
-**Quality bar:** We only accept prompts that:
+**Quality bar:** I only accept prompts that:
 
 1. Solve real business problems
-2. Have been tested in production environments
+2. State where they were run and what happened (a prompt nobody has run is labelled as such)
 3. Include clear use cases and target personas
 4. Work specifically with Microsoft Copilot (not generic AI prompts)
 
@@ -577,7 +577,7 @@ Built by [Mathieu Kessler](https://linkedin.com/in/mathieukessler).
 
 ---
 
-**⚡ Pro Tip:** Bookmark this repo and check back monthly for new prompt additions. We're continuously adding prompts based on enterprise feedback and real-world use cases.
+**⚡ Pro Tip:** Bookmark this repo and check back monthly. I add prompts as run notes and reader reports come in, and every miss goes on the what-broke page with its fix.
 
 ---
 
