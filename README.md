@@ -1,5 +1,7 @@
 # Awesome Microsoft Copilot Prompts 🍳
 
+**What broke, dated.** In August 2026 a reader ran one of these prompts and Copilot refused it as an ungrounded employee assessment. Eight prompts now carry a note saying what was run, what was not, and which half survives.
+
 [![Prompts](https://img.shields.io/badge/prompts-573-blue)](prompts/)
 [![Categories](https://img.shields.io/badge/categories-18-green)](prompts/)
 [![License](https://img.shields.io/badge/license-CC%20BY--SA%204.0-blue)](LICENSE)
@@ -576,3 +578,7 @@ Built by [Mathieu Kessler](https://linkedin.com/in/mathieukessler).
 ---
 
 **⚡ Pro Tip:** Bookmark this repo and check back monthly for new prompt additions. We're continuously adding prompts based on enterprise feedback and real-world use cases.
+
+---
+
+Checked against Microsoft's own pages before publication. Since August 2026, three rival labs' models try to break every listing before I decide what ships. Misses, dated, with fixes: [kesslernity.com/what-broke](https://www.kesslernity.com/what-broke?utm_source=github&utm_medium=readme&utm_campaign=fail_line&utm_content=awesome-microsoft-copilot-prompts)
