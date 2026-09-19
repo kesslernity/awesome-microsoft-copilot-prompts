@@ -7,7 +7,7 @@
 [![License](https://img.shields.io/badge/license-CC%20BY--SA%204.0-blue)](LICENSE)
 [![What broke](https://img.shields.io/badge/what%20broke-dated%2C%20with%20fixes-purple)](https://www.kesslernity.com/what-broke?utm_source=github&utm_medium=readme&utm_campaign=fail_line&utm_content=awesome-microsoft-copilot-prompts-badge)
 
-A curated collection of **573 Microsoft Copilot prompts**, RAI-reviewed and source-quality labelled, for enterprise professionals. From inbox intelligence to role-specific workflows, these prompts help you get the most out of Microsoft 365 Copilot.
+A curated collection of **573 Microsoft Copilot prompts** for enterprise professionals, each one checked against Microsoft's published Responsible AI guidance. By me, not by Microsoft. From inbox intelligence to role-specific workflows, these prompts help you get the most out of Microsoft 365 Copilot.
 
 **Start here, free:** [Copilot on One Page](https://www.kesslernity.com/copilot-on-one-page?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=hero) is the four-step loop every prompt below assumes. One page, printable, and it names the step most people skip.
 
@@ -69,7 +69,7 @@ So I carved a starter library from this repo into Microsoft's exact import forma
 - **70 Outlook Prompts** for email intelligence and automation
 - **66 Standalone Prompts** for any Copilot version
 - **331 Role-Specific Prompts** covering 20 business functions
-- **RAI-reviewed**, source-quality labelled, every prompt
+- **Checked against Microsoft's published Responsible AI guidance**, every prompt
 
 ## 🚀 Quick Start
 
