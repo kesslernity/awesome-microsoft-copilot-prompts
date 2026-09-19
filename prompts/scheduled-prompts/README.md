@@ -229,6 +229,8 @@ Review my Teams messages and emails from the last 7 days. For each active projec
 Group by project. Flag anything where no activity was recorded this week.
 ```
 
+> 🗂 **One routine, not the whole job.** Whoever runs this brief also chases RAID items, drafts the sprint review and watches for slippage. **[Project Delivery Desk](https://github.com/kesslernity/agent-desks/tree/main/packs/project-delivery-desk?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=scheduled_prompts_desk)** maps that role: the skills it uses, the routines that run on a timer, and the decisions a person still signs. It lists eleven skills, and Microsoft 365 Copilot currently carries up to eight per agent in preview, so pick the ones that match the work in front of you. CC BY-SA 4.0, same as this library.
+
 ---
 
 ### 8. Monday Blocker Check
