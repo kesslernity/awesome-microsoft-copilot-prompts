@@ -26,7 +26,7 @@ Tested prompts for Microsoft 365 Copilot. One role at a time. Plus verified GenA
 
 Want to go beyond prompts? **AI Quick Start Essentials** is a free 35-minute course covering responsible AI use and practical human+AI collaboration workflows.
 
-👉 **[Start the free course](https://trainings.kesslernity.com/?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=hero)**: no signup wall, no credit card.
+👉 **[Start the free course](https://trainings.kesslernity.com/?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=hero)**: no credit card, you just need an account.
 
 ## 📦 M365 Copilot Deployment Kit
 
