@@ -9,6 +9,10 @@
 
 A curated collection of **573 Microsoft Copilot prompts** for enterprise professionals, each one checked against Microsoft's published Responsible AI guidance. By me, not by Microsoft. From inbox intelligence to role-specific workflows, these prompts help you get the most out of Microsoft 365 Copilot.
 
+> "An amazing library of more than 300 Copilot prompts for business teams."
+>
+> Jared Spataro (Microsoft, AI at Work), [25 February 2026](https://jspataro.substack.com/p/when-ai-stops-assisting-and-starts). He was citing this free repo, which held 300+ prompts then and holds 573 now. He was not citing any paid product.
+
 **Start here, free:** [Copilot on One Page](https://www.kesslernity.com/copilot-on-one-page?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=hero) is the four-step loop every prompt below assumes. One page, printable, and it names the step most people skip.
 
 ## 📬 AI at Work Newsletter
