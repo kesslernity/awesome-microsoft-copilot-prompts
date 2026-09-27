@@ -32,27 +32,6 @@ Want to go beyond prompts? **AI Quick Start Essentials** is a free 35-minute cou
 
 👉 **[Start the free course](https://trainings.kesslernity.com/?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=hero)**: no credit card, you just need an account.
 
-## 📦 M365 Copilot Deployment Kit
-
-Running a Copilot deployment for a team or org? The **[M365 Copilot Deployment Kit](https://www.kesslernity.com/kit?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=kit_block)** packages everything a deployment lead needs: 28 field guides, a 90-day rollout roadmap, 10 paste-ready agent templates, a governance checklist, and an ROI conversation template for the budget meeting.
-
-👉 **[See what is in the kit →](https://www.kesslernity.com/kit?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=kit_block)**: built for IT admins and Copilot champions who need more than prompts.
-
-Rolling it out across a team? There is no self-serve seat pack. Email mathieu@kesslernity.com with the headcount and it comes back as one quote and one invoice, with a bank transfer option if procurement prefers that to a card.
-
----
-
-## 📘 Beyond the Prompts: The Practitioner Books
-
-These two short books are the judgment and the craft underneath the prompts:
-
-- **[When Not to Use AI: A Decision Framework for Teams](https://www.kesslernity.com/products/when-not-to-use-ai?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=books_block)** ($29): the question nobody asks before adding AI to a workflow. A 5-question pre-flight check, a use-case scoring matrix, a 12-signal red-flags checklist, three "no AI" conversation scripts, and a section on applying it all to Microsoft 365 Copilot (grounding, oversharing, the draft-vs-act line, DLP).
-- **[Agent Instruction Block Design Guide](https://www.kesslernity.com/products/agent-instruction-block-design-guide?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=books_block)** ($19): 12 patterns for Copilot Chat agents that actually work, the 8 ways instruction blocks break, and a reusable scaffold. The craft behind the [82 free Copilot Chat agents](https://github.com/kesslernity/awesome-copilot-chat-agents).
-
-👉 **[Get both, From Decision to Deployment ($39, saves $9)](https://www.kesslernity.com/products/from-decision-to-deployment?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=books_block)**: decide where AI belongs, then build it so it works.
-
----
-
 ## 🏛️ Organizational Prompts: Import-Ready Starter Library
 
 Microsoft 365 Copilot now lets IT admins publish a curated prompt library to the whole tenant, surfaced to users in Copilot Chat, Teams, and Edge. The catch in Microsoft's own rollout: it ships a bulk CSV importer with no prompts in it.
@@ -397,16 +376,6 @@ Copilot learns from context. If the first result isn't perfect, provide feedback
 
 [See all power user prompts →](prompts/power-users/README.md)
 
-## 🏢 Deploying Copilot Across an Organization
-
-Using Copilot across your organization? These prompts work even better when deployed enterprise-wide.
-
-Prompts are the easy half. A rollout also needs the prerequisites checked, a governance decision taken before anything is published, a sequence that survives week one, and something to put in front of the person holding the budget.
-
-That is what the paid kits are for. Buy once, own the files, no platform to log into and no consultant in the loop.
-
-👉 **[See the deployment kits →](https://www.kesslernity.com/store?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=enterprise_block)**
-
 ## 🌐 Free Copilot Reference Guides
 
 This repo gives you the prompts. The free field guide covers what a prompt cannot: which Copilot you are actually on, what each feature does, and what to do when an answer comes back wrong.
@@ -421,25 +390,28 @@ This repo gives you the prompts. The free field guide covers what a prompt canno
 
 ### If you are the one rolling this out
 
-These prompts make one person faster. Getting four hundred people to use them the same way is a
-different job, and it starts before anyone opens a prompt: who gets a licence, what Copilot can
-already see, which prompts you publish to the tenant, and what you say to the person who asks
-whether it read their private files.
+> "An amazing library of more than 300 Copilot prompts for business teams."
+>
+> Jared Spataro (Microsoft, AI at Work), [25 February 2026](https://jspataro.substack.com/p/when-ai-stops-assisting-and-starts).
 
-That is the job [The M365 Copilot Deployment Kit](https://store.kesslernity.com/l/kpfpi?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=deploy_block_a) covers. $97, one-time, no subscription. If you also need the cost model and the user-facing guide, [the Copilot Rollout Bundle](https://store.kesslernity.com/l/copilot-rollout-bundle?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=rollout_bundle) has the Kit, The Real Cost of Copilot and the Honest Kit together for $134 instead of $165.
+He was citing this free library. He did not review or endorse anything in this section, and the
+library is free and stays free.
 
-### If prompts are working and agents are next
+The prompts are the easy half. The rest of a rollout is not in any prompt library: who gets a
+licence, what Copilot can already see before you tune anything, which prompts you publish to the
+whole tenant, and what you say to the person who asks whether it read their private files.
 
-A prompt makes one task faster. The next question, for an IT team, is which tasks deserve a
-standing agent, which should stay a prompt, and which should never run unattended at all. Most
-teams answer that by enthusiasm. A more honest answer is a classification: across 100 common IT
-activities, only 16 make sense as straightforward automation, 40 work as agent-drafts-human-approves,
-29 as AI assisting a person, 13 belong on a never-automate list (access approvals, production
-change approvals and wipe decisions among them), and 2 stay human-only. Whatever you build, put a named human gate on anything hard to reverse,
-and smoke-test an agent before it touches real tickets.
-
-That classification, plus ten tenant-tested Copilot agents with the fixtures and answer keys to
-verify your own builds, eleven gated workflows and a 30-day sprint, is [The IT AI Stack](https://store.kesslernity.com/l/it-ai-stack?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=stack_block_a). From $99, one-time.
+- **[The Copilot Rollout Bundle, $134](https://store.kesslernity.com/l/copilot-rollout-bundle?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=paid_block_bundle)**, recommended if you are rolling Copilot out
+  across a tenant. The Deployment Kit, The Real Cost of Copilot and the Honest Kit together,
+  $134 instead of $165.
+- **[The M365 Copilot Deployment Kit, $97](https://store.kesslernity.com/l/kpfpi?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=paid_block_kit)** on its own: 28 field guides, a 90-day rollout
+  roadmap, 10 paste-ready agent templates, a governance checklist and the ROI conversation for the
+  budget meeting. One-time, no subscription, and the licence covers internal use across your
+  organisation rather than one seat.
+- **[From Decision to Deployment, $39](https://store.kesslernity.com/l/oocxx?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=paid_block_door)** if the question is still whether to
+  automate a workflow at all. Two short books, $39 rather than $48 apart: a 5-question pre-flight
+  check, a use-case scoring matrix, a 12-signal red-flag list and three scripts for saying no, then
+  12 instruction-block patterns, the 8 named ways those blocks break, and a reusable scaffold.
 
 ## 🤝 Contributing
 
@@ -559,9 +531,6 @@ This repo is free and stays free. If it's useful, here's the rest of the toolkit
 - [awesome-mistral-vibe-prompts](https://github.com/kesslernity/awesome-mistral-vibe-prompts?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=mistral_lane): 49 prompts for Vibe Work, scheduled tasks and Chat
 
 Same bar, a different runtime. Vendor-neutral is only worth saying if you have read more than one vendor's documentation.
-
-**Deploying Copilot for a team?**
-- 🛒 Deployment kits, governance playbooks, and the honest "when not to use it" guides, built so you can deploy Copilot without a consultant: **[kesslernity.com/store](https://www.kesslernity.com/store?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=footer)**
 
 Independent and vendor-neutral. Not affiliated with Microsoft or Mistral AI.
 
