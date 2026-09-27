@@ -40,7 +40,7 @@ Rolling it out across a team? There is no self-serve seat pack. Email mathieu@ke
 
 ## 📘 Beyond the Prompts: The Practitioner Books
 
-Featured by Jared Spataro, Microsoft's CMO for AI at Work (LinkedIn, Feb 18 2026). These two short books are the judgment and the craft underneath the prompts:
+These two short books are the judgment and the craft underneath the prompts:
 
 - **[When Not to Use AI: A Decision Framework for Teams](https://www.kesslernity.com/products/when-not-to-use-ai?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=books_block)** ($29): the question nobody asks before adding AI to a workflow. A 5-question pre-flight check, a use-case scoring matrix, a 12-signal red-flags checklist, three "no AI" conversation scripts, and a section on applying it all to Microsoft 365 Copilot (grounding, oversharing, the draft-vs-act line, DLP).
 - **[Agent Instruction Block Design Guide](https://www.kesslernity.com/products/agent-instruction-block-design-guide?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=books_block)** ($19): 12 patterns for Copilot Chat agents that actually work, the 8 ways instruction blocks break, and a reusable scaffold. The craft behind the [82 free Copilot Chat agents](https://github.com/kesslernity/awesome-copilot-chat-agents).
