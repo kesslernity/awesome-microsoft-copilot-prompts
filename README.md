@@ -488,6 +488,7 @@ Every role-specific collection includes **critical guardrails** explaining:
 - 🔔 **Watch releases** for curated prompt pack releases
 - 🐦 **Follow on X/Twitter:** [@kesslernity](https://x.com/kesslernity) for Copilot tips and enterprise AI insights
 - 💼 **Follow on LinkedIn:** [Mathieu Kessler](https://linkedin.com/in/mathieukessler) for enterprise AI deployment strategies
+- 🏢 **Kesslernity on LinkedIn:** [company Page](https://www.linkedin.com/company/kesslernity/?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=stay_updated) for Copilot governance and rollout notes as they ship
 - 📺 **Subscribe on YouTube:** [@Kesslernity](https://www.youtube.com/@Kesslernity?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=stay_updated) for Copilot walkthroughs and agent builds
 
 ## 📄 License
@@ -551,6 +552,7 @@ Built by [Mathieu Kessler](https://linkedin.com/in/mathieukessler).
 
 - **[Free Copilot Guides](https://www.kesslernity.com/guides?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=quicklinks)** - 28 reference guides, no account required
 - **[LinkedIn](https://linkedin.com/in/mathieukessler)** - Connect with Mathieu
+- **[Kesslernity on LinkedIn](https://www.linkedin.com/company/kesslernity/?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=quicklinks)** - Copilot governance and rollout notes
 - **[X/Twitter](https://x.com/mayeu20)** - Daily AI productivity tips
 - **[YouTube](https://www.youtube.com/@Kesslernity?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=quicklinks)** - Copilot walkthroughs and agent builds
 - **[Contributing Guide](CONTRIBUTING.md)** - Submit your own prompts
