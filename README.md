@@ -412,6 +412,12 @@ whole tenant, and what you say to the person who asks whether it read their priv
   automate a workflow at all. Two short books, $39 rather than $48 apart: a 5-question pre-flight
   check, a use-case scoring matrix, a 12-signal red-flag list and three scripts for saying no, then
   12 instruction-block patterns, the 8 named ways those blocks break, and a reusable scaffold.
+- **[The IT AI Stack, $29](https://store.kesslernity.com/l/it-ai-stack?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=paid_block_it_stack)** if the prompts have landed and the
+  question is now which IT work should stay a prompt, which deserves an agent, and which should
+  never run unattended. 100 IT activities sorted into five operating modes, ten agents built and
+  run on a Microsoft 365 test tenant against pre-calculated answer keys, eleven workflows that put
+  a named person on the decision, and a 30-day sprint. $99 for the organisation licence, which is
+  the same files under internal-use rights with no seat cap.
 
 ## 🤝 Contributing
 
@@ -518,6 +524,7 @@ This repo is free and stays free. If it's useful, here's the rest of the toolkit
 - 📬 **AI at Work**: a short biweekly briefing on Microsoft Copilot and enterprise AI, with tested prompts and one honest insight. [newsletter.kesslernity.com](https://newsletter.kesslernity.com/?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=footer)
 - 📄 **Copilot on One Page**: the one-page cheat sheet for getting real answers out of Copilot. [Free download](https://www.kesslernity.com/copilot-on-one-page?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=footer)
 - ✅ **Day-0 Readiness Gate**: eight pass-or-fail checks to settle before the first Copilot licence goes out. [Free download](https://www.kesslernity.com/copilot-day0-readiness?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=day0)
+- 🔢 **Did the paste truncate?**: paste an agent instruction block and the character count it shipped with, and find out whether the instructions in the box are the ones you tested. Runs in your browser, nothing uploaded, no signup. [Free tool](https://www.kesslernity.com/tools/instruction-fence-count?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=tool_fence_count)
 - 📺 **YouTube**: Copilot walkthroughs, agent builds, and what actually changed in the roadmap this month. [@Kesslernity](https://www.youtube.com/@Kesslernity?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=footer)
 
 **The rest of the free Copilot repos**
