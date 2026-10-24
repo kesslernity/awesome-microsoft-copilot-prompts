@@ -521,6 +521,7 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 Inter
 This repo is free and stays free. If it's useful, here's the rest of the toolkit.
 
 **Free**
+- 📑 **Copilot skills for Excel and PowerPoint**: 24 custom skills in the open Agent Skills format, 12 for each app. Reconcile a pack, audit formulas, build an outline, check numbers. Upload one or deploy them org-wide. [Free on GitHub](https://github.com/kesslernity/awesome-copilot-office-skills?utm_source=github&utm_medium=repo&utm_campaign=office-skills)
 - 📬 **AI at Work**: a short biweekly briefing on Microsoft Copilot and enterprise AI, with tested prompts and one honest insight. [newsletter.kesslernity.com](https://newsletter.kesslernity.com/?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=footer)
 - 📄 **Copilot on One Page**: the one-page cheat sheet for getting real answers out of Copilot. [Free download](https://www.kesslernity.com/copilot-on-one-page?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=footer)
 - ✅ **Day-0 Readiness Gate**: eight pass-or-fail checks to settle before the first Copilot licence goes out. [Free download](https://www.kesslernity.com/copilot-day0-readiness?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=day0)
