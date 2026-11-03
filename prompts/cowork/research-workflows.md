@@ -8,7 +8,7 @@
 
 ## Requirements
 
-> **REQUIRES:** Microsoft 365 Copilot licence + Frontier program enrolment + Anthropic sub-processor enabled. See [README.md](README.md) for full setup details.
+> **REQUIRES:** Microsoft 365 Copilot licence + Cowork enabled by your admin (it is off by default) + Anthropic sub-processor enabled. See [README.md](README.md) for full setup details.
 
 ---
 
@@ -20,7 +20,7 @@
 
 **Target Personas:** Account Manager, Project Manager, Executive, Consultant
 
-**Tags:** `cowork`, `frontier`, `meeting-prep`, `outlook`, `teams`, `calendar`
+**Tags:** `cowork`, `meeting-prep`, `outlook`, `teams`, `calendar`
 
 **Prompt:**
 ```
@@ -45,7 +45,7 @@ Show me the source messages you are drawing from before writing the brief, so I 
 
 **Target Personas:** Project Manager, Account Manager, Program Lead
 
-**Tags:** `cowork`, `frontier`, `stakeholder`, `agentic`, `outlook`, `teams`
+**Tags:** `cowork`, `stakeholder`, `agentic`, `outlook`, `teams`
 
 **Prompt:**
 ```
@@ -77,7 +77,7 @@ Do not send anything. Present the draft for my review.
 
 **Target Personas:** Project Manager, Team Lead, Consultant, Executive Assistant
 
-**Tags:** `cowork`, `frontier`, `meeting-follow-up`, `teams`, `outlook`
+**Tags:** `cowork`, `meeting-follow-up`, `teams`, `outlook`
 
 **Prompt:**
 ```
@@ -101,7 +101,7 @@ Show me the action item list first. After I confirm it is accurate, show me the 
 
 **Target Personas:** Account Manager, Business Developer, Project Manager, Consultant
 
-**Tags:** `cowork`, `frontier`, `executive`, `meeting-prep`, `outlook`, `teams`
+**Tags:** `cowork`, `executive`, `meeting-prep`, `outlook`, `teams`
 
 **Prompt:**
 ```
@@ -128,7 +128,7 @@ Keep this under 200 words. Do not send or post anything.
 
 **Target Personas:** PMO Director, Program Manager, Portfolio Lead
 
-**Tags:** `cowork`, `frontier`, `project-management`, `portfolio`, `outlook`, `teams`
+**Tags:** `cowork`, `project-management`, `portfolio`, `outlook`, `teams`
 
 **Prompt:**
 ```
@@ -153,7 +153,7 @@ Group by project. For each project use maximum 3 bullet points. Flag any project
 
 **Target Personas:** Project Manager, Program Lead, PMO
 
-**Tags:** `cowork`, `frontier`, `risk`, `blockers`, `outlook`, `teams`
+**Tags:** `cowork`, `risk`, `blockers`, `outlook`, `teams`
 
 **Prompt:**
 ```
@@ -180,7 +180,7 @@ Sort by date — most recent first. Do not infer — only surface items explicit
 
 **Target Personas:** Project Manager, Executive Assistant, Consultant, Analyst
 
-**Tags:** `cowork`, `frontier`, `document`, `word`, `meeting-notes`
+**Tags:** `cowork`, `document`, `word`, `meeting-notes`
 
 **Prompt:**
 ```
@@ -209,7 +209,7 @@ Use formal but clear language. Do not invent content not in the notes — if som
 
 **Target Personas:** Project Manager, Consultant, Executive, Sales
 
-**Tags:** `cowork`, `frontier`, `powerpoint`, `presentation`, `document`
+**Tags:** `cowork`, `powerpoint`, `presentation`, `document`
 
 **Prompt:**
 ```
@@ -238,7 +238,7 @@ Use clean, minimal formatting. Each slide should have a single headline that sta
 
 **Target Personas:** Consultant, Analyst, Business Developer, Executive
 
-**Tags:** `cowork`, `frontier`, `research`, `deep-research`, `enterprise-search`
+**Tags:** `cowork`, `research`, `deep-research`, `enterprise-search`
 
 **Prompt:**
 ```
@@ -269,7 +269,7 @@ Cite every source. Flag any claim you are not confident about with [VERIFY]. Do 
 
 **Target Personas:** Account Manager, Sales, Business Developer, Strategy Lead
 
-**Tags:** `cowork`, `frontier`, `competitive`, `research`, `outlook`, `teams`
+**Tags:** `cowork`, `competitive`, `research`, `outlook`, `teams`
 
 **Prompt:**
 ```
@@ -294,7 +294,7 @@ Do not infer — only surface explicit mentions. Do not send or post anything.
 
 **Target Personas:** Manager, Project Manager, Executive, Account Manager
 
-**Tags:** `cowork`, `frontier`, `onboarding`, `stakeholder`, `research`
+**Tags:** `cowork`, `onboarding`, `stakeholder`, `research`
 
 **Prompt:**
 ```
@@ -323,7 +323,7 @@ Keep this under 200 words. Do not send or post anything.
 
 **Target Personas:** Executive, Manager, Senior Individual Contributor
 
-**Tags:** `cowork`, `frontier`, `calendar`, `time-management`, `schedulable`
+**Tags:** `cowork`, `calendar`, `time-management`, `schedulable`
 
 **Prompt:**
 ```
@@ -348,7 +348,7 @@ For each issue you identify, propose a specific action: decline, reschedule, add
 
 **Target Personas:** Project Manager, Team Lead, Account Manager
 
-**Tags:** `cowork`, `frontier`, `meeting-prep`, `recurring`, `schedulable`, `outlook`, `teams`
+**Tags:** `cowork`, `meeting-prep`, `recurring`, `schedulable`, `outlook`, `teams`
 
 **Prompt:**
 ```

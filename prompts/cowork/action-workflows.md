@@ -8,7 +8,7 @@
 
 ## Requirements
 
-> **REQUIRES:** Microsoft 365 Copilot licence + Frontier program enrolment + Anthropic sub-processor enabled. See [README.md](README.md) for full setup details.
+> **REQUIRES:** Microsoft 365 Copilot licence + Cowork enabled by your admin (it is off by default) + Anthropic sub-processor enabled. See [README.md](README.md) for full setup details.
 
 ---
 
@@ -30,7 +30,7 @@ Every prompt in this file completes an action. None of them stops at the draft.
 
 **Target Personas:** Project Manager, Account Manager, Consultant, Team Lead
 
-**Tags:** `cowork`, `frontier`, `action`, `email`, `meeting-follow-up`, `outlook`, `teams`
+**Tags:** `cowork`, `action`, `email`, `meeting-follow-up`, `outlook`, `teams`
 
 **Prompt:**
 ```
@@ -62,7 +62,7 @@ Step 4: Send the email only after I approve.
 
 **Target Personas:** Project Manager, Executive Assistant, Manager, Account Manager
 
-**Tags:** `cowork`, `frontier`, `action`, `calendar`, `scheduling`, `outlook`
+**Tags:** `cowork`, `action`, `calendar`, `scheduling`, `outlook`
 
 **Prompt:**
 ```
@@ -93,7 +93,7 @@ Step 4: Send the invite.
 
 **Target Personas:** Project Manager, Team Lead, Program Manager
 
-**Tags:** `cowork`, `frontier`, `action`, `teams`, `project-management`, `schedulable`
+**Tags:** `cowork`, `action`, `teams`, `project-management`, `schedulable`
 
 **Prompt:**
 ```
@@ -125,7 +125,7 @@ Step 4: Post to the channel after I approve.
 
 **Target Personas:** Manager, Executive, Account Manager, Anyone with high email volume
 
-**Tags:** `cowork`, `frontier`, `action`, `email`, `inbox`, `outlook`
+**Tags:** `cowork`, `action`, `email`, `inbox`, `outlook`
 
 **Prompt:**
 ```
@@ -151,7 +151,7 @@ Show me each draft alongside the original email before sending anything. I will 
 
 **Target Personas:** Project Manager, Account Manager, Program Lead
 
-**Tags:** `cowork`, `frontier`, `action`, `email`, `stakeholder`, `outlook`, `teams`
+**Tags:** `cowork`, `action`, `email`, `stakeholder`, `outlook`, `teams`
 
 **Prompt:**
 ```
@@ -183,7 +183,7 @@ Step 4: Send the email after I approve. Confirm when sent.
 
 **Target Personas:** Manager, Individual Contributor, Executive, Anyone in back-to-back meetings
 
-**Tags:** `cowork`, `frontier`, `action`, `calendar`, `time-management`, `schedulable`
+**Tags:** `cowork`, `action`, `calendar`, `time-management`, `schedulable`
 
 **Prompt:**
 ```
@@ -208,7 +208,7 @@ After I confirm, create the calendar events titled "Focus Time — [project or t
 
 **Target Personas:** Manager, Executive, Executive Assistant
 
-**Tags:** `cowork`, `frontier`, `action`, `calendar`, `scheduling`, `outlook`
+**Tags:** `cowork`, `action`, `calendar`, `scheduling`, `outlook`
 
 **Prompt:**
 ```
@@ -236,7 +236,7 @@ After I confirm each resolution, reschedule the relevant event and send updated 
 
 **Target Personas:** Account Manager, Sales, Customer Success
 
-**Tags:** `cowork`, `frontier`, `action`, `email`, `renewal`, `account-management`, `outlook`
+**Tags:** `cowork`, `action`, `email`, `renewal`, `account-management`, `outlook`
 
 **Prompt:**
 ```
@@ -267,7 +267,7 @@ Step 4: Send after I approve. Confirm when sent.
 
 **Target Personas:** Project Manager, Analyst, Consultant, Executive Assistant
 
-**Tags:** `cowork`, `frontier`, `action`, `word`, `sharepoint`, `email`, `document`
+**Tags:** `cowork`, `action`, `word`, `sharepoint`, `email`, `document`
 
 **Prompt:**
 ```
@@ -296,7 +296,7 @@ Step 5: Send the email after I approve it.
 
 **Target Personas:** Project Manager, Program Lead, Team Lead
 
-**Tags:** `cowork`, `frontier`, `action`, `email`, `weekly`, `schedulable`, `outlook`, `teams`
+**Tags:** `cowork`, `action`, `email`, `weekly`, `schedulable`, `outlook`, `teams`
 
 **Prompt:**
 ```

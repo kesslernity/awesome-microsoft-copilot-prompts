@@ -2,16 +2,16 @@
 
 **What broke, dated.** In August 2026 a reader ran one of these prompts and Copilot refused it as an ungrounded employee assessment. Eight prompts now carry a note saying what was run, what was not, and which half survives.
 
-[![Prompts](https://img.shields.io/badge/prompts-573-blue)](prompts/)
+[![Prompts](https://img.shields.io/badge/prompts-583-blue)](prompts/)
 [![Categories](https://img.shields.io/badge/categories-18-green)](prompts/)
 [![License](https://img.shields.io/badge/license-CC%20BY--SA%204.0-blue)](LICENSE)
 [![What broke](https://img.shields.io/badge/what%20broke-dated%2C%20with%20fixes-purple)](https://www.kesslernity.com/what-broke?utm_source=github&utm_medium=readme&utm_campaign=fail_line&utm_content=awesome-microsoft-copilot-prompts-badge)
 
-A curated collection of **573 Microsoft Copilot prompts** for enterprise professionals, each one checked against Microsoft's published Responsible AI guidance. By me, not by Microsoft. From inbox intelligence to role-specific workflows, these prompts help you get the most out of Microsoft 365 Copilot.
+A curated collection of **583 Microsoft Copilot prompts** for enterprise professionals, each one checked against Microsoft's published Responsible AI guidance. By me, not by Microsoft. From inbox intelligence to role-specific workflows, these prompts help you get the most out of Microsoft 365 Copilot.
 
 > "An amazing library of more than 300 Copilot prompts for business teams."
 >
-> Jared Spataro (Microsoft, AI at Work), [25 February 2026](https://jspataro.substack.com/p/when-ai-stops-assisting-and-starts). He was citing this free repo, which held 300+ prompts then and holds 573 now. He was not citing any paid product.
+> Jared Spataro (Microsoft, AI at Work), [25 February 2026](https://jspataro.substack.com/p/when-ai-stops-assisting-and-starts). He was citing this free repo, which held 300+ prompts then and holds 583 now. He was not citing any paid product.
 
 **Start here, free:** [Copilot on One Page](https://www.kesslernity.com/copilot-on-one-page?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=hero) is the four-step loop every prompt below assumes. One page, printable, and it names the step most people skip.
 
@@ -47,7 +47,7 @@ So I carved a starter library from this repo into Microsoft's exact import forma
 
 ## 📊 Quick Stats
 
-- **573 Total Prompts** across 29 specialized collections
+- **583 Total Prompts** across 29 specialized collections
 - **26 Power User Prompts** for advanced Copilot mastery
 - **70 Outlook Prompts** for email intelligence and automation
 - **66 Standalone Prompts** for any Copilot version
@@ -129,7 +129,7 @@ Even when using the same underlying model (GPT-4/GPT-5), **Copilot behaves diffe
 - Vision-first analysis without supporting text
 - Engineering drawings, P&IDs, EPC schematics
 
-## 📚 Complete Collection (573 Prompts)
+## 📚 Complete Collection (583 Prompts)
 
 ### 🎓 Power Users & Advanced Techniques
 
@@ -293,15 +293,15 @@ Even when using the same underlying model (GPT-4/GPT-5), **Copilot behaves diffe
 
 #### Automation & Scheduled Workflows
 
-- [**Copilot Cowork: Agentic Workflows**](prompts/cowork/README.md) (18 prompts) · **NEW**
-  + Outcome-focused prompts for M365 Copilot's agentic execution layer (Frontier program)
+- [**Copilot Cowork: Agentic Workflows**](prompts/cowork/README.md) (28 prompts) · **NEW**
+  + Outcome-focused prompts for M365 Copilot's agentic execution layer
   + Cowork plans, executes multi-step tasks, and asks for approval before taking action, unlike Chat
   + Scheduled: Monday briefing, Friday digest, daily inbox scan, commitment tracker, calendar triage
   + One-time: stakeholder update, pre-meeting research, post-meeting capture, executive pre-read
   + Project & portfolio: risk sweep, cross-project digest, competitive signal sweep
   + Document generation: MOM from notes, presentation from brief
   + Delegation Brief format + "show sources before drafting" pattern explained
-  + **⚠️ Requires M365 Copilot + Frontier enrolment + Anthropic enabled as sub-processor · Max 5 scheduled prompts · EU tenants: Anthropic off by default**
+  + **⚠️ Requires M365 Copilot + admin enablement (Cowork is off by default) + Anthropic enabled as sub-processor · GA worldwide since 16 June 2026, metered in Copilot Credits on top of the licence · EU tenants: Anthropic off by default**
 
 - [**Scheduled Prompts**](prompts/scheduled-prompts/README.md) (15 prompts) · **NEW**
   + 5-step setup guide for scheduling prompts in M365 Copilot Chat

@@ -8,7 +8,7 @@
 
 ## Requirements
 
-> **REQUIRES:** Microsoft 365 Copilot licence + Frontier program enrolment + Anthropic sub-processor enabled. See [README.md](README.md) for full setup details.
+> **REQUIRES:** Microsoft 365 Copilot licence + Cowork enabled by your admin (it is off by default) + Anthropic sub-processor enabled. See [README.md](README.md) for full setup details.
 
 ---
 
@@ -18,9 +18,9 @@
 
 **Use Case:** Understand Cowork's approval model before delegating any action that affects others. Run this prompt first — it sets the expectation for every workflow that follows.
 
-**Target Personas:** All M365 Copilot users with Frontier access
+**Target Personas:** All M365 Copilot users with Cowork enabled
 
-**Tags:** `cowork`, `frontier`, `guardrails`, `governance`, `agentic`
+**Tags:** `cowork`, `guardrails`, `governance`, `agentic`
 
 **Prompt:**
 ```
@@ -49,7 +49,7 @@ Do not use "Approve All" for multi-action sequences unless I explicitly ask you 
 
 ## Scheduled Briefings
 
-Use these for recurring work. Run once, verify the output, then schedule via the clock icon. **Maximum 5 scheduled prompts per user** — treat each slot as a high-value decision.
+Use these for recurring work. Run once, verify the output, then schedule via the clock icon. Scheduled runs consume Copilot Credits on every execution, so treat each recurring slot as a standing cost, not a free one.
 
 ### 2. Monday Week-Start Briefing
 
@@ -57,7 +57,7 @@ Use these for recurring work. Run once, verify the output, then schedule via the
 
 **Target Personas:** Manager, Project Manager, Executive, Individual Contributor
 
-**Tags:** `cowork`, `frontier`, `weekly`, `briefing`, `schedulable`, `outlook`, `teams`, `calendar`
+**Tags:** `cowork`, `weekly`, `briefing`, `schedulable`, `outlook`, `teams`, `calendar`
 
 **Prompt:**
 ```
@@ -82,7 +82,7 @@ Format as a briefing I can read in under 3 minutes. Do not send or post anything
 
 **Target Personas:** Manager, Project Manager, Individual Contributor
 
-**Tags:** `cowork`, `frontier`, `weekly`, `digest`, `schedulable`, `outlook`, `teams`
+**Tags:** `cowork`, `weekly`, `digest`, `schedulable`, `outlook`, `teams`
 
 **Prompt:**
 ```
@@ -107,7 +107,7 @@ Keep this under 150 words. Do not send or post anything — deliver as a message
 
 **Target Personas:** Manager, Executive, Anyone with a high-volume inbox
 
-**Tags:** `cowork`, `frontier`, `daily`, `inbox`, `schedulable`, `outlook`
+**Tags:** `cowork`, `daily`, `inbox`, `schedulable`, `outlook`
 
 **Prompt:**
 ```
@@ -132,7 +132,7 @@ For each one, give me: sender, subject, one-sentence summary of what they need, 
 
 **Target Personas:** Project Manager, Account Manager, Consultant, Anyone managing multiple stakeholders
 
-**Tags:** `cowork`, `frontier`, `weekly`, `commitments`, `schedulable`, `outlook`, `teams`
+**Tags:** `cowork`, `weekly`, `commitments`, `schedulable`, `outlook`, `teams`
 
 **Prompt:**
 ```

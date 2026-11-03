@@ -49,8 +49,9 @@ Prompts that do things Chat cannot. Chat drafts — Cowork executes. Every promp
 
 > **REQUIRES:**
 > - Microsoft 365 Copilot licence
-> - Frontier program enrolment (Admin Center → Settings → Org Settings → Microsoft 365 Frontier)
+> - Cowork switched on by your admin. It reached general availability worldwide on 16 June 2026 and is **off by default**
 > - Anthropic models enabled as sub-processor in M365 Admin Center
+> - Budget for **Copilot Credits**. Cowork is metered on top of the licence, so every run costs credits (model use, context retrieval, tool calls, runtime). Admins can set spend limits and usage alerts per tenant, group and user
 > - Access at: [m365.cloud.microsoft](https://m365.cloud.microsoft)
 
 **NOT compatible with:** Copilot Chat, ChatGPT, Claude.ai, or any non-Cowork interface.
@@ -76,14 +77,14 @@ The difference is what happens after the research. Chat hands you a draft and st
 
 ## Notes & Limitations
 
-- **5 scheduled prompt limit** — treat each slot as a high-value decision. Recommended priority: Monday Briefing → Commitment Tracker → Calendar Triage → Project Digest → Daily Inbox Scan
+- **Scheduled runs are a standing cost.** Every execution consumes Copilot Credits, so a recurring slot bills every time it fires, not once. If you are picking a short list to start with, this order earns its keep: Monday Briefing, Commitment Tracker, Calendar Triage, Project Digest, Daily Inbox Scan
 - **Approval model** — Cowork shows a full preview before sending emails, posting to Teams, or modifying calendar events. Always verify recipients, content, and timing before approving
-- **Attach files explicitly** — for document generation prompts, drag and drop the file rather than asking Cowork to find it from SharePoint (more reliable in current Frontier preview)
+- **Attach files explicitly** — for document generation prompts, drag and drop the file rather than asking Cowork to find it from SharePoint (more reliable in testing)
 - **Custom skills** — for workflows you run frequently, save the prompt as a custom skill at `/Documents/Cowork/skills/` in OneDrive as a Markdown file. Up to 50 custom skills supported
 - **EU tenants** — Cowork requires Anthropic models enabled. EU/EFTA tenants have Anthropic off by default — admin must enable separately in M365 Admin Center before Cowork is fully functional
 
 ---
 
-*Prompts tested in Microsoft 365 Copilot Cowork (Frontier program, May 2026). Production use — review all outputs before sending or sharing.*
+*Prompts first tested in Microsoft 365 Copilot Cowork in May 2026, during the Frontier preview that preceded general availability on 16 June 2026. Production use: review all outputs before sending or sharing.*
 
 *Part of the [awesome-microsoft-copilot-prompts](https://github.com/kesslernity/awesome-microsoft-copilot-prompts) collection*
