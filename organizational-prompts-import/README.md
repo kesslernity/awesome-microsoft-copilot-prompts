@@ -30,13 +30,12 @@ Every prompt is a **drafting, summarizing, or research aid that works on the use
 
 ---
 
-## The status, stated honestly (June 2026)
+## The status (checked November 2026)
 
-- **In Frontier preview now.** Per [Microsoft Learn](https://learn.microsoft.com/en-us/microsoft-365/copilot/organizational-prompts) (doc updated 2026-06-18), the feature needs the Frontier preview program for early access.
-- **Generally available.** General availability worldwide rolled out through July 2026 per Microsoft's roadmap (ID 486695 / Message Center MC1396361), available by default, with no change to Copilot licensing.
+- **Generally available.** Rollout completed worldwide through July 2026 per Microsoft's roadmap (ID 486695 / Message Center MC1396361), on by default, with no change to Copilot licensing. You do not need the Frontier preview programme for this. An earlier version of this page said you did, which was true when [Microsoft Learn](https://learn.microsoft.com/en-us/microsoft-365/copilot/organizational-prompts) said so in June 2026 and stopped being true the month after.
 - **Requires a Microsoft 365 Copilot licence** (the existing $30 per-user add-on). No new SKU.
 
-If you are reading this before GA in your tenant, the admin surface may not be visible yet.
+If the admin surface is not visible in your tenant, it is worth checking who holds the role before assuming the feature is missing.
 
 ---
 
@@ -121,6 +120,6 @@ somebody asks what it can see.
 
 - 📄 **Copilot on One Page**: the one-page cheat sheet for getting real answers out of Copilot. [Free download](https://www.kesslernity.com/copilot-on-one-page?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=page_capture)
 - 📬 **AI at Work**: a short biweekly briefing on Microsoft Copilot and enterprise AI, with tested prompts and one honest insight. [Subscribe](https://newsletter.kesslernity.com/?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=page_capture)
-- 📘 **27 free Copilot reference guides**, no sign-up needed. [kesslernity.com/guides](https://www.kesslernity.com/guides?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=page_capture)
+- 📘 **29 free Copilot reference guides**, no sign-up needed. [kesslernity.com/guides](https://www.kesslernity.com/guides?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=page_capture)
 
 **Built by [Mathieu Kessler](https://www.kesslernity.com/?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=page_footer)**

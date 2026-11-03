@@ -1,6 +1,6 @@
 # Prompt Collections
 
-> Browse all 583 Microsoft Copilot prompts across 29 collections.
+> Browse all 601 Microsoft Copilot prompts across 30 collections.
 
 [← Back to Main Collection](../README.md)
 
@@ -46,6 +46,7 @@
 
 - [**Finance**](role-specific/finance.md): 16 prompts
 - [**HR & People**](role-specific/hr-people.md): 16 prompts
+- [**Finance, HR & Analytics (combined)**](role-specific/finance-hr.md): 18 prompts, working across all three at once
 - [**HSE, Legal & Compliance**](role-specific/hse-legal-compliance.md): 20 prompts
 - [**In-House Legal & Contracts**](role-specific/legal-contracts.md): 18 prompts
 - [**IT & Service Desk**](role-specific/it-service-desk.md): 16 prompts
@@ -77,6 +78,6 @@
 
 - 📄 **Copilot on One Page**: the one-page cheat sheet for getting real answers out of Copilot. [Free download](https://www.kesslernity.com/copilot-on-one-page?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=page_capture)
 - 📬 **AI at Work**: a short biweekly briefing on Microsoft Copilot and enterprise AI, with tested prompts and one honest insight. [Subscribe](https://newsletter.kesslernity.com/?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=page_capture)
-- 📘 **27 free Copilot reference guides**, no sign-up needed. [kesslernity.com/guides](https://www.kesslernity.com/guides?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=page_capture)
+- 📘 **29 free Copilot reference guides**, no sign-up needed. [kesslernity.com/guides](https://www.kesslernity.com/guides?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=page_capture)
 
 **Built by [Mathieu Kessler](https://www.kesslernity.com/?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=page_footer)**

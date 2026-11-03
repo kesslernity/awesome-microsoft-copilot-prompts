@@ -1,13 +1,12 @@
 # Copilot Inbox Management — Action Mode Prompts
 
-> 9 prompts for Copilot's new action mode in Outlook: inbox triage, rule creation, non-responder follow-ups, post-vacation recovery, and intelligent drafting. These prompts issue commands — Copilot acts on your inbox, not just talks about it.
+> 12 prompts for Copilot acting on your Outlook inbox: triage, rule creation, non-responder follow-ups, post-vacation recovery, and intelligent drafting. These prompts issue commands, so Copilot acts on your inbox rather than just talking about it.
 
-⚠️ **REQUIRES — all three must be active:**
-1. **Microsoft 365 Copilot license** (Copilot add-on, M365 E5 + Copilot, or M365 E7)
-2. **Frontier program enrollment** — action mode is the default Copilot Chat experience in Frontier as of April 27, 2026
-3. **Anthropic subprocessor enabled** — action mode runs on Claude (same stack as Copilot Cowork). Your admin must accept the updated data processing terms and enable Anthropic model access (`admin.microsoft.com` → Copilot → Settings, or via group-level controls). This is the most common silent blocker — Frontier can be on and action mode still won't appear if Claude access hasn't been granted. Regional note: in **EU/EFTA/UK tenants**, Anthropic is off by default — your admin must explicitly opt in. In **Government and Sovereign cloud tenants**, Anthropic models are fully excluded and cannot be enabled.
+⚠️ **REQUIRES: a Microsoft 365 Copilot licence** (Copilot add-on, M365 E5 + Copilot, or M365 E7).
 
-To verify you're in action mode: look for the **"default mode" dropdown** above the Copilot prompt box in Outlook. **Not available to EU users.**
+**Frontier enrolment is no longer needed.** These capabilities reached general availability. Microsoft's [release notes](https://learn.microsoft.com/en-us/microsoft-365/copilot/release-notes) for 22 September to 6 October 2026 list natural-language triage across Android, Windows, iOS, Mac and Web, covering delete, move, copy and categorise, plus creating and managing rules and creating folders, with Copilot asking for confirmation before acting on more than five emails or changing an inbox rule. Rule management is documented for end users in [Create, view, update, and delete Outlook rules with Microsoft Copilot](https://support.microsoft.com/en-us/outlook/create-and-view-outlook-rules-with-microsoft-365-copilot). An earlier version of this page gated all of it behind the Frontier programme, which was correct in April 2026 and is not correct now.
+
+These actions are part of Chat with work data in Outlook, so they need a licensed user rather than the free Copilot Chat. If a feature does not appear, check which models your tenant has enabled before assuming it has not shipped: model availability is set per tenant and differs by region.
 
 **Category:** Productivity & Tools
 
@@ -42,7 +41,7 @@ When Copilot moves emails to custom folders (Reading, CC — Low Priority, Retur
 
 **Target Personas:** Manager, Executive, Project Manager, Individual Contributor, Team Lead
 
-**Tags:** `Microsoft Copilot`, `Outlook`, `Inbox Management`, `Action Mode`, `Frontier`, `Triage`, `Productivity`
+**Tags:** `Microsoft Copilot`, `Outlook`, `Inbox Management`, `Action Mode`, `Triage`, `Productivity`
 
 **Prompt:**
 
@@ -58,7 +57,7 @@ Triage everything in my inbox from the last 3 days. Sort into three groups: (1) 
 
 **Target Personas:** Manager, Executive, Director, Individual Contributor, Professional
 
-**Tags:** `Microsoft Copilot`, `Outlook`, `Inbox Management`, `Action Mode`, `Frontier`, `Prioritization`, `Daily Workflow`
+**Tags:** `Microsoft Copilot`, `Outlook`, `Inbox Management`, `Action Mode`, `Prioritization`, `Daily Workflow`
 
 **Prompt:**
 
@@ -74,7 +73,7 @@ Scan my inbox and identify everything that needs a response from me today. Rank 
 
 **Target Personas:** Manager, Executive, Chief of Staff, Operations Manager, Team Lead
 
-**Tags:** `Microsoft Copilot`, `Outlook`, `Inbox Management`, `Action Mode`, `Frontier`, `Inbox Rules`, `Automation`
+**Tags:** `Microsoft Copilot`, `Outlook`, `Inbox Management`, `Action Mode`, `Inbox Rules`, `Automation`
 
 **Prompt:**
 
@@ -92,7 +91,7 @@ Create inbox rules to automatically flag as high priority: (1) Emails from my di
 
 **Target Personas:** Project Manager, Account Manager, Sales Manager, Team Lead, Individual Contributor
 
-**Tags:** `Microsoft Copilot`, `Outlook`, `Inbox Management`, `Action Mode`, `Frontier`, `Follow-Up`, `Non-Responder`
+**Tags:** `Microsoft Copilot`, `Outlook`, `Inbox Management`, `Action Mode`, `Follow-Up`, `Non-Responder`
 
 **Prompt:**
 
@@ -110,7 +109,7 @@ Scan my sent emails from the last 10 days. Find every email I sent that has not 
 
 **Target Personas:** Manager, Executive, Individual Contributor, Knowledge Worker, Operations Manager
 
-**Tags:** `Microsoft Copilot`, `Outlook`, `Inbox Management`, `Action Mode`, `Frontier`, `Inbox Rules`, `Organization`
+**Tags:** `Microsoft Copilot`, `Outlook`, `Inbox Management`, `Action Mode`, `Inbox Rules`, `Organization`
 
 **Prompt:**
 
@@ -126,7 +125,7 @@ Analyze my inbox from the last 45 days. Identify the top 5–7 recurring categor
 
 **Target Personas:** Individual Contributor, Manager, Executive, Knowledge Worker, Professional
 
-**Tags:** `Microsoft Copilot`, `Outlook`, `Inbox Management`, `Action Mode`, `Frontier`, `Inbox Rules`, `Focus`
+**Tags:** `Microsoft Copilot`, `Outlook`, `Inbox Management`, `Action Mode`, `Inbox Rules`, `Focus`
 
 **Prompt:**
 
@@ -142,7 +141,7 @@ Identify all newsletters, marketing emails, and automated digests that landed in
 
 **Target Personas:** Manager, Executive, Individual Contributor, Team Lead, Director
 
-**Tags:** `Microsoft Copilot`, `Outlook`, `Inbox Management`, `Action Mode`, `Frontier`, `Inbox Rules`, `Noise Reduction`
+**Tags:** `Microsoft Copilot`, `Outlook`, `Inbox Management`, `Action Mode`, `Inbox Rules`, `Noise Reduction`
 
 **Prompt:**
 
@@ -160,7 +159,7 @@ Find email threads from the last 30 days where I was CC'd and the thread has mor
 
 **Target Personas:** Project Manager, Manager, Executive, Team Lead, Individual Contributor
 
-**Tags:** `Microsoft Copilot`, `Outlook`, `Inbox Management`, `Action Mode`, `Frontier`, `Categories`, `Organization`
+**Tags:** `Microsoft Copilot`, `Outlook`, `Inbox Management`, `Action Mode`, `Categories`, `Organization`
 
 **Prompt:**
 
@@ -176,7 +175,7 @@ Create inbox rules that automatically apply Outlook color categories to incoming
 
 **Target Personas:** Manager, Executive, Individual Contributor, Chief of Staff, Operations Manager
 
-**Tags:** `Microsoft Copilot`, `Outlook`, `Inbox Management`, `Action Mode`, `Frontier`, `Categories`, `Triage`
+**Tags:** `Microsoft Copilot`, `Outlook`, `Inbox Management`, `Action Mode`, `Categories`, `Triage`
 
 **Prompt:**
 
@@ -192,7 +191,7 @@ Apply Outlook categories to emails in my inbox from the last 30 days based on ac
 
 **Target Personas:** Executive, Manager, Account Manager, Chief of Staff, Sales Manager
 
-**Tags:** `Microsoft Copilot`, `Outlook`, `Inbox Management`, `Action Mode`, `Frontier`, `Flags`, `Follow-Up`
+**Tags:** `Microsoft Copilot`, `Outlook`, `Inbox Management`, `Action Mode`, `Flags`, `Follow-Up`
 
 **Prompt:**
 
@@ -210,7 +209,7 @@ Create an inbox rule that automatically flags for follow-up any email that arriv
 
 **Target Personas:** Manager, Executive, Individual Contributor, Team Lead, Professional
 
-**Tags:** `Microsoft Copilot`, `Outlook`, `Inbox Management`, `Action Mode`, `Frontier`, `Post-Vacation`, `Triage`
+**Tags:** `Microsoft Copilot`, `Outlook`, `Inbox Management`, `Action Mode`, `Post-Vacation`, `Triage`
 
 **Prompt:**
 
@@ -228,7 +227,7 @@ I've been out of office for [X days / from DATE to DATE]. Triage everything that
 
 **Target Personas:** Project Manager, Account Manager, Executive, Manager, Individual Contributor
 
-**Tags:** `Microsoft Copilot`, `Outlook`, `Inbox Management`, `Action Mode`, `Frontier`, `Drafting`, `Context-Aware`
+**Tags:** `Microsoft Copilot`, `Outlook`, `Inbox Management`, `Action Mode`, `Drafting`, `Context-Aware`
 
 **Prompt:**
 
@@ -247,8 +246,8 @@ I need to reply to the most recent email from [NAME] about [TOPIC or PROJECT]. S
 
 ---
 
-> **Feature note:** These prompts use Copilot's action mode introduced in Frontier on April 27, 2026 (MC1293485). Action mode is the default experience in Copilot Chat for Outlook in the Frontier program. To revert to chat-only mode, use the "default mode" dropdown above the prompt box. Not available to users in the EU.
+> **Feature note:** These prompts began life against the action mode Microsoft introduced through the Frontier programme on 27 April 2026 (MC1293485). The capabilities they use are generally available now: Microsoft's release notes for 22 September to 6 October 2026 list the expanded triage actions, rule management and folder creation across every Outlook client. Copilot confirms before acting on more than five emails or changing an inbox rule, so the preview step of reverting to a chat-only mode is no longer the control that matters. What is worth checking is the confirmation prompt itself: read it before approving, because a rule applies to future mail and will not be undone by deleting the message that prompted it.
 
 **Built by [Mathieu Kessler](https://www.kesslernity.com/?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=page_footer)**
 
-For 27 free Copilot reference guides, visit [kesslernity.com/guides](https://www.kesslernity.com/guides?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=page_cta)
+For 29 free Copilot reference guides, visit [kesslernity.com/guides](https://www.kesslernity.com/guides?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=page_cta)

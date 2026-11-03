@@ -2,16 +2,16 @@
 
 **What broke, dated.** In August 2026 a reader ran one of these prompts and Copilot refused it as an ungrounded employee assessment. Eight prompts now carry a note saying what was run, what was not, and which half survives.
 
-[![Prompts](https://img.shields.io/badge/prompts-583-blue)](prompts/)
+[![Prompts](https://img.shields.io/badge/prompts-601-blue)](prompts/)
 [![Categories](https://img.shields.io/badge/categories-18-green)](prompts/)
 [![License](https://img.shields.io/badge/license-CC%20BY--SA%204.0-blue)](LICENSE)
 [![What broke](https://img.shields.io/badge/what%20broke-dated%2C%20with%20fixes-purple)](https://www.kesslernity.com/what-broke?utm_source=github&utm_medium=readme&utm_campaign=fail_line&utm_content=awesome-microsoft-copilot-prompts-badge)
 
-A curated collection of **583 Microsoft Copilot prompts** for enterprise professionals, each one checked against Microsoft's published Responsible AI guidance. By me, not by Microsoft. From inbox intelligence to role-specific workflows, these prompts help you get the most out of Microsoft 365 Copilot.
+A curated collection of **601 Microsoft Copilot prompts** for enterprise professionals, each one checked against Microsoft's published Responsible AI guidance. By me, not by Microsoft. From inbox intelligence to role-specific workflows, these prompts help you get the most out of Microsoft 365 Copilot.
 
 > "An amazing library of more than 300 Copilot prompts for business teams."
 >
-> Jared Spataro (Microsoft, AI at Work), [25 February 2026](https://jspataro.substack.com/p/when-ai-stops-assisting-and-starts). He was citing this free repo, which held 300+ prompts then and holds 583 now. He was not citing any paid product.
+> Jared Spataro (Microsoft, AI at Work), [25 February 2026](https://jspataro.substack.com/p/when-ai-stops-assisting-and-starts). He was citing this free repo, which held 300+ prompts then and holds 601 now. He was not citing any paid product.
 
 **Start here, free:** [Copilot on One Page](https://www.kesslernity.com/copilot-on-one-page?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=hero) is the four-step loop every prompt below assumes. One page, printable, and it names the step most people skip.
 
@@ -47,7 +47,7 @@ So I carved a starter library from this repo into Microsoft's exact import forma
 
 ## 📊 Quick Stats
 
-- **583 Total Prompts** across 29 specialized collections
+- **601 Total Prompts** across 30 specialized collections
 - **26 Power User Prompts** for advanced Copilot mastery
 - **70 Outlook Prompts** for email intelligence and automation
 - **66 Standalone Prompts** for any Copilot version
@@ -129,7 +129,7 @@ Even when using the same underlying model (GPT-4/GPT-5), **Copilot behaves diffe
 - Vision-first analysis without supporting text
 - Engineering drawings, P&IDs, EPC schematics
 
-## 📚 Complete Collection (583 Prompts)
+## 📚 Complete Collection (601 Prompts)
 
 ### 🎓 Power Users & Advanced Techniques
 
@@ -149,7 +149,7 @@ Even when using the same underlying model (GPT-4/GPT-5), **Copilot behaves diffe
   + Inbox rules & automation
   + Post-vacation & absence recovery
   + Context-aware draft assembly
-  > Requires Frontier program. Copilot acts on your inbox (drafts, rules, triage), not just chat.
+  > Generally available since the September to October 2026 release notes. Copilot acts on your inbox (drafts, rules, triage), not just chat, and confirms before touching more than five emails or an inbox rule.
 
 - [**Advanced Outlook Automation**](prompts/outlook/advanced-automation.md) (20 prompts)
   + Cognitive load & workload management
@@ -185,7 +185,7 @@ Even when using the same underlying model (GPT-4/GPT-5), **Copilot behaves diffe
   + Planning & organization
   + Writing & communication
 
-### 👔 Role-Specific Collections (331 prompts)
+### 👔 Role-Specific Collections (349 prompts)
 
 #### Business Operations & Support
 
@@ -245,6 +245,12 @@ Even when using the same underlying model (GPT-4/GPT-5), **Copilot behaves diffe
   + Job descriptions, interview sets, onboarding, performance feedback drafts
   + Engagement & exit themes, ER case organization, comp research prep, people comms
   + **Includes ⛔ HR Copilot Guardrails: never decides on people; bias review required**
+
+- [**Finance, HR & Analytics (combined)**](prompts/role-specific/finance-hr.md) (18 prompts)
+  + Budgeting and variance explanation, audit support research, data definition and quality research
+  + Employee engagement themes, BI development, dashboard feedback, data governance
+  + **Includes ⚠️ Finance & HR Copilot Guardrails and confidentiality warnings**
+  + Shares no prompts with the Finance, HR & People or Data & Analytics collections above; it works across all three at once
 
 - [**HSE, Legal & Compliance**](prompts/role-specific/hse-legal-compliance.md) (20 prompts)
   + Safety procedures, incident research, environmental compliance

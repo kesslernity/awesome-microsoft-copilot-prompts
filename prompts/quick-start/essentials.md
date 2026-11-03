@@ -824,4 +824,4 @@ Draft announcement about [news/change] for [audience]. Structure: 1) What's happ
 
 **Built by [Mathieu Kessler](https://www.kesslernity.com/?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=page_footer)**
 
-For 27 free Copilot reference guides, visit [kesslernity.com/guides](https://www.kesslernity.com/guides?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=page_cta)
+For 29 free Copilot reference guides, visit [kesslernity.com/guides](https://www.kesslernity.com/guides?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=page_cta)
