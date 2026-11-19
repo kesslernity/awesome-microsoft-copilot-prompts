@@ -404,7 +404,7 @@ Predict which email topics are likely to become future problems based on pattern
 
 These prompts work for one person on day one. Rolling them out across a team is a different job: prerequisites checked, a governance decision taken before anything is published, a sequence that survives week one, and something to put in front of the person holding the budget.
 
-The **[M365 Copilot Deployment Kit](https://www.kesslernity.com/kit?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=outlook_automation)** ($97) is the org-level version of this page: 28 field guides, a 90-day rollout roadmap, a governance checklist, 10 paste-ready agent templates, and an ROI conversation template. Buy it once and you own the files, with no platform to log into and no consultant in the loop. Rolling it out across a team? Email mathieu@kesslernity.com with the headcount and it comes back as one quote and one invoice.
+The **[M365 Copilot Deployment Kit](https://www.kesslernity.com/kit?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=outlook_automation)** ($97) is the org-level version of this page: 29 field guides, a 90-day rollout roadmap, a governance checklist, 10 paste-ready agent templates, and an ROI conversation template. Buy it once and you own the files, with no platform to log into and no consultant in the loop. Rolling it out across a team? Email mathieu@kesslernity.com with the headcount and it comes back as one quote and one invoice.
 
 The rest of the shelf is at **[kesslernity.com/store](https://www.kesslernity.com/store?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=outlook_automation)**.
 
@@ -414,6 +414,6 @@ The rest of the shelf is at **[kesslernity.com/store](https://www.kesslernity.co
 
 - 📄 **Copilot on One Page**: the one-page cheat sheet for getting real answers out of Copilot. [Free download](https://www.kesslernity.com/copilot-on-one-page?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=page_capture)
 - 📬 **AI at Work**: a short biweekly briefing on Microsoft Copilot and enterprise AI, with tested prompts and one honest insight. [Subscribe](https://newsletter.kesslernity.com/?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=page_capture)
-- 📘 **29 free Copilot reference guides**, no sign-up needed. [kesslernity.com/guides](https://www.kesslernity.com/guides?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=page_capture)
+- 📘 **30 free Copilot reference guides**, no sign-up needed. [kesslernity.com/guides](https://www.kesslernity.com/guides?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=page_capture)
 
 **Built by [Mathieu Kessler](https://www.kesslernity.com/?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=page_footer)**

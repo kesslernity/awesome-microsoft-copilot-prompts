@@ -414,7 +414,7 @@ whole tenant, and what you say to the person who asks whether it read their priv
 - **[The Copilot Rollout Bundle, $134](https://store.kesslernity.com/l/copilot-rollout-bundle?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=paid_block_bundle)**, recommended if you are rolling Copilot out
   across a tenant. The Deployment Kit, The Real Cost of Copilot and the Honest Kit together,
   $134 instead of $165.
-- **[The M365 Copilot Deployment Kit, $97](https://store.kesslernity.com/l/kpfpi?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=paid_block_kit)** on its own: 28 field guides, a 90-day rollout
+- **[The M365 Copilot Deployment Kit, $97](https://store.kesslernity.com/l/kpfpi?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=paid_block_kit)** on its own: 29 field guides, a 90-day rollout
   roadmap, 10 paste-ready agent templates, a governance checklist and the ROI conversation for the
   budget meeting. One-time, no subscription, and the licence covers internal use across your
   organisation rather than one seat.
