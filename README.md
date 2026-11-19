@@ -15,6 +15,10 @@ A curated collection of **601 Microsoft Copilot prompts** for enterprise profess
 
 **Start here, free:** [Copilot on One Page](https://www.kesslernity.com/copilot-on-one-page?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=hero) is the four-step loop every prompt below assumes. One page, printable, and it names the step most people skip.
 
+**Then, if you're rolling Copilot out:** [The Copilot Rollout Bundle, $134](https://store.kesslernity.com/l/copilot-rollout-bundle/BUNDLEQ4?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=hero_next): The M365 Copilot Deployment Kit, The Real Cost of Copilot and The Honest M365 Copilot Kit together. Use code BUNDLEQ4 for 15% off until 31 December 2026.
+
+**Free tools, same author:** [AI Seat Index](https://aiseatindex.com/?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=free_tools) (enterprise AI seat prices, minimums and governance terms, each sourced and dated) · [EOL Watch](https://eolwatch.dev/?utm_source=github&utm_medium=readme&utm_campaign=prompts_repo&utm_content=free_tools) (cloud service retirements and end of support dates across Azure, AWS, GCP and OCI, each linked to its source)
+
 ## 📬 AI at Work Newsletter
 
 Tested prompts for Microsoft 365 Copilot. One role at a time. Plus verified GenAI news and one insight you won't find in a changelog. Biweekly, 4-minute read.
